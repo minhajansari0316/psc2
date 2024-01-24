@@ -881,7 +881,7 @@ const About = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/blogging.png" />
+                                                                        <img src="mt-content/uploads/2020/07/blogging.png"  alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">BLOG</h1>
@@ -897,7 +897,7 @@ const About = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/teamwork.png" />
+                                                                        <img src="mt-content/uploads/2020/07/teamwork.png"  alt="hospital"/>
 
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
@@ -915,7 +915,7 @@ const About = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/testimonials.png" />
+                                                                        <img src="mt-content/uploads/2020/07/testimonials.png"  alt="hospital"/>
 
 
                                                                     </div>
@@ -1341,7 +1341,7 @@ const About = () => {
                                         data-container="container"
                                         data-spacing="aaaa"
                                         data-bg-position="top"
-                                        data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
+                                        // data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
                                     >
                                         <div
                                             data-widget-id="wid_1595850301_fy666dpim"

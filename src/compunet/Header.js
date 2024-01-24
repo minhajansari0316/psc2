@@ -122,7 +122,7 @@ const Header = () => {
                 <ul className="moto-widget-social-links-extended__list">
                   <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1">
                     <a
-                      href="#"
+                      href="/"
                       className="moto-widget-social-links-extended__link"
                       target="_self"
                     >
@@ -133,7 +133,7 @@ const Header = () => {
                   </li>
                   <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-2">
                     <a
-                      href="#"
+                      href="/"
                       className="moto-widget-social-links-extended__link"
                       target="_self"
                     >
@@ -144,7 +144,7 @@ const Header = () => {
                   </li>
                   <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-3">
                     <a
-                      href="#"
+                      href="/"
                       className="moto-widget-social-links-extended__link"
                       target="_self"
                     >
@@ -155,7 +155,7 @@ const Header = () => {
                   </li>
                   <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-4">
                     <a
-                      href="#"
+                      href="/"
                       className="moto-widget-social-links-extended__link"
                       target="_self"
                     >
@@ -221,7 +221,7 @@ const Header = () => {
                       style={{width:'115px'}}
                       // data-id={145}
                       title=""
-                      alt=""
+                      alt="hospital"
                     />
                   </a>
                 </div>
@@ -240,7 +240,7 @@ const Header = () => {
                   data-preset="default"
                   data-widget="menu"
                 >
-                  <a href="#" className="moto-widget-menu-toggle-btn">
+                  <a href="/" className="moto-widget-menu-toggle-btn">
                     <i className="moto-widget-menu-toggle-btn-icon fa fa-bars" />
                   </a>
                   <ul className="moto-widget-menu-list moto-widget-menu-list_horizontal">

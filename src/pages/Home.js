@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../compunet/Header'
 import Footer from '../compunet/Footer'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -160,10 +161,10 @@ const Home = () => {
                                     className="moto-widget moto-widget-button moto-preset-default moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  "
                                     data-widget="button"
                                   >
-                                    <a
+                                    <Link to="/"
                                       // href="#"
-                                      data-action="popup"
-                                      data-popup-id={8}
+                                      // data-action="popup"
+                                      // data-popup-id={8}
                                       className="moto-widget-button-link moto-size-small moto-link"
                                     >
                                       <span className="fa moto-widget-theme-icon" />
@@ -171,7 +172,7 @@ const Home = () => {
                                       <span className="moto-widget-button-label">
                                         Make an appointment&nbsp;
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                   <div
                                     data-widget-id="wid_1595841846_f2kcxi7k6"
@@ -582,15 +583,15 @@ const Home = () => {
                       className="moto-widget moto-widget-button moto-preset-2 moto-preset-provider-default moto-align-center moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  "
                       data-widget="button"
                     >
-                      <a
-                        // href="about-us/index.html"
+                      <Link to="/"
+                        href="/"
                         data-action="page"
                         className="moto-widget-button-link moto-size-large moto-link"
                       >
                         <span className="fa moto-widget-theme-icon" />
                         <span className="moto-widget-button-divider" />
                         <span className="moto-widget-button-label">About us</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -652,8 +653,8 @@ const Home = () => {
                                     //   src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0  '%3E%3C/svg%3E"
                                     className="moto-widget-image-picture moto-widget-deferred-content lazyload"
                                     //   data-id={149}
-                                    title=""
-                                    alt=""
+                                    // title=""
+                                    alt="hospital"
                                   />
                                 </span>
                               </div>
@@ -808,8 +809,7 @@ const Home = () => {
                                     //   src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0  '%3E%3C/svg%3E"
                                     className="moto-widget-image-picture moto-widget-deferred-content lazyload"
                                     //   data-id={150}
-                                    title=""
-                                    alt=""
+                                    alt="hospital"
                                   />
                                 </span>
                               </div>
@@ -964,8 +964,7 @@ const Home = () => {
                                     //   src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0  '%3E%3C/svg%3E"
                                     className="moto-widget-image-picture moto-widget-deferred-content lazyload"
                                     //   data-id={151}
-                                    title=""
-                                    alt=""
+                                    alt="hospital"
                                   />
                                 </span>
                               </div>
@@ -1122,8 +1121,7 @@ const Home = () => {
                                     //   src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0  '%3E%3C/svg%3E"
                                     className="moto-widget-image-picture moto-widget-deferred-content lazyload"
                                     //   data-id={152}
-                                    title=""
-                                    alt=""
+                                    alt="hospital"
                                   />
                                 </span>
                               </div>
@@ -2728,7 +2726,7 @@ const Home = () => {
                               data-widget="button"
                             >
                               <a
-                                // href="#"
+                                href="/"
                                 data-action="popup"
                                 data-popup-id={8}
                                 className="moto-widget-button-link moto-size-large moto-link"
@@ -3038,9 +3036,9 @@ const Home = () => {
                                 <form
                                   id="wid_1595849166_xol8twtkc__form"
                                   className="moto-widget-contact_form-form"
-                                  role="form"
-                                  name="subscribeForm"
-                                  ng-submit="submit()"
+                                  // role="form"
+                                  // name="subscribeForm"
+                                  // ng-submit="submit()"
                                   noValidate=""
                                 >
                                   <div
@@ -3068,14 +3066,14 @@ const Home = () => {
                                     <span
                                       className="moto-widget-contact_form-field-error ng-cloak"
                                       ng-cloak=""
-                                      ng-show="subscribeForm.email.$invalid && !subscribeForm.email.$pristine && !subscribeForm.email.emailInvalid"
+                                      // ng-show="subscribeForm.email.$invalid && !subscribeForm.email.$pristine && !subscribeForm.email.emailInvalid"
                                     >
                                       Field is required
                                     </span>
                                     <span
                                       className="moto-widget-contact_form-field-error ng-cloak"
                                       ng-cloak=""
-                                      ng-show="subscribeForm.email.emailInvalid && !subscribeForm.email.$pristine"
+                                      // ng-show="subscribeForm.email.emailInvalid && !subscribeForm.email.$pristine"
                                     >
                                       Incorrect email
                                     </span>
@@ -3083,7 +3081,7 @@ const Home = () => {
                                   <input
                                     type="hidden"
                                     name="status"
-                                    defaultValue="subscribed"
+                                    // defaultValue="subscribed"
                                   />
                                   <div
                                     className="moto-widget-contact_form-success ng-cloak"
@@ -3102,7 +3100,7 @@ const Home = () => {
                                   <div
                                     className="moto-widget-contact_form-danger ng-cloak"
                                     ng-cloak=""
-                                    ng-show="emailError && isSubscribed"
+                                    // ng-show="emailError && isSubscribed"
                                   >
                                     You are already subscribed to this newsletter
                                   </div>
@@ -3330,11 +3328,11 @@ const Home = () => {
           </section>
         </div>
         <Footer />
-        <div data-moto-back-to-top-button="" className="moto-back-to-top-button">
+        {/* <div data-moto-back-to-top-button="" className="moto-back-to-top-button">
           <a ng-click="toTop($event)" className="moto-back-to-top-button-link">
             <span className="moto-back-to-top-button-icon fa" />
           </a>
-        </div>
+        </div> */}
         {/* <div
           data-moto-widget-callback=""
           className="moto-widget-callback moto-widget-callback_closed moto-preset-default"

@@ -886,7 +886,7 @@ data-preset=""
                                 data-container="container"
                                 data-spacing="aaaa"
                                 data-bg-position="top"
-                                data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
+                                // data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
                             >
                                 <div
                                     data-widget-id="wid_1595850301_fy666dpim"

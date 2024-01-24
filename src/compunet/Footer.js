@@ -76,7 +76,7 @@ const Footer = () => {
               <ul className="moto-widget-social-links-extended__list">
                 <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1">
                   <a
-                    href="#"
+                    href="/"
                     className="moto-widget-social-links-extended__link"
                     target="_self"
                   >
@@ -87,7 +87,7 @@ const Footer = () => {
                 </li>
                 <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-2">
                   <a
-                    href="#"
+                    href="/"
                     className="moto-widget-social-links-extended__link"
                     target="_self"
                   >
@@ -98,7 +98,7 @@ const Footer = () => {
                 </li>
                 <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-3">
                   <a
-                    href="#"
+                    href="/"
                     className="moto-widget-social-links-extended__link"
                     target="_self"
                   >
@@ -109,7 +109,7 @@ const Footer = () => {
                 </li>
                 <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-4">
                   <a
-                    href="#"
+                    href="/"
                     className="moto-widget-social-links-extended__link"
                     target="_self"
                   >

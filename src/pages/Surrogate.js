@@ -879,7 +879,7 @@ const Surrogate = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/compliant (1).png" />
+                                                                        <img src="mt-content/uploads/2020/07/compliant (1).png" alt="hospital" />
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">REQUIREMENTS</h1>
@@ -895,7 +895,7 @@ const Surrogate = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/feet.png" />
+                                                                        <img src="mt-content/uploads/2020/07/feet.png" alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">Surrogacy</h1>
@@ -911,7 +911,7 @@ const Surrogate = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/employee-benefit.png" />
+                                                                        <img src="mt-content/uploads/2020/07/employee-benefit.png" alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">Compensation</h1>
@@ -927,7 +927,7 @@ const Surrogate = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/faq.png" />
+                                                                        <img src="mt-content/uploads/2020/07/faq.png" alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">FAQ</h1>
@@ -1279,7 +1279,7 @@ const Surrogate = () => {
                                         data-container="container"
                                         data-spacing="aaaa"
                                         data-bg-position="top"
-                                        data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
+                                        // data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
                                     >
                                         <div
                                             data-widget-id="wid_1595850301_fy666dpim"

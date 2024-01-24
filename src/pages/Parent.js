@@ -879,7 +879,7 @@ const Parent = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/baby-stroller.png" />
+                                                                        <img src="mt-content/uploads/2020/07/baby-stroller.png" alt="hospital" />
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">PARENTHOOD</h1>
@@ -895,7 +895,7 @@ const Parent = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/baby.png" />
+                                                                        <img src="mt-content/uploads/2020/07/baby.png" alt="hospital" />
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">SURROGATES</h1>
@@ -911,7 +911,7 @@ const Parent = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/money-bag.png" />
+                                                                        <img src="mt-content/uploads/2020/07/money-bag.png"  alt="hospital"/>
                                                                         
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
@@ -928,7 +928,7 @@ const Parent = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/parenting.png" />
+                                                                        <img src="mt-content/uploads/2020/07/parenting.png"  alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">PARENTS</h1>
@@ -944,7 +944,7 @@ const Parent = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/pride.png" />
+                                                                        <img src="mt-content/uploads/2020/07/pride.png" alt="hospital" />
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">LGBTQ+ </h1>
@@ -960,7 +960,7 @@ const Parent = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/faq.png" />
+                                                                        <img src="mt-content/uploads/2020/07/faq.png"  alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">IP FAQ </h1>
@@ -976,7 +976,7 @@ const Parent = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/laos.png" />
+                                                                        <img src="mt-content/uploads/2020/07/laos.png"  alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
                                                                         <h1 class="card-title">STATE</h1>
@@ -992,7 +992,7 @@ const Parent = () => {
                                                             <div class="card " style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px' }}>
                                                                 <div class="card-body" style={{ padding: '40px' }}>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <img src="mt-content/uploads/2020/07/familyKK.png" />
+                                                                        <img src="mt-content/uploads/2020/07/familyKK.png" alt="hospital" />
                                                                         
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
@@ -1345,7 +1345,7 @@ const Parent = () => {
                                         data-container="container"
                                         data-spacing="aaaa"
                                         data-bg-position="top"
-                                        data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
+                                        // data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
                                     >
                                         <div
                                             data-widget-id="wid_1595850301_fy666dpim"
