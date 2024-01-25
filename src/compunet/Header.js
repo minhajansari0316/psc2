@@ -273,8 +273,8 @@ const Header = () => {
                           </Link>
                         </li> */}
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
-                            href="departments/index.html"
+                          <Link to="/requirements-to-become-a-surrogate"
+                            // href="departments/index.html"
                             data-action="page"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
                           >
@@ -282,7 +282,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/steps-to-being-a-surrogate"
                             // href="blog/index.html"
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
@@ -291,7 +291,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/compensation"
                             // href="blog/index.html"
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"

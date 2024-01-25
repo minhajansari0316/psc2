@@ -12,6 +12,9 @@ import Parent from './pages/Parent';
 import About from './pages/About';
 import Apply from './pages/Apply';
 import Parentform from './pages/Parentform';
+import Requirements from './pages/Requirements';
+import Compensation from './pages/Compensation';
+import Steptosurrogacy from './pages/Steptosurrogacy';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
       <Route path="/about" element={<About/>} />
       <Route path="/apply" element={<Apply/>} />
       <Route path="/become-parent-form" element={<Parentform/>} />
+      <Route path="/requirements-to-become-a-surrogate" element={<Requirements/>} />
+      <Route path="/compensation" element={<Compensation/>} />
+      <Route path="/steps-to-being-a-surrogate" element={<Steptosurrogacy/>} />
       {/* <Route path="/Headers" element={<Headers/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/Login" element={<Login/>}/>
