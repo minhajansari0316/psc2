@@ -17,7 +17,13 @@ import Compensation from './pages/Compensation';
 import Steptosurrogacy from './pages/Steptosurrogacy';
 import Faq from './pages/Faq';
 import Surrogacybystate from './pages/Surrogacybystate';
-
+import Parenthood from './pages/Parenthood';
+import Oursurrogates from './pages/Oursurrogates';
+import Surrogatecost from './pages/Surrogatecost';
+import Internationaparent from './pages/Internationaparent';
+import Lgbtsurrogacy from './pages/Lgbtsurrogacy';
+import Ipfaq from './pages/Ipfaq';
+import Singleparents from './pages/Singleparents';
 function App() {
   return (
     <>
@@ -34,6 +40,13 @@ function App() {
       <Route path="/steps-to-being-a-surrogate" element={<Steptosurrogacy/>} />
       <Route path="/faq" element={<Faq/>} />
       <Route path="/surrogacy-by-state" element={<Surrogacybystate/>} />
+      <Route path="/steps-to-parenthood" element={<Parenthood/>} />
+      <Route path="/our-surrogates" element={<Oursurrogates/>} />
+      <Route path="/agency-fees" element={<Surrogatecost/>} />
+      <Route path="/become-parent-international-form" element={<Internationaparent/>} />
+      <Route path="/lgbt-surrogac" element={<Lgbtsurrogacy/>} />
+      <Route path="/ip-faq" element={<Ipfaq/>} />
+      <Route path="/single-parents" element={<Singleparents/>} />
       {/* <Route path="/Headers" element={<Headers/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/Login" element={<Login/>}/>

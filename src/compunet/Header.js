@@ -340,7 +340,7 @@ const Header = () => {
                           </Link>
                         </li> */}
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/steps-to-parenthood"
                             // href="departments/index.html"
                             data-action="page"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
@@ -349,7 +349,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/our-surrogates"
                             // href="blog/index.html"
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
@@ -358,8 +358,8 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
-                            // href="blog/index.html"
+                          <Link to="/agency-fees"
+                           
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
                           >
@@ -367,8 +367,8 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
-                            // href="blog/index.html"
+                          <Link to="/become-parent-international-form"
+                            
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
                           >
@@ -376,7 +376,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/lgbt-surrogac"
                             // href="blog/index.html"
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
@@ -385,7 +385,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/ip-faq"
                             // href="blog/index.html"
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
@@ -394,7 +394,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/surrogacy-by-state"
                             // href="blog/index.html"
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
@@ -403,7 +403,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/single-parents"
                             // href="blog/index.html"
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"

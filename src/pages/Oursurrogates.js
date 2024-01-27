@@ -2,14 +2,14 @@ import React from 'react'
 import Header from '../compunet/Header'
 import Footer from '../compunet/Footer'
 
-const Compensation = () => {
-  return (
-    <>
-    <body className="moto-background moto-website_live">
+const Oursurrogates = () => {
+    return (
+        <>
+            <body className="moto-background moto-website_live">
 
-        <div className="page">
-            <Header />
-            {/* <header
+                <div className="page">
+                    <Header />
+                    {/* <header
 id="section-header"
 className="header moto-section"
 data-widget="section"
@@ -373,130 +373,130 @@ data-preset="default"
 </div>
 </div>
 </header> */}
-            <section
-                id="section-content"
-                className="content page-12 moto-section"
-                data-widget="section"
-                data-container="section"
-            >
-                <div
-                    className="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                    data-grid-type="sm"
-                    data-widget="row"
-                    data-visible-on="-"
-                    data-spacing="aaaa"
-                    style={{}}
-                    data-bg-position="left top"
-                    data-draggable-disabled=""
-                >
-                    <div className="">
+                    <section
+                        id="section-content"
+                        className="content page-12 moto-section"
+                        data-widget="section"
+                        data-container="section"
+                    >
                         <div
-                            id="wid_1595841006_s9ff8o2hk__content"
-                            className="moto-widget__content"
+                            className="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                            data-grid-type="sm"
+                            data-widget="row"
+                            data-visible-on="-"
+                            data-spacing="aaaa"
+                            style={{}}
+                            data-bg-position="left top"
+                            data-draggable-disabled=""
                         >
-                            <div
-                                id="wid_1595841023_rrwvo0wxl"
-                                data-parent-id="wid_1595841006_s9ff8o2hk"
-                                className="moto-widget moto-widget-content_slider__item moto-widget-row moto-widget_with-content-editor  row-fixed moto-disabling_row-fixed moto-entertainment__playing_disabled moto-before-in-viewport_content-invisible"
-                                style={{
-                                    backgroundPosition: "top",
-                                    backgroundImage:
-                                        "url(mt-demo/109600/109604/mt-content/uploads/2020/07/mt-2068_home_bg03.jpg)",
-                                    backgroundSize: "cover",
-                                    backgroundRepeat: "no-repeat"
-                                }}
-                                data-widget="content_slider.item"
-                                data-preset=""
-                            >
-                                <div className="moto-widget__content-wrapper container-fluid">
-                                    <div className="moto-widget__content row">
-                                        <div
-                                            id="wid_1595841023_rrwvo0wxl__content"
-                                            className="moto-cell col-sm-12 moto-entertainment__animation_disabled moto-entertainment__animation_ignore-visibility"
-                                        >
-                                            <div
-                                                data-widget-id="wid_1595841057_t4stgm9px"
-                                                className="moto-widget moto-widget-row moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto  "
-                                                data-grid-type="sm"
-                                                data-widget="row"
-                                                data-visible-on="+desktop,tablet,mobile-h,mobile-v"
-                                                data-spacing="lala"
-                                                style={{ backgroundPosition: "left top" }}
-                                            >
-                                                <div className="container-fluid">
-                                                    <div className="row" data-container="container">
-                                                        <div
-                                                            data-widget-id="wid_1595841057_89be3r1sr"
-                                                            className="moto-widget moto-widget-row__column moto-cell  col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                            style={{ backgroundPosition: "left top" }}
-                                                            data-widget="row.column"
-                                                            data-container="container"
-                                                            data-spacing="aaaa"
-                                                        >
-                                                            <div
-                                                                data-widget-id="wid_1595841837_ubu65qgf0"
-                                                                className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
-                                                                data-widget="spacer"
-                                                                data-preset="default"
-                                                                data-spacing="laaa"
-                                                                data-visible-on="+desktop"
-                                                            >
+                            <div className="">
+                                <div
+                                    id="wid_1595841006_s9ff8o2hk__content"
+                                    className="moto-widget__content"
+                                >
+                                    <div
+                                        id="wid_1595841023_rrwvo0wxl"
+                                        data-parent-id="wid_1595841006_s9ff8o2hk"
+                                        className="moto-widget moto-widget-content_slider__item moto-widget-row moto-widget_with-content-editor  row-fixed moto-disabling_row-fixed moto-entertainment__playing_disabled moto-before-in-viewport_content-invisible"
+                                        style={{
+                                            backgroundPosition: "top",
+                                            backgroundImage:
+                                                "url(mt-demo/109600/109604/mt-content/uploads/2020/07/mt-2068_home_bg03.jpg)",
+                                            backgroundSize: "cover",
+                                            backgroundRepeat: "no-repeat"
+                                        }}
+                                        data-widget="content_slider.item"
+                                        data-preset=""
+                                    >
+                                        <div className="moto-widget__content-wrapper container-fluid">
+                                            <div className="moto-widget__content row">
+                                                <div
+                                                    id="wid_1595841023_rrwvo0wxl__content"
+                                                    className="moto-cell col-sm-12 moto-entertainment__animation_disabled moto-entertainment__animation_ignore-visibility"
+                                                >
+                                                    <div
+                                                        data-widget-id="wid_1595841057_t4stgm9px"
+                                                        className="moto-widget moto-widget-row moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto  "
+                                                        data-grid-type="sm"
+                                                        data-widget="row"
+                                                        data-visible-on="+desktop,tablet,mobile-h,mobile-v"
+                                                        data-spacing="lala"
+                                                        style={{ backgroundPosition: "left top" }}
+                                                    >
+                                                        <div className="container-fluid">
+                                                            <div className="row" data-container="container">
                                                                 <div
-                                                                    className="moto-widget-spacer-block"
-                                                                    style={{ height: 0 }}
-                                                                />
-                                                            </div>
-                                                            <div
-                                                                data-widget-id="wid_1595841066_6joo2ll8u"
-                                                                className="moto-widget moto-widget-text moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  "
-                                                                data-widget="text"
-                                                                data-preset="default"
-                                                                data-spacing="aaaa"
-                                                                data-visible-on="+desktop,tablet,mobile-h,mobile-v"
-                                                                data-animation=""
-                                                            >
-                                                                <div className="moto-widget-text-content moto-widget-text-editable">
-                                                                    {/* <p className="moto-text_system_5">
+                                                                    data-widget-id="wid_1595841057_89be3r1sr"
+                                                                    className="moto-widget moto-widget-row__column moto-cell  col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                                                    style={{ backgroundPosition: "left top" }}
+                                                                    data-widget="row.column"
+                                                                    data-container="container"
+                                                                    data-spacing="aaaa"
+                                                                >
+                                                                    <div
+                                                                        data-widget-id="wid_1595841837_ubu65qgf0"
+                                                                        className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
+                                                                        data-widget="spacer"
+                                                                        data-preset="default"
+                                                                        data-spacing="laaa"
+                                                                        data-visible-on="+desktop"
+                                                                    >
+                                                                        <div
+                                                                            className="moto-widget-spacer-block"
+                                                                            style={{ height: 0 }}
+                                                                        />
+                                                                    </div>
+                                                                    <div
+                                                                        data-widget-id="wid_1595841066_6joo2ll8u"
+                                                                        className="moto-widget moto-widget-text moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  "
+                                                                        data-widget="text"
+                                                                        data-preset="default"
+                                                                        data-spacing="aaaa"
+                                                                        data-visible-on="+desktop,tablet,mobile-h,mobile-v"
+                                                                        data-animation=""
+                                                                    >
+                                                                        <div className="moto-widget-text-content moto-widget-text-editable">
+                                                                            {/* <p className="moto-text_system_5">
                         WE HAVE A SET OF
                       </p> */}
-                                                                    {/* <h1 className="moto-text_system_3">
+                                                                            {/* <h1 className="moto-text_system_3">
                         SERVICES TO HELP
                       </h1> */}
-                                                                    <p className="moto-text_system_4">
-                                                                    SURROGATE COMPENSATION
-                                                                    </p>
+                                                                            <p className="moto-text_system_4">
+                                                                                THE SURROGACY PROGRAM AT ISC
+                                                                            </p>
 
-                                                                </div>
-                                                            </div>
-                                                            <div
-                                                                data-widget-id="wid_1595841737_olwfxtvqo"
-                                                                className="moto-widget moto-widget-row moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto  "
-                                                                data-grid-type="sm"
-                                                                data-widget="row"
-                                                                data-visible-on="+desktop,tablet,mobile-h,mobile-v"
-                                                                data-spacing="mama"
-                                                                style={{ backgroundPosition: "left top" }}
-                                                            >
-                                                                <div className="container-fluid">
-                                                                    <div className="row" data-container="container">
-                                                                        <div
-                                                                            data-widget-id="wid_1595841737_64k6q85ws"
-                                                                            className="moto-widget moto-widget-row__column moto-cell  col-sm-7 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                                            style={{ backgroundPosition: "left top" }}
-                                                                            data-widget="row.column"
-                                                                            data-container="container"
-                                                                            data-spacing="aaaa"
-                                                                        >
-                                                                            <div
-                                                                                data-widget-id="wid_1595841752_3xt78tb1c"
-                                                                                className="moto-widget moto-widget-text moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  "
-                                                                                data-widget="text"
-                                                                                data-preset="default"
-                                                                                data-spacing="aaaa"
-                                                                                data-visible-on="+desktop,tablet,mobile-h,mobile-v"
-                                                                                data-animation=""
-                                                                            >
-                                                                                {/* <div className="moto-widget-text-content moto-widget-text-editable">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        data-widget-id="wid_1595841737_olwfxtvqo"
+                                                                        className="moto-widget moto-widget-row moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto  "
+                                                                        data-grid-type="sm"
+                                                                        data-widget="row"
+                                                                        data-visible-on="+desktop,tablet,mobile-h,mobile-v"
+                                                                        data-spacing="mama"
+                                                                        style={{ backgroundPosition: "left top" }}
+                                                                    >
+                                                                        <div className="container-fluid">
+                                                                            <div className="row" data-container="container">
+                                                                                <div
+                                                                                    data-widget-id="wid_1595841737_64k6q85ws"
+                                                                                    className="moto-widget moto-widget-row__column moto-cell  col-sm-7 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                                                                    style={{ backgroundPosition: "left top" }}
+                                                                                    data-widget="row.column"
+                                                                                    data-container="container"
+                                                                                    data-spacing="aaaa"
+                                                                                >
+                                                                                    <div
+                                                                                        data-widget-id="wid_1595841752_3xt78tb1c"
+                                                                                        className="moto-widget moto-widget-text moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  "
+                                                                                        data-widget="text"
+                                                                                        data-preset="default"
+                                                                                        data-spacing="aaaa"
+                                                                                        data-visible-on="+desktop,tablet,mobile-h,mobile-v"
+                                                                                        data-animation=""
+                                                                                    >
+                                                                                        {/* <div className="moto-widget-text-content moto-widget-text-editable">
                               <p className="moto-text_211">
                                 Starting with a consultation on what
                                 choices you'll have as a future
@@ -505,9 +505,9 @@ data-preset="default"
                                 we're here to help!
                               </p>
                             </div> */}
-                                                                            </div>
-                                                                        </div>
-                                                                        {/* <div
+                                                                                    </div>
+                                                                                </div>
+                                                                                {/* <div
                           data-widget-id="wid_1595841739_yync027fc"
                           className="moto-widget moto-widget-row__column moto-cell  col-sm-5 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
                           style={{ backgroundPosition: "left top" }}
@@ -515,10 +515,10 @@ data-preset="default"
                           data-container="container"
                           data-spacing="aaaa"
                         ></div> */}
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            {/* <div
+                                                                    {/* <div
                     data-widget-id="wid_1595841278_2xqb0ppjw"
                     className="moto-widget moto-widget-button moto-preset-default moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  "
                     data-widget="button"
@@ -536,18 +536,20 @@ data-preset="default"
                       </span>
                     </a>
                   </div> */}
-                                                            <div
-                                                                data-widget-id="wid_1595841846_f2kcxi7k6"
-                                                                className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
-                                                                data-widget="spacer"
-                                                                data-preset="default"
-                                                                data-spacing="laaa"
-                                                                data-visible-on="+desktop"
-                                                            >
-                                                                <div
-                                                                    className="moto-widget-spacer-block"
-                                                                    style={{ height: 0 }}
-                                                                />
+                                                                    <div
+                                                                        data-widget-id="wid_1595841846_f2kcxi7k6"
+                                                                        className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
+                                                                        data-widget="spacer"
+                                                                        data-preset="default"
+                                                                        data-spacing="laaa"
+                                                                        data-visible-on="+desktop"
+                                                                    >
+                                                                        <div
+                                                                            className="moto-widget-spacer-block"
+                                                                            style={{ height: 0 }}
+                                                                        />
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -555,9 +557,7 @@ data-preset="default"
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            {/* <div
+                                    {/* <div
 id="wid_1595841927_bdfvoucbl"
 data-parent-id="wid_1595841006_s9ff8o2hk"
 className="moto-widget moto-widget-content_slider__item moto-widget-row moto-widget_with-content-editor  row-fixed moto-disabling_row-fixed moto-entertainment__playing_disabled moto-before-in-viewport_content-invisible"
@@ -716,7 +716,7 @@ data-preset=""
 </div>
 </div>
 </div> */}
-                            {/* <div
+                                    {/* <div
 id="wid_1595842021_npa7vwnc1"
 data-parent-id="wid_1595841006_s9ff8o2hk"
 className="moto-widget moto-widget-content_slider__item moto-widget-row moto-widget_with-content-editor  row-fixed moto-disabling_row-fixed moto-entertainment__playing_disabled moto-before-in-viewport_content-invisible"
@@ -833,35 +833,33 @@ data-preset=""
 </div>
 </div>
 </div> */}
-                        </div>
-                    </div>
-                    <div
-                        className="moto-widget moto-widget-row row-fixed moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
-                        data-grid-type="sm"
-                        data-widget="row"
-                        data-visible-on="-"
-                        data-spacing="lala"
-                        style={{}}
-                        data-bg-position="left top"
-                        data-draggable-disabled=""
-                    >
-                    <div className='col-lg-12'>
+                                </div>
+                            </div>
+                            <div
+                                className="moto-widget moto-widget-row row-fixed moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
+                                data-grid-type="sm"
+                                data-widget="row"
+                                data-visible-on="-"
+                                data-spacing="lala"
+                                style={{}}
+                                data-bg-position="left top"
+                                data-draggable-disabled=""
+                            >
+                                <div className='col-lg-12'>
                                     <div className='container'>
                                         <div class="card" style={{ padding: '20PX', boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px' }}>
                                             <div class="card-body">
-                                                {/* <h1 style={{fontSize:'35px'}}>
-                                                BECOMING A PARENT THROUGH SURROGACY STARTS HERE
-                                                </h1> */}
+
                                                 <br />
 
                                                 <br />
                                                 <p style={{ fontSize: '17PX', marginTop: '10px', fontWeight: 100, wordSpacing: '2PX' }}>
 
-                                                Becoming a surrogate is a profound, selfless, and life-changing act — one that involves many 
-                                                factors. Because over half of our staff have been surrogates ourselves, we understand on a 
-                                                personal level everything that goes into it.
+                                                    When you start your journey to become a parent through surrogacy, you need to choose among a
+                                                    variety of surrogacy programs. Surrogate mother programs, or more appropriately surrogate programs,
+                                                    screen potential surrogates to determine whether they will make a good fit for the process.
                                                     <br />  <br />
-                                                   
+
                                                 </p>
 
 
@@ -870,154 +868,151 @@ data-preset=""
                                     </div>
 
                                 </div>
-                    </div>
-                    <div className="">
-                        <div className="row" data-container="container">
-                            <div
-                                className="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                style={{
-                                    backgroundImage:
-                                        "url(../mt-demo/109600/109604/mt-content/uploads/2020/07/8.jpeg)",
-                                    backgroundPosition: "top",
-                                    backgroundRepeat: "no-repeat",
-                                    backgroundSize: "cover"
-                                }}
-                                data-widget="row.column"
-                                data-container="container"
-                                data-spacing="aaaa"
-                                data-bg-position="top"
-                                // data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
-                            >
-                                <div
-                                    data-widget-id="wid_1595850301_fy666dpim"
-                                    className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto "
-                                    data-widget="spacer"
-                                    data-preset="default"
-                                    data-spacing="lala"
-                                    data-visible-on="+desktop,tablet,mobile-h,mobile-v"
-                                >
-                                    <div
-                                        className="moto-widget-spacer-block"
-                                        style={{ height: 200 }}
-                                    />
-                                </div>
                             </div>
-                            <div
-                                className="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-bg-color1_3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                style={{}}
-                                data-widget="row.column"
-                                data-container="container"
-                                data-spacing="aaaa"
-                                data-bg-position="left top"
-                            >
-                                <div
-                                    data-widget-id="wid_1595850266_7cfmprvop"
-                                    className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
-                                    data-widget="spacer"
-                                    data-preset="default"
-                                    data-spacing="laaa"
-                                    data-visible-on="+desktop"
-                                >
+                            <div className="">
+                                <div className="row" data-container="container">
                                     <div
-                                        className="moto-widget-spacer-block"
-                                        style={{ height: 0 }}
-                                    />
-                                </div>
-                                <div
-                                    className="moto-widget moto-widget-row row-fixed moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
-                                    data-grid-type="md"
-                                    data-widget="row"
-                                    data-visible-on="-"
-                                    data-spacing="lala"
-                                    style={{}}
-                                    data-bg-position="left top"
-                                    data-draggable-disabled=""
-                                >
-                                    <div className="container-fluid">
-                                        <div className="row" data-container="container">
+                                        className="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                        style={{
+                                            backgroundImage:
+                                                "url(../mt-demo/109600/109604/mt-content/uploads/2020/07/4.jpg)",
+                                            backgroundPosition: "top",
+                                            backgroundRepeat: "no-repeat",
+                                            backgroundSize: "cover"
+                                        }}
+                                        data-widget="row.column"
+                                        data-container="container"
+                                        data-spacing="aaaa"
+                                        data-bg-position="top"
+                                    // data-bg-image="2020/07/mt-2068_about_img01.jpg/index.html"
+                                    >
+                                        <div
+                                            data-widget-id="wid_1595850301_fy666dpim"
+                                            className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto "
+                                            data-widget="spacer"
+                                            data-preset="default"
+                                            data-spacing="lala"
+                                            data-visible-on="+desktop,tablet,mobile-h,mobile-v"
+                                        >
                                             <div
-                                                className="moto-widget moto-widget-row__column moto-cell col-md-1 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                style={{}}
-                                                data-widget="row.column"
-                                                data-container="container"
-                                                data-spacing="aaaa"
-                                                data-bg-position="left top"
-                                            ></div>
+                                                className="moto-widget-spacer-block"
+                                                style={{ height: 200 }}
+                                            />
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-bg-color1_3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                        style={{}}
+                                        data-widget="row.column"
+                                        data-container="container"
+                                        data-spacing="aaaa"
+                                        data-bg-position="left top"
+                                    >
+                                        <div
+                                            data-widget-id="wid_1595850266_7cfmprvop"
+                                            className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
+                                            data-widget="spacer"
+                                            data-preset="default"
+                                            data-spacing="laaa"
+                                            data-visible-on="+desktop"
+                                        >
                                             <div
-                                                className="moto-widget moto-widget-row__column moto-cell col-md-7 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                style={{}}
-                                                data-widget="row.column"
-                                                data-container="container"
-                                                data-spacing="aaaa"
-                                                data-bg-position="left top"
-                                            >
-                                                <div
-                                                    className="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                    data-widget="text"
-                                                    data-preset="default"
-                                                    data-spacing="aaaa"
-                                                    data-visible-on="-"
-                                                    data-animation=""
-                                                    data-draggable-disabled=""
-                                                >
+                                                className="moto-widget-spacer-block"
+                                                style={{ height: 0 }}
+                                            />
+                                        </div>
+                                        <div
+                                            className="moto-widget moto-widget-row row-fixed moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
+                                            data-grid-type="md"
+                                            data-widget="row"
+                                            data-visible-on="-"
+                                            data-spacing="lala"
+                                            style={{}}
+                                            data-bg-position="left top"
+                                            data-draggable-disabled=""
+                                        >
+                                            <div className="container-fluid">
+                                                <div className="row" data-container="container">
                                                     <div
-                                                        className="moto-widget-text-content moto-widget-text-editable"
-                                                        aria-multiline="true"
+                                                        className="moto-widget moto-widget-row__column moto-cell col-md-1 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                                        style={{}}
+                                                        data-widget="row.column"
+                                                        data-container="container"
+                                                        data-spacing="aaaa"
+                                                        data-bg-position="left top"
+                                                    ></div>
+                                                    <div
+                                                        className="moto-widget moto-widget-row__column moto-cell col-md-7 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                                        style={{}}
+                                                        data-widget="row.column"
+                                                        data-container="container"
+                                                        data-spacing="aaaa"
+                                                        data-bg-position="left top"
                                                     >
-                                                         <h1 className="moto-text_system_7">
-                                                         FINANCIAL INFORMATION FOR SURROGATES
-                                                                </h1>
-                                                        
-                                                        <p className="moto-text_system_12">
-                                                            <br />
-                                                        </p>
-                                                        <p className="moto-text_system_12">
-                                                            <br />
-                                                        </p>
-                                                        <p className="moto-text_system_12" style={{fontSize: '17px',wordSpacing: '2px',}}>
-                                                        As you are helping create another family, you are also devoting time and energy, as well
-                                                         as engaging in medical and legal processes that all merit surrogate compensation. At International Surrogacy 
-                                                         Center, we provide gestational surrogate pay to reward you for the incredible journey you’re undertaking. Below 
-                                                         is a surrogate compensation breakdown to give you an idea of how this works and how much you may receive.
-                                                            <br /><br />
+                                                        <div
+                                                            className="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                                            data-widget="text"
+                                                            data-preset="default"
+                                                            data-spacing="aaaa"
+                                                            data-visible-on="-"
+                                                            data-animation=""
+                                                            data-draggable-disabled=""
+                                                        >
+                                                            <div
+                                                                className="moto-widget-text-content moto-widget-text-editable"
+                                                                aria-multiline="true"
+                                                            >
 
-                                                         
-                                                          
-                                                        </p>
+                                                                <p className="moto-text_system_12">
+                                                                    <br />
+                                                                </p>
+                                                                <p className="moto-text_system_12">
+                                                                    <br />
+                                                                </p>
+                                                                <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px', }}>
+                                                                    At International Surrogacy Center, we appreciate our surrogates’ commitment to helping people
+                                                                    like you build a family. Our surrogates come from a variety of backgrounds and experiences,
+                                                                    but they share a common goal: They understand the importance of parenthood, and they spend more
+                                                                    than a year of their lives helping other families to gain that priceless experience.
+                                                                    <br /><br />
 
+
+
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
                                                     </div>
+                                                    <div
+                                                        className="moto-widget moto-widget-row__column moto-cell col-md-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                                        style={{}}
+                                                        data-widget="row.column"
+                                                        data-container="container"
+                                                        data-spacing="aaaa"
+                                                        data-bg-position="left top"
+                                                    ></div>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div
+                                            data-widget-id="wid_1595850285_6k6bymyhz"
+                                            className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
+                                            data-widget="spacer"
+                                            data-preset="default"
+                                            data-spacing="laaa"
+                                            data-visible-on="+desktop"
+                                        >
                                             <div
-                                                className="moto-widget moto-widget-row__column moto-cell col-md-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                style={{}}
-                                                data-widget="row.column"
-                                                data-container="container"
-                                                data-spacing="aaaa"
-                                                data-bg-position="left top"
-                                            ></div>
+                                                className="moto-widget-spacer-block"
+                                                style={{ height: 0 }}
+                                            />
                                         </div>
                                     </div>
                                 </div>
-                                <div
-                                    data-widget-id="wid_1595850285_6k6bymyhz"
-                                    className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
-                                    data-widget="spacer"
-                                    data-preset="default"
-                                    data-spacing="laaa"
-                                    data-visible-on="+desktop"
-                                >
-                                    <div
-                                        className="moto-widget-spacer-block"
-                                        style={{ height: 0 }}
-                                    />
-                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                {/* <div
+                        {/* <div
 className="moto-widget moto-widget-row row-fixed moto-bg-color1_3 moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
 data-grid-type="sm"
 data-widget="row"
@@ -1307,96 +1302,80 @@ data-bg-position="left top"
 </div>
 </div>
 </div> */}
-               <div className='col-lg-12' style={{marginTop:'20px', marginBottom:'30px'}}>
-                                    <div className='container'>
-                                        <div class="card" style={{ padding: '20PX', boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px' }}>
-                                            <div class="card-body">
-                                                <h1 style={{fontSize:'35px'}}>
-                                                SURROGACY SALARY AND INSURANCE
-                                                </h1>
-                                                <br />
+                        <div className='col-lg-12' style={{ marginTop: '20px', marginBottom: '30px' }}>
+                            <div className='container'>
+                                <div class="card" style={{ padding: '20PX', boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px' }}>
+                                    <div class="card-body">
+                                        <h1 style={{ fontSize: '35px' }}>
+                                            QUALIFYING FOR OUR SURROGACY PROGRAM
+                                        </h1>
+                                        <br />
 
-                                                <br />
-                                                <p style={{ fontSize: '20PX', marginTop: '10px', fontWeight: 100, wordSpacing: '2PX' }}>
+                                        <br />
+                                        <p style={{ fontSize: '20PX', marginTop: '10px', fontWeight: 100, wordSpacing: '2PX' }}>
 
-                                                First-time compensation for surrogacy varies. Surrogates can expect to earn up to $76,000
-                                                 with the base fee of $60,000 included. Please be aware that surrogate mother compensation
-                                                  packages vary per surrogacy, as each pregnancy is different. Surrogate pay also includes 
-                                                  the following:
-                                                    <br />  <br />
-                                                    <ul style={{padding:'20px'}}> 
+                                            Although ISC receives many applications from potential surrogates, only the most qualified applicants make it through our
+                                            careful screening process. When we screen a prospective surrogate, we learn about her:
+                                            <br />  <br />
+                                            <ul style={{ padding: '20px' }}>
 
-                                                        <li>Health insurance if a new policy is required. This is paid for by the intended parent(s) 
-                                                            and includes the period throughout the pregnancy and for up to 3 months after delivery. 
-                                                            The monthly premium varies.</li>
-                                                        <li style={{marginTop:'10px'}}>
-                                                        Life insurance for a 1-year term, $500,000 policy paid to the surrogate’s chosen
-                                                         beneficiary/ies. Surrogates receive up to $700 to cover this expense.
-                                                        </li>
-                                                        
-                                                    </ul>
-                                                    <h1 style={{fontSize:'35px'}}>MEDICAL/HEALTH CARE COMPENSATION</h1>
-                                                    We also provide compensation for the many medical expenses that arise throughout the surrogacy 
-                                                    journey, from medications to procedures. These include:
-                                                     <ul style={{padding:'20px'}}>
+                                                <li>Current health</li>
+                                                <li style={{ marginTop: '10px' }}>A BMI no higher than 33</li>
+                                                <li style={{ marginTop: '10px' }}>Past experiences with pregnancy</li>
+                                                <li style={{ marginTop: '10px' }}>General lifestyle</li>
+                                                <li style={{ marginTop: '10px' }}>Location</li>
 
-                                                        <li style={{marginTop:'20px'}}>IVF embryo transfer fee: $1,000</li>
-                                                        <li style={{marginTop:'10px'}}>Dropped or cancelled cycle fee: $250</li>
-                                                        <li style={{marginTop:'10px'}}>Invasive procedures (e.g., amniocentesis, CVS, cerclage, D&C, uterine biopsy, cyst aspiration): 
-                                                        $500 each</li>
-                                                        <li style={{marginTop:'20px'}}>Termination or reduction fee: Starts at $1,000</li>
-                                                        <li style={{marginTop:'10px'}}>C-section: $3,000</li>
-                                                        <li style={{marginTop:'10px'}}>Multiples fee: $7,000</li>
-                                                       <li style={{marginTop:'20px'}}>Doctor-ordered bed rest (including housekeeping and childcare): $250 – $450/week</li>
-                                                        <li style={{marginTop:'10px'}}>Medication fee: Starts at $500</li>
-                                                   
-                                                        
-                                                    </ul>
-                                                    <h1 style={{fontSize:'35px'}}>OTHER SURROGACY-RELATED EXPENSES</h1>
-                                                    Additionally, we provide miscellaneous coverage for other needs and desires that may arise as you’re 
-                                                    selflessly carrying a baby for the intended parents, such as
-                                                    <ul style={{padding:'20px'}}>
-                                                    <li style={{marginTop:'20px'}}>Travel expenses if the surrogate lives more than 50 miles from the IVF 
-                                                    clinic: the rate is based on the current IRS standard mileage rate.</li>
-                                                        <li style={{marginTop:'10px'}}>Monthly miscellaneous allowance to cover local mileage, gas, parking, childcare, etc.: $300</li>
-                                                        <li style={{marginTop:'10px'}}>Maternity clothing allowance: $800 – $1,000</li>
-                                                       <li style={{marginTop:'20px'}}>Housekeeping (upon confirmation of heartbeat ultrasound): $150/biweekly</li>
-                                                        <li style={{marginTop:'10px'}}>Support group meeting (optional): $100/month</li>
-                                                        </ul>
-                                                        A lot of questions arise regarding compensation for being a surrogate. 
-                                                        If you want to know more, please call our Intake Department for details at (619) 591-9113, Ext. 3.
-                                                         You can also reach out for more information via email 
-                                                         <h1 style={{fontSize:'35px', marginTop:'20px'}}>WHY CHOOSE ISC?</h1>
-                                                         Because so many of our staff members have been surrogates, we have a unique understanding of what you will experience.
-                                                          We offer compassion, comfort, and support for you at every step of the process, helping you as you help another family’s dreams
-                                                           become reality. We take pride in our honesty and transparency with our surrogates and the intended parents who choose us because 
-                                                           we want to make sure you’re as comfortable as possible throughout your journey. When you work with us, you’ll receive the finest
-                                                            medical care from our network of qualified IVF doctors. If you would like to learn more 
-                                                         about why working with ISC is your best choice as a surrogate mother, reach out and speak with one of our representatives today.
-                                                   
-                                                </p>
-                                                <div className='col-lg-12' style={{marginTop:'10px'}}>
-                                                    <button className='btn btn-info'
-                                                    style={{
-                                                        width: '150px',
-                                                        height: '46px',
-                                                        fontSize: '12px',
-                                                        border: 'none',
-                                                        boxShadow: 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',
+                                            </ul>
+                                            As part of surrogacy programs, we interview surrogates via video conference or in-person.
+
+                                            After screening, we approve about 40% of surrogate applicants.
+
+                                            Most of our surrogates live in surrogacy-friendly states such as California, but we do consider
+                                            applications from people living in other states. We work hard to ensure that our gestational carrier
+                                            program has the highest likelihood of success for intended parents and surrogates.
+                                            <br />  <br />
+                                            <h1 style={{ fontSize: '30px' }}>
+                                                ISC PROVIDES INTERNATIONAL SURROGACY SERVICES
+                                            </h1>
+
+                                            As an international surrogacy agency, ISC helps to match intended parents from all over the world with our qualified, caring surrogates.
+                                            We understand that many countries add roadblocks to the process of building a family through surrogacy, and surrogacy
+                                            programs must find ways to accommodate.
+
+                                            With our experience and expertise handling various aspects of the surrogacy process,
+                                            we can help you navigate the experience from start to finish. Among surrogacy programs, you can count on us for caring,
+                                            considerate, expert guidance every step of the way.
+                                            <br />  <br />
+                                            <h1 style={{ fontSize: '30px' }}>
+                                                START FINDING A SURROGATE TODAY!
+                                            </h1>
+                                            When you search for surrogacy programs near me, you deserve to find an agency that prioritizes the needs
+                                             of intended parents and surrogates. Contact us to learn more about our surrogate matching services,
+                                              or to start the process today!
+
+                                        </p>
+                                        <div className='col-lg-12' style={{ marginTop: '30px' }}>
+                                            <button className='btn btn-info'
+                                                style={{
+                                                    width: '150px',
+                                                    height: '46px',
+                                                    fontSize: '12px',
+                                                    border: 'none',
+                                                    boxShadow: 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',
 
 
-                                                    }}
-                                                    
-                                                    >Apply Now</button>
-                                               </div>
+                                                }}
 
-
-                                            </div>
+                                            >Apply Now</button>
                                         </div>
-                                    </div>
 
+
+                                    </div>
                                 </div>
-                {/* <div
+                            </div>
+
+                        </div>
+                        {/* <div
             className="moto-widget moto-widget-row row-fixed moto-bg-color1_3 moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
             data-grid-type="sm"
             data-widget="row"
@@ -1515,7 +1494,7 @@ data-bg-position="left top"
                 </div>
             </div>
         </div> */}
-                {/* <div
+                        {/* <div
             className="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
             data-grid-type="md"
             data-widget="row"
@@ -1637,10 +1616,10 @@ data-bg-position="left top"
                 </div>
             </div>
         </div> */}
-            </section>
-        </div>
-        <Footer />
-        {/* <footer
+                    </section>
+                </div>
+                <Footer />
+                {/* <footer
 id="section-footer"
 className="footer moto-section"
 data-widget="section"
@@ -1769,7 +1748,7 @@ dangerouslySetInnerHTML={{
 </div>
 </div>
 </footer> */}
-        {/* <div data-moto-back-to-top-button="" className="moto-back-to-top-button">
+                {/* <div data-moto-back-to-top-button="" className="moto-back-to-top-button">
     <a ng-click="toTop($event)" className="moto-back-to-top-button-link">
         <span className="moto-back-to-top-button-icon fa" />
     </a>
@@ -1864,11 +1843,11 @@ dangerouslySetInnerHTML={{
         </div>
     </div>
 </div> */}
-    </body>
+            </body>
 
 
-</>
-  )
+        </>
+    )
 }
 
-export default Compensation
+export default Oursurrogates

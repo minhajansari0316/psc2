@@ -876,7 +876,7 @@ data-preset=""
                                         className="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
                                         style={{
                                             backgroundImage:
-                                                "url(../mt-demo/109600/109604/mt-content/uploads/2020/07/GettyImages-629726342.jpg)",
+                                                "url(../mt-demo/109600/109604/mt-content/uploads/2020/07/7.jpg)",
                                             backgroundPosition: "top",
                                             backgroundRepeat: "no-repeat",
                                             backgroundSize: "cover"
