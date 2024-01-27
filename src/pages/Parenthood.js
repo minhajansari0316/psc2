@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../compunet/Header'
 import Footer from '../compunet/Footer'
+import { Link } from 'react-router-dom'
 const Parenthood = () => {
     return (
         <>
@@ -1422,6 +1423,7 @@ data-draggable-disabled=""
 
                                         </p>
                                         <div className='col-lg-12' style={{ marginTop: '20px' }}>
+                                            <Link to="/become-parent-form">
                                             <button className='btn btn-info'
                                                 style={{
                                                     width: '150px',
@@ -1434,6 +1436,7 @@ data-draggable-disabled=""
                                                 }}
 
                                             >Apply Now</button>
+                                            </Link>
                                         </div>
 
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../compunet/Footer'
 import Header from '../compunet/Header'
+import { Link } from 'react-router-dom'
 
 const Surrogacybystate = () => {
     return (
@@ -1516,6 +1517,7 @@ data-bg-position="left top"
 
                                         </p>
                                         <div className='col-lg-12' style={{ marginTop: '20px' }}>
+                                          <Link to="/become-parent-form">
                                             <button className='btn btn-info'
                                                 style={{
                                                     width: '150px',
@@ -1528,6 +1530,7 @@ data-bg-position="left top"
                                                 }}
 
                                             >Apply Now</button>
+                                            </Link>
                                         </div>
 
 
