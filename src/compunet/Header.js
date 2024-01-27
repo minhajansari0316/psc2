@@ -300,7 +300,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/faq"
                             // href="blog/index.html"
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
@@ -309,7 +309,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="moto-widget-menu-item">
-                          <Link to="/"
+                          <Link to="/surrogacy-by-state"
                             // href="blog/index.html"
                             data-action="blog.index"
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"

@@ -15,6 +15,8 @@ import Parentform from './pages/Parentform';
 import Requirements from './pages/Requirements';
 import Compensation from './pages/Compensation';
 import Steptosurrogacy from './pages/Steptosurrogacy';
+import Faq from './pages/Faq';
+import Surrogacybystate from './pages/Surrogacybystate';
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
       <Route path="/requirements-to-become-a-surrogate" element={<Requirements/>} />
       <Route path="/compensation" element={<Compensation/>} />
       <Route path="/steps-to-being-a-surrogate" element={<Steptosurrogacy/>} />
+      <Route path="/faq" element={<Faq/>} />
+      <Route path="/surrogacy-by-state" element={<Surrogacybystate/>} />
       {/* <Route path="/Headers" element={<Headers/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/Login" element={<Login/>}/>
