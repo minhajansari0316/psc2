@@ -209,8 +209,8 @@ const Header = () => {
                   className="moto-widget moto-widget-image moto-widget_with-deferred-content moto-preset-default moto-align-center_mobile-h moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  "
                   data-widget="image"
                 >
-                  <a
-                    href="index.html"
+                  <Link to="/"
+                    
                     data-action="home_page"
                     className="moto-widget-image-link moto-link"
                   >
@@ -223,7 +223,7 @@ const Header = () => {
                       title=""
                       alt="hospital"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
