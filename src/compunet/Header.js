@@ -100,6 +100,7 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -121,7 +122,17 @@ const Header = () => {
               >
                 <ul className="moto-widget-social-links-extended__list">
                   <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1">
-                    <a
+                  <Link to="/login"
+                     
+                      className="moto-widget-social-links-extended__link"
+                      target="_self"
+                      style={{width:'100px'}}
+                    >
+                      <span className="">
+                      Login
+                      </span>
+                    </Link>
+                    {/* <a
                       href="/"
                       className="moto-widget-social-links-extended__link"
                       target="_self"
@@ -129,7 +140,7 @@ const Header = () => {
                       <span className="moto-widget-social-links-extended__icon fa">
                         
                       </span>
-                    </a>
+                    </a> */}
                   </li>
                   <li className="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-2">
                     <a
@@ -457,6 +468,15 @@ const Header = () => {
                             className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
                           >
                            Intended Parent Application
+                          </Link>
+                        </li>
+                        <li className="moto-widget-menu-item">
+                          <Link to="/sign-up"
+                            // href="departments/index.html"
+                            data-action="page"
+                            className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+                          >
+                           Surrogate Application
                           </Link>
                         </li>
                        
