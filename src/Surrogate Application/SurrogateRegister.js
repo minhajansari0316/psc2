@@ -1,10 +1,143 @@
 import React from 'react'
+import BaseUrl from '../baseurl/BaseUrl';
+import { PostApiWithOutToken } from "../Helper/helper";
+import { useState, } from "react";
 import '../Surrogate Application/register.css'
+import Spinner from 'react-bootstrap/Spinner';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Link } from 'react-router-dom';
 
 const SurrogateRegister = () => {
+
+    const [first_name, setfirst_name] = useState();
+    const [last_name, setlast_name] = useState();
+    const [phone_number, setphone_number] = useState();
+    const [email, setemail] = useState();
+    const [password, setpassword] = useState();
+    const [us_citizen, setus_citizen] = useState();
+    const [state, setstate] = useState();
+    const [date_of_birth, setdate_of_birth] = useState();
+    const [height_feet, setheight_feet] = useState();
+    const [height_inches, setheight_inches] = useState();
+    const [weight, setweight] = useState();
+    const [number_deliveries, setnumber_deliveries] = useState();
+     const [number_of_csection, setnumber_of_csection] = useState();
+    const [convicted_of_a_felony, setconvicted_of_a_felony] = useState();
+    const [uterine_malformation, setuterine_malformation] = useState();
+    const [surrogate, setsurrogate] = useState();
+    const [about_us, setabout_us] = useState();
+    // const navigate = new useNavigate()
+    const [loder, setloder]= useState(false);
+    // const [showA, setShowA] = useState(false);
+    // const toggleShowA = () => setShowA(!showA);
+    const [, setShowToast] = useState(false);
+    
+   
+  
+    const onSubmit = () => {
+       
+      setloder(true);
+      const formData = new FormData();
+      formData.append("first_name", first_name);
+      formData.append("last_name", last_name);
+      formData.append("phone_number", phone_number);
+      formData.append("email", email);
+      formData.append("password", password);
+      formData.append("us_citizen", us_citizen);
+
+      formData.append("state", state);
+      formData.append("date_of_birth", date_of_birth);
+      formData.append("height_feet", height_feet);
+      formData.append("height_inches", height_inches);
+      formData.append("weight", weight);
+      formData.append("number_deliveries", number_deliveries);
+
+      formData.append("number_of_csection", number_of_csection);
+      formData.append("convicted_of_a_felony", convicted_of_a_felony);
+      formData.append("uterine_malformation", uterine_malformation);
+      formData.append("surrogate", surrogate);
+      formData.append("about_us", about_us);
+     
+    //   formData.append("fname", fname);
+    //   formData.append("lname", lname);
+    //   formData.append("address", address);
+    //   formData.append("contact", contact);
+  
+       PostApiWithOutToken (`${BaseUrl.baseUrl}surrogate/register`, formData)
+        .then((data) => {
+       console.log(data.data.message,'minhaj')
+          
+  
+          if (data.data.message === "Surrogate Register Successfully") {
+  
+            setShowToast(true);
+            toast(data.data.message);
+            // Swal.fire({
+            //   title: "success",
+            //   text: data.message,
+            //   icon: "success",
+            //   confirmButtonColor: "#29BF12",
+            //   timer: 1500,
+            // });
+            setloder(false);
+            // navigate("/login" )
+            
+           
+  
+          
+  
+            
+           
+          } else {
+            // console.log("else========", data.message);
+            // // alert(data.data);
+            // localStorage.setItem("tokenen", data.data);
+            // console.log("not login");
+            
+            // Swal.fire({
+            //   title: "Oops",
+            //   text: "Error",
+            //   icon: "error",
+            //   confirmButtonColor: "#29BF12",
+            // });
+            setShowToast(true);
+            // toast('Error');
+           
+  
+          
+          }
+        })
+        .catch((error) => {
+          setloder(false);
+          setShowToast(true);
+          toast(error.message);
+        //     toast('Error');
+        //   // Swal.fire({
+          //   title: "error",
+          //   text: error,
+          //   icon: "error",
+          //   confirmButtonColor: "#29BF12",
+          //   timer: 1500,
+          // });
+        });
+    };
+
     return (
-        <>
+       
             <>
+            <ToastContainer 
+                position="top-right"
+                autoClose={50}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
                 <div className="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
                     <div className="wrapper wrapper--w680">
                         <div className="card card-1">
@@ -23,6 +156,9 @@ const SurrogateRegister = () => {
                                                         className="input--style-1 js-datepicker"
                                                         type="text"
                                                         placeholder="First Name*"
+                                                        onChange={(e) => {
+                                                            setfirst_name(e.target.value);
+                                                        }}
 
                                                     />
                                                     <i className="zmdi zmdi-calendar-note input-icon js-btn-calendar" />
@@ -39,6 +175,9 @@ const SurrogateRegister = () => {
                                                         className="input--style-1 js-datepicker"
                                                         type="text"
                                                         placeholder="Last Name*"
+                                                        onChange={(e) => {
+                                                            setlast_name(e.target.value);
+                                                        }}
 
                                                     />
                                                     <i className="zmdi zmdi-calendar-note input-icon js-btn-calendar" />
@@ -57,6 +196,9 @@ const SurrogateRegister = () => {
                                                         className="input--style-1 js-datepicker"
                                                         type="number"
                                                         placeholder="Phone"
+                                                        onChange={(e) => {
+                                                            setphone_number(e.target.value);
+                                                        }}
 
                                                     />
                                                     <i className="zmdi zmdi-calendar-note input-icon js-btn-calendar" />
@@ -73,6 +215,9 @@ const SurrogateRegister = () => {
                                                         className="input--style-1 js-datepicker"
                                                         type="text"
                                                         placeholder="State"
+                                                        onChange={(e) => {
+                                                            setstate(e.target.value);
+                                                        }}
 
                                                     />
                                                     <i className="zmdi zmdi-calendar-note input-icon js-btn-calendar" />
@@ -91,14 +236,23 @@ const SurrogateRegister = () => {
                                                         <div className='col-lg-3 col-sm-2 col-xs-2 d-flex justify-content-start'>
 
 
-                                                            <input type="radio" className='form-control' value="HTML" />
+                                                            <input type="radio" className='form-control' value="yes" 
+                                                            onChange={(e) => {
+                                                            setus_citizen(e.target.value);
+                                                        }}
+                                                        />
                                                             <label for="html" style={{ fontSize: '15px', marginLeft: '5px' }}>Yes</label>
 
                                                         </div>
                                                         <div className='col-lg-3 col-sm-2 col-xs-2 d-flex justify-content-start'>
 
 
-                                                            <input type="radio" className='form-control' value="HTML" />
+                                                            <input type="radio" className='form-control' value="No"
+                                                             onChange={(e) => {
+                                                                setus_citizen(e.target.value);
+                                                            }}
+                                                            
+                                                            />
                                                             <label for="html" style={{ fontSize: '15px', marginLeft: '5px' }}>No</label>
 
                                                         </div>
@@ -116,6 +270,9 @@ const SurrogateRegister = () => {
                                                         className="input--style-1 js-datepicker"
                                                         type="Email"
                                                         placeholder="Email"
+                                                        onChange={(e) => {
+                                                            setemail(e.target.value);
+                                                        }}
 
                                                     />
                                                     <i className="zmdi zmdi-calendar-note input-icon js-btn-calendar" />
@@ -131,7 +288,10 @@ const SurrogateRegister = () => {
                                                     <input
                                                         className="input--style-1 js-datepicker"
                                                         type="Password"
-                                                        placeholder="Phone"
+                                                        placeholder="Password"
+                                                        onChange={(e) => {
+                                                            setpassword(e.target.value);
+                                                        }}
 
                                                     />
                                                     <i className="zmdi zmdi-calendar-note input-icon js-btn-calendar" />
@@ -148,6 +308,9 @@ const SurrogateRegister = () => {
                                                         className="input--style-1 js-datepicker"
                                                         type="date"
                                                         placeholder="date"
+                                                        onChange={(e) => {
+                                                            setdate_of_birth(e.target.value);
+                                                        }}
 
                                                     />
                                                     <i className="zmdi zmdi-calendar-note input-icon js-btn-calendar" />
@@ -170,6 +333,9 @@ const SurrogateRegister = () => {
                                                 
 
                                                  }}
+                                                 onChange={(e) => {
+                                                    setheight_feet(e.target.value);
+                                                }}
                                                 
                                                 
                                                 >
@@ -198,6 +364,9 @@ const SurrogateRegister = () => {
                                                 
 
                                                  }}
+                                                 onChange={(e) => {
+                                                    setheight_inches(e.target.value);
+                                                }}
                                                 
                                                 
                                                 >
@@ -228,6 +397,9 @@ const SurrogateRegister = () => {
                                                         className="input--style-1 js-datepicker"
                                                         type="number"
                                                         placeholder="Weight (pounds) *"
+                                                        onChange={(e) => {
+                                                            setweight(e.target.value);
+                                                        }}
 
                                                     />
                                                     <i className="zmdi zmdi-calendar-note input-icon js-btn-calendar" />
@@ -250,6 +422,9 @@ const SurrogateRegister = () => {
                                                 
 
                                                  }}
+                                                 onChange={(e) => {
+                                                    setnumber_deliveries(e.target.value);
+                                                }}
                                                 
                                                 
                                                 >
@@ -283,6 +458,9 @@ const SurrogateRegister = () => {
                                                 
 
                                                  }}
+                                                 onChange={(e) => {
+                                                    setnumber_of_csection(e.target.value);
+                                                }}
                                                 
                                                 
                                                 >
@@ -310,14 +488,23 @@ const SurrogateRegister = () => {
                                                         <div className='col-lg-3 col-sm-2 col-xs-2 d-flex justify-content-start'>
 
 
-                                                            <input type="radio" className='form-control' value="HTML" />
+                                                            <input type="radio" className='form-control' value="yes"
+                                                            onChange={(e) => {
+                                                                setconvicted_of_a_felony(e.target.value);
+                                                            }}
+                                                            />
                                                             <label for="html" style={{ fontSize: '15px', marginLeft: '5px' }}>Yes</label>
 
                                                         </div>
                                                         <div className='col-lg-3 col-sm-2 col-xs-2 d-flex justify-content-start'>
 
 
-                                                            <input type="radio" className='form-control' value="HTML" />
+                                                            <input type="radio" className='form-control' value="No" 
+                                                            onChange={(e) => {
+                                                                setconvicted_of_a_felony(e.target.value);
+                                                            }}
+                                                            
+                                                            />
                                                             <label for="html" style={{ fontSize: '15px', marginLeft: '5px' }}>No</label>
 
                                                         </div>
@@ -338,14 +525,24 @@ const SurrogateRegister = () => {
                                                         <div className='col-lg-3 col-sm-2 col-xs-2 d-flex justify-content-start'>
 
 
-                                                            <input type="radio" className='form-control' value="HTML" />
+                                                            <input type="radio" className='form-control' value="yes"
+                                                            
+                                                            onChange={(e) => {
+                                                            setuterine_malformation(e.target.value);
+                                                            }}
+                                                            />
                                                             <label for="html" style={{ fontSize: '15px', marginLeft: '5px' }}>Yes</label>
 
                                                         </div>
                                                         <div className='col-lg-3 col-sm-2 col-xs-2 d-flex justify-content-start'>
 
 
-                                                            <input type="radio" className='form-control' value="HTML" />
+                                                            <input type="radio" className='form-control' value="No" 
+                                                            
+                                                            onChange={(e) => {
+                                                                setuterine_malformation(e.target.value);
+                                                                }}
+                                                            />
                                                             <label for="html" style={{ fontSize: '15px', marginLeft: '5px' }}>No</label>
 
                                                         </div>
@@ -365,14 +562,24 @@ const SurrogateRegister = () => {
                                                         <div className='col-lg-3 col-sm-2 col-xs-2 d-flex justify-content-start'>
 
 
-                                                            <input type="radio" className='form-control' value="HTML" />
+                                                            <input type="radio" className='form-control' value="Yes"
+                                                            onChange={(e) => {
+                                                                setsurrogate(e.target.value);
+                                                                }}
+                                                            
+                                                            />
                                                             <label for="html" style={{ fontSize: '15px', marginLeft: '5px' }}>Yes</label>
 
                                                         </div>
                                                         <div className='col-lg-3 col-sm-2 col-xs-2 d-flex justify-content-start'>
 
 
-                                                            <input type="radio" className='form-control' value="HTML" />
+                                                            <input type="radio" className='form-control' value="No"
+                                                            
+                                                            onChange={(e) => {
+                                                                setsurrogate(e.target.value);
+                                                                }}
+                                                            />
                                                             <label for="html" style={{ fontSize: '15px', marginLeft: '5px' }}>No</label>
 
                                                         </div>
@@ -396,6 +603,9 @@ const SurrogateRegister = () => {
                                                 
 
                                                  }}
+                                                 onChange={(e) => {
+                                                    setabout_us(e.target.value);
+                                                    }}
                                                 
                                                 
                                                 >
@@ -423,11 +633,23 @@ const SurrogateRegister = () => {
                                               height: '44px',
                                               boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
                                             }}
+                                            onClick={onSubmit}
 
 
 
-                                          >Submit</button>
+                                          >
+                                             {loder !== false? 
+                      <Spinner animation="border"  />:'Submit'  
+                      
+                     }
+                                            
+                                            
+                                            </button>
                                         </div>
+                                        <div className='col-lg-12 d-flex justify-content-center' style={{marginTop:'10px'}}>
+                                        <p>Already Register <Link to="/Login">Sign in</Link></p>
+                                            </div>
+
 
 
 
@@ -445,7 +667,7 @@ const SurrogateRegister = () => {
             </>
 
 
-        </>
+    
     )
 }
 

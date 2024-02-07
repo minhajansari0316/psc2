@@ -75,7 +75,7 @@ const Header = () => {
                       data-bg-position="left top"
                     >
                       <div
-                        className="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                        className="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacin g-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
                         data-widget="text"
                         data-preset="default"
                         data-spacing="aaaa"
@@ -94,7 +94,7 @@ const Header = () => {
                               data-action="call"
                               className="moto-link"
                             >
-                              123-456-7890
+                              123-456-7890 
                             </a>
                           </p>
                         </div>

@@ -26,6 +26,7 @@ import Ipfaq from './pages/Ipfaq';
 import Singleparents from './pages/Singleparents';
 import SurrogateRegister from './Surrogate Application/SurrogateRegister';
 import Surrogatelogin from './Surrogate Application/Surrogatelogin';
+import Surrogateform from './Surrogate Application/Surrogateform';
 function App() {
   return (
     <>
@@ -51,6 +52,7 @@ function App() {
       <Route path="/single-parents" element={<Singleparents/>} />
       <Route path="/sign-up" element={<SurrogateRegister/>} />
       <Route path="/login" element={<Surrogatelogin />} />
+      <Route path="/surrogate-application" element={<Surrogateform />} />
       {/* <Route path="/Headers" element={<Headers/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/Login" element={<Login/>}/>
