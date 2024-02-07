@@ -10,7 +10,7 @@ export const getApiWithToken = async (url, data, token) => {
       }
     })
     console.log(response, "response")
-    if (response.status == 200) {
+    if (response.status === 200) {
       return Promise.resolve({
         status: 'success',
         data: response.data
@@ -31,7 +31,7 @@ export const PostApi = async (url, data, bearertoken) => {
       }
     })
     console.log(response, "response")
-    if (response.status == 200) {
+    if (response.status === 200) {
       return Promise.resolve({
         status: 'success',
         data: response.data
@@ -108,7 +108,7 @@ export const DeleteApi = async (url, data, bearertoken) => {
       }
     })
     console.log(response, "response")
-    if (response.status == 200) {
+    if (response.status === 200) {
       return Promise.resolve({
         status: 'success',
         data: response.data
@@ -131,7 +131,7 @@ export const PutApi = async (url, data, bearertoken) => {
       }
     })
     console.log(response, "response")
-    if (response.status == 200) {
+    if (response.status === 200) {
       return Promise.resolve({
         status: 'success',
         data: response.data
@@ -152,7 +152,7 @@ export const getApiWithOutToken = async (url, data) => {
   try {
     let response = await axios.get(url + data)
     console.log(response, "response")
-    if (response.status == 200) {
+    if (response.status === 200) {
       return Promise.resolve({
         status: 'success',
         data: response.data
