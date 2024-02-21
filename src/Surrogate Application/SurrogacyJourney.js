@@ -10,13 +10,13 @@ import "react-toastify/dist/ReactToastify.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 const SurrogacyJourney = () => {
-//   const [loder, setloader] = useState(false);
+  //   const [loder, setloader] = useState(false);
   // const [showA, setShowA] = useState(false);
   // const toggleShowA = () => setShowA(!showA);
-//   const [, setShowToast] = useState(false);
+  //   const [, setShowToast] = useState(false);
 
   // console.log('email==============>',email)
-//   const navigate = new useNavigate();
+  //   const navigate = new useNavigate();
 
   const [show4, setShow4] = useState(false);
   const handleClose4 = () => setShow4(false);
@@ -47,14 +47,18 @@ const SurrogacyJourney = () => {
   const [show8, setShow8] = useState(false);
   const [show9, setShow9] = useState(false);
   const [show10, setShow10] = useState(false);
-
+  const [show11, setShow11] = useState(false);
+  const [show12, setShow12] = useState(false);
+  const [show13, setShow13] = useState(false);
 
   const handleClose6 = () => setShow6(false);
   const handleClose7 = () => setShow7(false);
   const handleClose8 = () => setShow8(false);
   const handleClose9 = () => setShow9(false);
   const handleClose10 = () => setShow10(false);
-
+  const handleClose11 = () => setShow11(false);
+  const handleClose12 = () => setShow12(false);
+  const handleClose13 = () => setShow13(false);
 
   const back6 = () => {
     setShow6(false);
@@ -74,6 +78,26 @@ const SurrogacyJourney = () => {
   const back9 = () => {
     setShow9(false);
     setShow8(true);
+  };
+
+  const back10 = () => {
+    setShow10(false);
+    setShow9(true);
+  };
+
+  const back11 = () => {
+    setShow11(false);
+    setShow10(true);
+  };
+
+  const back12 = () => {
+    setShow12(false);
+    setShow11(true);
+  };
+
+  const back13 = () => {
+    setShow13(false);
+    setShow12(true);
   };
 
   const pregnancies3 = () => {
@@ -99,6 +123,21 @@ const SurrogacyJourney = () => {
   const pregnancies7 = () => {
     setShow10(true);
     setShow9(false);
+  };
+
+  const pregnancies8 = () => {
+    setShow11(true);
+    setShow10(false);
+  };
+
+  const pregnancies9 = () => {
+    setShow12(true);
+    setShow11(false);
+  };
+
+  const pregnancies10 = () => {
+    setShow13(true);
+    setShow12(false);
   };
 
   return (
@@ -1123,8 +1162,7 @@ const SurrogacyJourney = () => {
             <div className="container">
               <div className="row">
                 <h3 style={{ marginTop: "20px", marginBottom: "20px" }}>
-                Reduction and termination
-
+                  Reduction and termination
                 </h3>
                 <div
                   className="col-lg-10 flex justify-end"
@@ -1136,7 +1174,7 @@ const SurrogacyJourney = () => {
                       fontSize: "15px",
                       color: "#d8352f",
                     }}
-                    onClick={pregnancies7}
+                    onClick={pregnancies8}
                   >
                     Skip ≫
                   </p>
@@ -1151,9 +1189,18 @@ const SurrogacyJourney = () => {
                 >
                   <p style={{ padding: "5px", marginTop: "10px" }}>
                     {" "}
-                    Let's get real for a moment. The next several questions will discuss pregnancy reduction and termination. Please know that intended parents go into this journey longing to have a baby, and would never take these scenarios lightly. One way many surrogates have approached this is to think that just as you were able to make your own parenting choices when pregnant with your children, being open in these scenarios allows the intended parents to make their own parenting decisions, even if their choices may be different than what you may have decided in your own pregnancies. Of course, please don't feel pressured either way and answer honestly with what you would be okay with.
-
-
+                    Let's get real for a moment. The next several questions will
+                    discuss pregnancy reduction and termination. Please know
+                    that intended parents go into this journey longing to have a
+                    baby, and would never take these scenarios lightly. One way
+                    many surrogates have approached this is to think that just
+                    as you were able to make your own parenting choices when
+                    pregnant with your children, being open in these scenarios
+                    allows the intended parents to make their own parenting
+                    decisions, even if their choices may be different than what
+                    you may have decided in your own pregnancies. Of course,
+                    please don't feel pressured either way and answer honestly
+                    with what you would be okay with.
                   </p>
                   <div className="col-lg-12 col-sm-12 col-xs-12 d-flex justify-content-start">
                     <div className="row">
@@ -1174,9 +1221,10 @@ const SurrogacyJourney = () => {
                           SET (single embryo transfer)
                         </label>
                       </div> */}
-                       <p style={{ padding: "5px", marginTop: "10px" }}>
-                        Are you willing to reduce from triplets to twins for medical reasons?
-                  </p>
+                      <p style={{ padding: "5px", marginTop: "10px" }}>
+                        Are you willing to reduce from triplets to twins for
+                        medical reasons?
+                      </p>
                       <div className="d-flex col-lg-12">
                         <div className="col-lg-2 col-sm-2 col-xs-2">
                           <input
@@ -1226,8 +1274,8 @@ const SurrogacyJourney = () => {
 
                   <p style={{ padding: "5px", marginTop: "10px" }}>
                     {" "}
-                    Are you willing to reduce from twins to a singleton for medical reasons?
-
+                    Are you willing to reduce from twins to a singleton for
+                    medical reasons?
                   </p>
                   <div className="d-flex col-lg-12">
                     <div className="col-lg-2 col-sm-2 col-xs-2">
@@ -1273,201 +1321,201 @@ const SurrogacyJourney = () => {
                     </div>
                   </div>
 
-                
                   <p style={{ padding: "5px", marginTop: "10px" }}>
-                  Are you willing to terminate the pregnancy if your life is at risk?
+                    Are you willing to terminate the pregnancy if your life is
+                    at risk?
                   </p>
-                      <div className="d-flex col-lg-12">
-                        <div className="col-lg-2 col-sm-2 col-xs-2">
-                          <input
-                            type="radio"
-                            id="Yes – active duty"
-                            name="fav_language"
-                            className="form-control"
-                            value="Not employed"
+                  <div className="d-flex col-lg-12">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="radio"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
 
-                            // style={{marginLeft:'-20px'}}
-                          />
-                        </div>
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
 
-                        <div className="col-lg-6 col-sm-6 col-xs-6">
-                          <label
-                            for="html"
-                            style={{ fontSize: "15px", marginLeft: "-30px" }}
-                          >
-                            Yes
-                          </label>
-                        </div>
-                      </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Yes
+                      </label>
+                    </div>
+                  </div>
 
-                      <div className="d-flex col-lg-12">
-                        <div className="col-lg-2 col-sm-2 col-xs-2">
-                          <input
-                            type="radio"
-                            id="Yes – active duty"
-                            name="fav_language"
-                            className="form-control"
-                            value="Not employed"
+                  <div className="d-flex col-lg-12">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="radio"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
 
-                            //   style={{marginLeft:'-20px'}}
-                          />
-                        </div>
-                        <div className="col-lg-6 col-sm-6 col-xs-6">
-                          <label
-                            for="html"
-                            style={{ fontSize: "15px", marginLeft: "-30px" }}
-                          >
-                            No
-                          </label>
-                        </div>
-                      </div>
+                        //   style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        No
+                      </label>
+                    </div>
+                  </div>
 
-                      <p style={{ padding: "5px", marginTop: "10px" }}>
-                      Are you willing to reduce or terminate the pregnancy if the baby will not survive?
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    Are you willing to reduce or terminate the pregnancy if the
+                    baby will not survive?
                   </p>
-                      <div className="d-flex col-lg-12">
-                        <div className="col-lg-2 col-sm-2 col-xs-2">
-                          <input
-                            type="radio"
-                            id="Yes – active duty"
-                            name="fav_language"
-                            className="form-control"
-                            value="Not employed"
+                  <div className="d-flex col-lg-12">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="radio"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
 
-                            // style={{marginLeft:'-20px'}}
-                          />
-                        </div>
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
 
-                        <div className="col-lg-6 col-sm-6 col-xs-6">
-                          <label
-                            for="html"
-                            style={{ fontSize: "15px", marginLeft: "-30px" }}
-                          >
-                            Yes
-                          </label>
-                        </div>
-                      </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Yes
+                      </label>
+                    </div>
+                  </div>
 
-                      <div className="d-flex col-lg-12">
-                        <div className="col-lg-2 col-sm-2 col-xs-2">
-                          <input
-                            type="radio"
-                            id="Yes – active duty"
-                            name="fav_language"
-                            className="form-control"
-                            value="Not employed"
+                  <div className="d-flex col-lg-12">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="radio"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
 
-                            //   style={{marginLeft:'-20px'}}
-                          />
-                        </div>
-                        <div className="col-lg-6 col-sm-6 col-xs-6">
-                          <label
-                            for="html"
-                            style={{ fontSize: "15px", marginLeft: "-30px" }}
-                          >
-                            No
-                          </label>
-                        </div>
-                      </div>
+                        //   style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        No
+                      </label>
+                    </div>
+                  </div>
 
-
-
-                      <p style={{ padding: "5px", marginTop: "10px" }}>
-                      Are you willing to reduce or terminate the pregnancy if there is a medical reason or abnormality?
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    Are you willing to reduce or terminate the pregnancy if
+                    there is a medical reason or abnormality?
                   </p>
-                      <div className="d-flex col-lg-12">
-                        <div className="col-lg-2 col-sm-2 col-xs-2">
-                          <input
-                            type="radio"
-                            id="Yes – active duty"
-                            name="fav_language"
-                            className="form-control"
-                            value="Not employed"
+                  <div className="d-flex col-lg-12">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="radio"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
 
-                            // style={{marginLeft:'-20px'}}
-                          />
-                        </div>
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
 
-                        <div className="col-lg-6 col-sm-6 col-xs-6">
-                          <label
-                            for="html"
-                            style={{ fontSize: "15px", marginLeft: "-30px" }}
-                          >
-                            Yes
-                          </label>
-                        </div>
-                      </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Yes
+                      </label>
+                    </div>
+                  </div>
 
-                      <div className="d-flex col-lg-12">
-                        <div className="col-lg-2 col-sm-2 col-xs-2">
-                          <input
-                            type="radio"
-                            id="Yes – active duty"
-                            name="fav_language"
-                            className="form-control"
-                            value="Not employed"
+                  <div className="d-flex col-lg-12">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="radio"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
 
-                            //   style={{marginLeft:'-20px'}}
-                          />
-                        </div>
-                        <div className="col-lg-6 col-sm-6 col-xs-6">
-                          <label
-                            for="html"
-                            style={{ fontSize: "15px", marginLeft: "-30px" }}
-                          >
-                            No
-                          </label>
-                        </div>
-                      </div>
+                        //   style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        No
+                      </label>
+                    </div>
+                  </div>
 
-
-                      <p style={{ padding: "5px", marginTop: "10px" }}>
-                      Are you willing to reduce or terminate if the baby is diagnosed with Down Syndrome?
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    Are you willing to reduce or terminate if the baby is
+                    diagnosed with Down Syndrome?
                   </p>
-                      <div className="d-flex col-lg-12">
-                        <div className="col-lg-2 col-sm-2 col-xs-2">
-                          <input
-                            type="radio"
-                            id="Yes – active duty"
-                            name="fav_language"
-                            className="form-control"
-                            value="Not employed"
+                  <div className="d-flex col-lg-12">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="radio"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
 
-                            // style={{marginLeft:'-20px'}}
-                          />
-                        </div>
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
 
-                        <div className="col-lg-6 col-sm-6 col-xs-6">
-                          <label
-                            for="html"
-                            style={{ fontSize: "15px", marginLeft: "-30px" }}
-                          >
-                            Yes
-                          </label>
-                        </div>
-                      </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Yes
+                      </label>
+                    </div>
+                  </div>
 
-                      <div className="d-flex col-lg-12">
-                        <div className="col-lg-2 col-sm-2 col-xs-2">
-                          <input
-                            type="radio"
-                            id="Yes – active duty"
-                            name="fav_language"
-                            className="form-control"
-                            value="Not employed"
+                  <div className="d-flex col-lg-12">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="radio"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
 
-                            //   style={{marginLeft:'-20px'}}
-                          />
-                        </div>
-                        <div className="col-lg-6 col-sm-6 col-xs-6">
-                          <label
-                            for="html"
-                            style={{ fontSize: "15px", marginLeft: "-30px" }}
-                          >
-                            No
-                          </label>
-                        </div>
-                      </div>
+                        //   style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        No
+                      </label>
+                    </div>
+                  </div>
                 </p>
               </div>
             </div>
@@ -1479,7 +1527,7 @@ const SurrogacyJourney = () => {
         <Modal.Footer style={{}}>
           <Button
             className="btn btn-primary"
-            onClick={pregnancies7}
+            onClick={pregnancies8}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Let’s go!
@@ -1491,7 +1539,810 @@ const SurrogacyJourney = () => {
           >
             Close
           </Button>
-          <Button variant="primary" onClick={back9}>
+          <Button variant="primary" onClick={back10}>
+            back
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      <Modal
+        show={show11}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+        onHide={handleClose5}
+        style={{
+          backgroundColor: "#ffffff87",
+          borderRadius: "20px 20px 10px 10px",
+        }}
+      >
+        {/* <Modal.Header closeButton> */}
+        <Modal.Header
+          style={{
+            backgroundImage:
+              "url(/mt-demo/109600/109604/mt-content/uploads/2020/07/8.jpeg)",
+            height: "150px",
+            backgroundAttachment: "fixed",
+            backgroundPosition: "center",
+          }}
+        >
+          {/* <i className='fa fa-close'>baloch</i>
+                    <AiFillCloseCircle fontSize={20} /> */}
+          <Modal.Title style={{ fontSize: "20px" }}></Modal.Title>
+          {/* <AiFillCloseCircle onClick={handleClose} style={{ marginLeft: "190", cursor: "pointer" }} fontSize={40} /> */}
+        </Modal.Header>
+        <Modal.Body
+          style={{
+            marginTop: "-27px",
+            backgroundColor: "#fffbfb",
+            borderRadius: "30px 30px 0px 0px",
+            marginBottom: "20px",
+          }}
+        >
+          <div className="col-lg-12">
+            <div className="container">
+              <div className="row">
+                <h3 style={{ marginTop: "20px", marginBottom: "20px" }}>
+                  Intended parent questions
+                </h3>
+                <div
+                  className="col-lg-10 flex justify-end"
+                  style={{ textAlign: "end" }}
+                >
+                  <p
+                    style={{
+                      marginTop: "-40px",
+                      fontSize: "15px",
+                      color: "#d8352f",
+                    }}
+                    onClick={pregnancies9}
+                  >
+                    Skip ≫
+                  </p>
+                </div>
+
+                <p
+                  style={{
+                    MARGINTOP: "10PX",
+                    fontWeight: "100",
+                    color: "#333352",
+                  }}
+                >
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    {" "}
+                    What kind of relationship would you like to have with the
+                    intended parents during your journey?
+                  </p>
+
+                  <input
+                    type="text"
+                    className="form-control "
+                    style={{ padding: "18px", borderRadius: "10px" }}
+                  />
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    {" "}
+                    Would you agree to have the intended parents in the delivery
+                    room with you?
+                  </p>
+                  <div className="col-lg-12 col-sm-12 col-xs-12 d-flex justify-content-start">
+                    <div className="row">
+                      {/* <div className="col-lg-4 col-sm-4 col-xs-4">
+                        <input
+                          type="radio"
+                          id="Employed"
+                          name="fav_language"
+                          className="form-control"
+                          value="Employed"
+                        />
+                      </div>
+                      <div className="col-lg-8 col-sm-8 col-xs-8">
+                        <label
+                          for="html"
+                          style={{ fontSize: "15px", marginLeft: "-60px" }}
+                        >
+                          SET (single embryo transfer)
+                        </label>
+                      </div> */}
+                      <p style={{ padding: "5px", marginTop: "10px" }}>
+                        Are you willing to reduce from triplets to twins for
+                        medical reasons?
+                      </p>
+                      <div className="d-flex col-lg-12">
+                        <div className="col-lg-2 col-sm-2 col-xs-2">
+                          <input
+                            type="radio"
+                            id="Yes – active duty"
+                            name="fav_language"
+                            className="form-control"
+                            value="Not employed"
+
+                            // style={{marginLeft:'-20px'}}
+                          />
+                        </div>
+
+                        <div className="col-lg-6 col-sm-6 col-xs-6">
+                          <label
+                            for="html"
+                            style={{ fontSize: "15px", marginLeft: "-30px" }}
+                          >
+                            Yes, of course
+                          </label>
+                        </div>
+                      </div>
+
+                      <div className="d-flex col-lg-12">
+                        <div className="col-lg-2 col-sm-2 col-xs-2">
+                          <input
+                            type="radio"
+                            id="Yes – active duty"
+                            name="fav_language"
+                            className="form-control"
+                            value="Not employed"
+
+                            //   style={{marginLeft:'-20px'}}
+                          />
+                        </div>
+                        <div className="col-lg-6 col-sm-6 col-xs-6">
+                          <label
+                            for="html"
+                            style={{ fontSize: "15px", marginLeft: "-30px" }}
+                          >
+                            No, I’d prefer not to
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    {" "}
+                    What type of contact would you like to have with the
+                    intended parents and baby after the journey? (you can select
+                    more than one)
+                  </p>
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        //   style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-40px" }}
+                      >
+                        I'd prefer to keep it professional
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        //   style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+                    <div className="col-lg-8 col-sm-8 col-xs-8">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-40px" }}
+                      >
+                        I'm open to whatever the intended parent's comfort level
+                        is
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        //   style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-40px" }}
+                      >
+                        I'd love to stay in touch and send updates of our
+                        families to each other like on birthdays and holidays
+                      </label>
+                    </div>
+                  </div>
+
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    What type of intended parents are you willing to help? (you
+                    can select more than one){" "}
+                  </p>
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Couples that already have children
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Straight (heterosexual) couples
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Gay (homosexual) couples
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Single male
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Single female
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Single gay male
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Single gay female
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex col-lg-12 mt-2">
+                    <div className="col-lg-2 col-sm-2 col-xs-2">
+                      <input
+                        type="checkbox"
+                        id="Yes – active duty"
+                        name="fav_language"
+                        className="form-control"
+                        value="Not employed"
+
+                        // style={{marginLeft:'-20px'}}
+                      />
+                    </div>
+
+                    <div className="col-lg-6 col-sm-6 col-xs-6">
+                      <label
+                        for="html"
+                        style={{ fontSize: "15px", marginLeft: "-30px" }}
+                      >
+                        Transgender IP{" "}
+                      </label>
+                    </div>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* ------- */}
+        </Modal.Body>
+
+        <Modal.Footer style={{}}>
+          <Button
+            className="btn btn-primary"
+            onClick={pregnancies9}
+            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+          >
+            Let’s go!
+          </Button>
+          <Button
+            className="btn btn-primary"
+            onClick={handleClose11}
+            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+          >
+            Close
+          </Button>
+          <Button variant="primary" onClick={back11}>
+            back
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      <Modal
+        show={show12}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+        onHide={handleClose5}
+        style={{
+          backgroundColor: "#ffffff87",
+          borderRadius: "20px 20px 10px 10px",
+        }}
+      >
+        {/* <Modal.Header closeButton> */}
+        <Modal.Header
+          style={{
+            backgroundImage:
+              "url(/mt-demo/109600/109604/mt-content/uploads/2020/07/8.jpeg)",
+            height: "150px",
+            backgroundAttachment: "fixed",
+            backgroundPosition: "center",
+          }}
+        >
+          {/* <i className='fa fa-close'>baloch</i>
+                    <AiFillCloseCircle fontSize={20} /> */}
+          <Modal.Title style={{ fontSize: "20px" }}></Modal.Title>
+          {/* <AiFillCloseCircle onClick={handleClose} style={{ marginLeft: "190", cursor: "pointer" }} fontSize={40} /> */}
+        </Modal.Header>
+        <Modal.Body
+          style={{
+            marginTop: "-27px",
+            backgroundColor: "#fffbfb",
+            borderRadius: "30px 30px 0px 0px",
+            marginBottom: "20px",
+          }}
+        >
+          <div className="col-lg-12">
+            <div className="container">
+              <div className="row">
+                <h3 style={{ marginTop: "20px", marginBottom: "20px" }}>
+                  Other journey questions
+                </h3>
+                <div
+                  className="col-lg-10 flex justify-end"
+                  style={{ textAlign: "end" }}
+                >
+                  <p
+                    style={{
+                      marginTop: "-40px",
+                      fontSize: "15px",
+                      color: "#d8352f",
+                    }}
+                    onClick={pregnancies10}
+                  >
+                    Skip ≫
+                  </p>
+                </div>
+
+                <p
+                  style={{
+                    MARGINTOP: "10PX",
+                    fontWeight: "100",
+                    color: "#333352",
+                  }}
+                >
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    {" "}
+                    Are you able to travel long-distance for your IVF treatment
+                    if needed? For example, this could include flying to another
+                    state or location within your state, possibly staying
+                    overnight, etc.
+                  </p>
+
+                  <input
+                    type="text"
+                    className="form-control "
+                    style={{ padding: "18px", borderRadius: "10px" }}
+                  />
+
+                  <div className="col-lg-12 col-sm-12 col-xs-12 d-flex justify-content-start">
+                    <div className="row">
+                      {/* <div className="col-lg-4 col-sm-4 col-xs-4">
+                        <input
+                          type="radio"
+                          id="Employed"
+                          name="fav_language"
+                          className="form-control"
+                          value="Employed"
+                        />
+                      </div>
+                      <div className="col-lg-8 col-sm-8 col-xs-8">
+                        <label
+                          for="html"
+                          style={{ fontSize: "15px", marginLeft: "-60px" }}
+                        >
+                          SET (single embryo transfer)
+                        </label>
+                      </div> */}
+                      <p style={{ padding: "5px", marginTop: "10px" }}>
+                        Are you willing to undergo an amniocentesis if advised
+                        by a medical professional?
+                      </p>
+                      <div className="d-flex col-lg-12">
+                        <div className="col-lg-2 col-sm-2 col-xs-2">
+                          <input
+                            type="radio"
+                            id="Yes – active duty"
+                            name="fav_language"
+                            className="form-control"
+                            value="Not employed"
+
+                            // style={{marginLeft:'-20px'}}
+                          />
+                        </div>
+
+                        <div className="col-lg-6 col-sm-6 col-xs-6">
+                          <label
+                            for="html"
+                            style={{ fontSize: "15px", marginLeft: "-30px" }}
+                          >
+                            Yes
+                          </label>
+                        </div>
+                      </div>
+
+                      <div className="d-flex col-lg-12">
+                        <div className="col-lg-2 col-sm-2 col-xs-2">
+                          <input
+                            type="radio"
+                            id="Yes – active duty"
+                            name="fav_language"
+                            className="form-control"
+                            value="Not employed"
+
+                            //   style={{marginLeft:'-20px'}}
+                          />
+                        </div>
+                        <div className="col-lg-6 col-sm-6 col-xs-6">
+                          <label
+                            for="html"
+                            style={{ fontSize: "15px", marginLeft: "-30px" }}
+                          >
+                            No
+                          </label>
+                        </div>
+                      </div>
+
+                      <p style={{ padding: "5px", marginTop: "10px" }}>
+                        Would you consider pumping/expressing breast milk for
+                        the baby if the intended parents would like you to?
+                      </p>
+                      <div className="d-flex col-lg-12">
+                        <div className="col-lg-2 col-sm-2 col-xs-2">
+                          <input
+                            type="radio"
+                            id="Yes – active duty"
+                            name="fav_language"
+                            className="form-control"
+                            value="Not employed"
+
+                            // style={{marginLeft:'-20px'}}
+                          />
+                        </div>
+
+                        <div className="col-lg-6 col-sm-6 col-xs-6">
+                          <label
+                            for="html"
+                            style={{ fontSize: "15px", marginLeft: "-30px" }}
+                          >
+                            Yes
+                          </label>
+                        </div>
+                      </div>
+
+                      <div className="d-flex col-lg-12">
+                        <div className="col-lg-2 col-sm-2 col-xs-2">
+                          <input
+                            type="radio"
+                            id="Yes – active duty"
+                            name="fav_language"
+                            className="form-control"
+                            value="Not employed"
+
+                            //   style={{marginLeft:'-20px'}}
+                          />
+                        </div>
+                        <div className="col-lg-6 col-sm-6 col-xs-6">
+                          <label
+                            for="html"
+                            style={{ fontSize: "15px", marginLeft: "-30px" }}
+                          >
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* ------- */}
+        </Modal.Body>
+
+        <Modal.Footer style={{}}>
+          <Button
+            className="btn btn-primary"
+            onClick={pregnancies10}
+            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+          >
+            Let’s go!
+          </Button>
+          <Button
+            className="btn btn-primary"
+            onClick={handleClose12}
+            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+          >
+            Close
+          </Button>
+          <Button variant="primary" onClick={back12}>
+            back
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      <Modal
+        show={show13}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+        onHide={handleClose5}
+        style={{
+          backgroundColor: "#ffffff87",
+          borderRadius: "20px 20px 10px 10px",
+        }}
+      >
+        {/* <Modal.Header closeButton> */}
+        <Modal.Header
+          style={{
+            backgroundImage:
+              "url(/mt-demo/109600/109604/mt-content/uploads/2020/07/8.jpeg)",
+            height: "150px",
+            backgroundAttachment: "fixed",
+            backgroundPosition: "center",
+          }}
+        >
+          {/* <i className='fa fa-close'>baloch</i>
+                    <AiFillCloseCircle fontSize={20} /> */}
+          <Modal.Title style={{ fontSize: "20px" }}></Modal.Title>
+          {/* <AiFillCloseCircle onClick={handleClose} style={{ marginLeft: "190", cursor: "pointer" }} fontSize={40} /> */}
+        </Modal.Header>
+        <Modal.Body
+          style={{
+            marginTop: "-27px",
+            backgroundColor: "#fffbfb",
+            borderRadius: "30px 30px 0px 0px",
+            marginBottom: "20px",
+          }}
+        >
+          <div className="col-lg-12">
+            <div className="container">
+              <div className="row">
+                <h3 style={{ marginTop: "20px", marginBottom: "20px" }}>
+                  Letter to the intended parents
+                </h3>
+                <div
+                  className="col-lg-10 flex justify-end"
+                  style={{ textAlign: "end" }}
+                >
+                  {/* <p
+                    style={{
+                      marginTop: "-40px",
+                      fontSize: "15px",
+                      color: "#d8352f",
+                    }}
+                    onClick={pregnancies10}
+                  >
+                    Skip ≫
+                  </p> */}
+                </div>
+
+                <p
+                  style={{
+                    MARGINTOP: "10PX",
+                    fontWeight: "100",
+                    color: "#333352",
+                  }}
+                >
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    {" "}
+                    This is your chance to shine! Please write anything you
+                    think will help the intended parents get to know you and why
+                    they might want to move forward on a surrogacy journey with
+                    you.
+                  </p>
+
+                  <p style={{ padding: "5px", marginTop: "10px" }}>
+                    {" "}
+                    Please write a little personal note (a paragraph or so) to
+                    the intended parents to help them get to know you better
+                  </p>
+                  <textarea
+                    type="text"
+                    className="form-control "
+                    style={{ padding: "18px", borderRadius: "10px" }}
+                  />
+
+                  <div className="col-lg-12 col-sm-12 col-xs-12 d-flex justify-content-start">
+                    <div className="row">
+                      {/* <div className="col-lg-4 col-sm-4 col-xs-4">
+                        <input
+                          type="radio"
+                          id="Employed"
+                          name="fav_language"
+                          className="form-control"
+                          value="Employed"
+                        />
+                      </div>
+                      <div className="col-lg-8 col-sm-8 col-xs-8">
+                        <label
+                          for="html"
+                          style={{ fontSize: "15px", marginLeft: "-60px" }}
+                        >
+                          SET (single embryo transfer)
+                        </label>
+                      </div> */}
+                      <p style={{ padding: "5px", marginTop: "10px" }}>
+                      Please upload a portrait style photo of your face for your profile cover photo 
+                      </p>
+                      <input  
+                    type="file"
+                    className="form-control py-4"
+                    style={{ borderRadius: "10px" }}
+                  />
+                    </div>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* ------- */}
+        </Modal.Body>
+
+        <Modal.Footer style={{}}>
+          <Button
+            className="btn btn-primary"
+            // onClick={pregnancies10}
+            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+          >
+            Finish
+          </Button>
+          <Button
+            className="btn btn-primary"
+            onClick={handleClose13}
+            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+          >
+            Close
+          </Button>
+          <Button variant="primary" onClick={back13}>
             back
           </Button>
         </Modal.Footer>
