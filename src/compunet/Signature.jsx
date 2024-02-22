@@ -477,7 +477,7 @@ function Signature() {
 
                     <Button
                         className="btn btn-primary"
-                        onClick={handleClosesig2}
+                        onClick={handleClosesig3}
                         style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}
                     >
                         Close
@@ -612,7 +612,7 @@ function Signature() {
 
                     <Button
                         className="btn btn-primary"
-                        onClick={handleClosesig2}
+                        onClick={handleClosesig4}
                         style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}
                     >
                         Close
@@ -765,7 +765,7 @@ function Signature() {
 
                     <Button
                         className="btn btn-primary"
-                        onClick={handleClosesig2}
+                        onClick={handleClosesig5}
                         style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}
                     >
                         Close
