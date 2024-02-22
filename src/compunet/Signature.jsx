@@ -3,8 +3,10 @@ import { Button, Modal } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import { PostApi } from '../Helper/helper'
 import BaseUrl from '../baseurl/BaseUrl'
+import Spinner from 'react-bootstrap/Spinner';
 
 function Signature() {
+    const [loder, setloader] = useState(false);
 
     const [opinion, setOpinion] = useState(null)
     const [sign, setsign] = useState(null)
@@ -15,6 +17,7 @@ function Signature() {
     const [token] = useState(localStorage.getItem("token"));
 
     const Submit = () => {
+        setloader(true)
         const formData = new FormData();
         formData.append("medical_record", sign);
         formData.append("criminal_background", sign1);
@@ -32,6 +35,7 @@ function Signature() {
 
                 toast(data.data.message);
                 setsigShow5(false)
+                setloader(false)
 
 
                 // statusll("approved")
@@ -740,7 +744,11 @@ function Signature() {
                                 style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}
                             >
 
-                                Next
+{loder !== false? 
+                      <Spinner animation="border"  />:'Finish'  
+                      
+                     }
+
 
 
                             </Button> :
@@ -749,7 +757,7 @@ function Signature() {
                                 // onClick={onSubmit}
                                 style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}
                             >
-                                Next
+                                Finish
                             </Button>
 
                     }
