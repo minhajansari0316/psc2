@@ -3,9 +3,11 @@ import { Button, Modal } from 'react-bootstrap'
 import { PostApi } from '../Helper/helper';
 import { toast } from 'react-toastify';
 import BaseUrl from '../baseurl/BaseUrl';
+import Spinner from 'react-bootstrap/Spinner';
 
 function Aboutyou() {
   const [token] = useState(localStorage.getItem("token"));
+  const [loder, setloader] = useState(false);
 
     const [ab, setab] = useState(null)
     const [ab1, setab1] = useState(null)
@@ -24,6 +26,7 @@ function Aboutyou() {
     const [ab14, setab14] = useState(null)
     const [ab15, setab15] = useState(null)
     const Ab16 = () => {
+        setloader(true)
     const formData = new FormData();
     formData.append("languages_read_write", ab);
     formData.append("personality_character", ab1);
@@ -52,7 +55,7 @@ function Aboutyou() {
             
             toast(data.data.message);
         setabShow18(false)
-
+        setloader(false)
 
         // statusll("approved")
       })
@@ -2575,7 +2578,11 @@ function Aboutyou() {
                                 style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}
                             >
 
-                                Finish
+                                
+{loder !== false? 
+                      <Spinner animation="border"  />:'Finish'  
+                      
+                     }
 
 
                             </Button> :
@@ -2584,7 +2591,7 @@ function Aboutyou() {
                                 // onClick={Submit}
                                 style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}
                             >
-                                Finish
+                               
                             </Button>
 
                     }
