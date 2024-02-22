@@ -1,22 +1,198 @@
 import React from "react";
-// import BaseUrl from "../baseurl/BaseUrl";
-// import { PostApiWithOutToken } from "../Helper/helper";
+import BaseUrl from "../baseurl/BaseUrl";
+import { PostApi } from "../Helper/helper";
 import { useState } from "react";
 import "../Surrogate Application/register.css";
-// import Spinner from "react-bootstrap/Spinner";
-import { ToastContainer } from "react-toastify";
+import { toast,ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import {  useNavigate } from "react-router-dom";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 const SurrogacyJourney = () => {
-  //   const [loder, setloader] = useState(false);
+    const [setloader] = useState(false);
   // const [showA, setShowA] = useState(false);
   // const toggleShowA = () => setShowA(!showA);
-  //   const [, setShowToast] = useState(false);
+    const [, setShowToast] = useState(false);
 
   // console.log('email==============>',email)
   //   const navigate = new useNavigate();
+
+  const [value1, setValue1] = useState("");
+  const [value2, setValue2] = useState("");
+  const [value3, setValue3] = useState("");
+  const [value4, setValue4] = useState("");
+  const [value5, setValue5] = useState("");
+  const [file, Setfile] = useState("");
+  console.log(file,"----->file");
+  console.log(value5,"-----> textaera");
+
+
+  const [selectedOption1, setSelectedOption1] = useState("");
+  const [selectedOption2, setSelectedOption2] = useState("");
+  const [selectedOption3, setSelectedOption3] = useState("");
+  const [selectedOption4, setSelectedOption4] = useState("");
+  const [selectedOption5, setSelectedOption5] = useState("");
+  const [selectedOption6, setSelectedOption6] = useState("");
+  const [selectedOption7, setSelectedOption7] = useState("");
+  const [selectedOption8, setSelectedOption8] = useState("");
+  const [selectedOption9, setSelectedOption9] = useState("");
+  const [selectedOption10, setSelectedOption10] = useState("");
+  const [selectedOption11, setSelectedOption11] = useState("");
+  const [selectedOption12, setSelectedOption12] = useState("");
+  const [selectedOption13, setSelectedOption13] = useState("");
+  const [selectedOption14, setSelectedOption14] = useState("");
+  const [selectedOption15, setSelectedOption15] = useState("");
+  const [selectedOption16, setSelectedOption16] = useState("");
+  const [selectedOption17, setSelectedOption17] = useState("");
+  const [selectedOption18, setSelectedOption18] = useState("");
+  const [selectedOption19, setSelectedOption19] = useState("");
+  const [selectedOption20, setSelectedOption20] = useState("");
+
+  const [check1, Setchek1] = useState([]);
+  const [check2, Setchek2] = useState([]);
+
+
+
+
+
+  const onSubmit = () => {
+    setloader(true);
+    // setShow2(false);
+    // console.log("packageId,", packageId, token1.id);
+    const formData = new FormData();
+    formData.append("great_candidate", value1);
+    formData.append("surrogacy_journey", value2);
+    formData.append("injections_ivf_doctor", selectedOption1);
+    formData.append("applicable_tattoos_piercings", selectedOption2);
+    formData.append("cosmetic_procedures", selectedOption3);
+    formData.append("alcohol_drugs_smoking", selectedOption4);
+    formData.append("drug_alcohol_nicotine", selectedOption5);
+    formData.append("ivf_clinic_journey", selectedOption6);
+    formData.append("scheduling_appointment_journey", selectedOption7);
+    formData.append("poor_communication_surrogate", selectedOption8);
+    formData.append("embryos_transferred", selectedOption9);
+    formData.append("splits_into_identical_twins", selectedOption10);
+    formData.append("babies_willing_carry", selectedOption11);
+    formData.append("triplets_to_twins_for_medical_reasons", selectedOption12);
+    formData.append("twins_singleton_for_medical_reasons", selectedOption13);
+    formData.append("life_is_at_risk", selectedOption14);
+    formData.append("baby_will_not_survive", selectedOption15);
+    formData.append("medical_reason_abnormality", selectedOption16);
+    formData.append("diagnosed_down_syndrome", selectedOption17);
+    formData.append("kind_of_relationship", value3);
+    formData.append("delivery_room_with_you", selectedOption18);
+    formData.append("long_distance_ivf_treatment", check1);
+    formData.append("advised_medical_professional", check2);
+    formData.append("pumping_expressing_breast_milk", value4);
+    formData.append("little_personal_note", selectedOption19);
+    formData.append("intended_parent_baby[0]", selectedOption20);
+    formData.append("intended_parent_willing[0]", value5);
+    formData.append("files[]", file);
+ 
+     const token=localStorage.getItem("token")
+
+    PostApi(`${BaseUrl.baseUrl}surrogate/surrogacy/journey`, formData, token)
+      .then((data) => {
+        console.log("data=====", data.data.message);
+        setloader(false);
+
+        setShowToast(true);
+        toast(data.data.message);
+        console.log(data.data.message);
+        // show13(false);
+
+        // statusll("approved")
+      })
+
+      .catch((err) => {
+        console.log("errr", err);
+        setloader(false);
+         setTimeout(() => {
+          toast(err.message);
+         }, 5000);
+      });
+
+    // fetch(`${BaseUrl.baseUrl}user/subscriptions`, {
+    //   method: 'POST',
+    //   body: JSON.stringify(token),
+    // }).then(response => {
+    //   response.json().then(data => {
+    //     alert(`We are in business, ${data.email}`);
+    //   });
+    // });
+  };
+
+  console.log(check1);
+
+  const handleCheckboxChange = (event) => {
+    const { value, checked } = event.target;
+
+    // If checkbox is checked, add value to array; otherwise, remove it
+    if (checked) {
+      Setchek1((prevState) => [...prevState, value]);
+    } else {
+      Setchek1((prevState) => prevState.filter((item) => item !== value));
+    }
+  };
+
+  const handleCheckboxChange2 = (event) => {
+    const { value, checked } = event.target;
+
+    // If checkbox is checked, add value to array; otherwise, remove it
+    if (checked) {
+      Setchek2((prevState) => [...prevState, value]);
+    } else {
+      Setchek2((prevState) => prevState.filter((item) => item !== value));
+    }
+  };
+
+  console.log(check2);
+
+  console.log(
+    selectedOption1,
+    selectedOption2,
+    selectedOption3,
+    selectedOption4,
+    selectedOption5,
+    value1,
+    value2,
+    selectedOption6,
+    selectedOption7,
+    selectedOption8,
+    selectedOption9,
+    selectedOption10,
+    selectedOption11,
+    selectedOption12,
+    selectedOption13,
+    selectedOption14,
+    selectedOption15,
+    selectedOption16,
+    selectedOption17,
+    "---->"
+  );
+
+  const isButtonDisabled1 = !value1 || !value2;
+  const isButtonDisabled2 = !selectedOption1;
+  const isButtonDisabled3 =
+    !selectedOption2 ||
+    !selectedOption3 ||
+    !selectedOption4 ||
+    !selectedOption5;
+  const isButtonDisabled4 =
+    !selectedOption6 || !selectedOption7 || !selectedOption8;
+  const isButtonDisabled5 =
+    !selectedOption9 || !selectedOption10 || !selectedOption11;
+
+  const isButtonDisabled6 =
+    !selectedOption12 ||
+    !selectedOption13 ||
+    !selectedOption14 ||
+    !selectedOption15 ||
+    !selectedOption16 ||
+    !selectedOption17;
+
+  const isButtonDisabled7 = !value3 || !selectedOption18 || !check1 || !check2;
+  const isButtonDisabled8 = !value4 || !selectedOption19 || !selectedOption20;
 
   const [show4, setShow4] = useState(false);
   const handleClose4 = () => setShow4(false);
@@ -336,8 +512,10 @@ const SurrogacyJourney = () => {
 
                   <input
                     type="text"
-                    className="form-control "
+                    className="form-control"
                     style={{ padding: "18px", borderRadius: "10px" }}
+                    onChange={(e) => setValue1(e.target.value)}
+                    value={value1}
                   />
 
                   <p style={{ padding: "5px", marginTop: "10px" }}>
@@ -351,6 +529,8 @@ const SurrogacyJourney = () => {
                     type="text"
                     className="form-control "
                     style={{ padding: "18px", borderRadius: "10px" }}
+                    onChange={(e) => setValue2(e.target.value)}
+                    value={value2}
                   />
                 </p>
               </div>
@@ -364,6 +544,7 @@ const SurrogacyJourney = () => {
           <Button
             className="btn btn-primary"
             onClick={pregnancies3}
+            disabled={isButtonDisabled1}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Let’s go!
@@ -466,11 +647,24 @@ const SurrogacyJourney = () => {
 
                   <div className="d-flex">
                     <div className="d-flex item-center">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same1"
+                        value="Yes"
+                        checked={selectedOption1 === "Yes"}
+                        onChange={(e) => setSelectedOption1(e.target.value)}
+                      />
+
                       <label className="mt-2 ml-2">Yes</label>
                     </div>
                     <div className="d-flex ml-5">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same1"
+                        value="No"
+                        checked={selectedOption1 === "No"}
+                        onChange={(e) => setSelectedOption1(e.target.value)}
+                      />
                       <label className="ml-3 mt-2">No</label>
                     </div>
                   </div>
@@ -486,6 +680,7 @@ const SurrogacyJourney = () => {
           <Button
             className="btn btn-primary"
             onClick={pregnancies4}
+            disabled={isButtonDisabled2}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Let’s go!
@@ -576,11 +771,24 @@ const SurrogacyJourney = () => {
 
                   <div className="d-flex">
                     <div className="d-flex item-center">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same2"
+                        value="Yes"
+                        checked={selectedOption2 === "Yes"}
+                        onChange={(e) => setSelectedOption2(e.target.value)}
+                      />
+
                       <label className="mt-2 ml-2">Yes</label>
                     </div>
                     <div className="d-flex ml-5">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same2"
+                        value="No"
+                        checked={selectedOption2 === "No"}
+                        onChange={(e) => setSelectedOption2(e.target.value)}
+                      />
                       <label className="ml-3 mt-2">No</label>
                     </div>
                   </div>
@@ -594,11 +802,23 @@ const SurrogacyJourney = () => {
                   </p>
                   <div className="d-flex">
                     <div className="d-flex item-center">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same3"
+                        value="Yes"
+                        checked={selectedOption3 === "Yes"}
+                        onChange={(e) => setSelectedOption3(e.target.value)}
+                      />
                       <label className="mt-2 ml-2">Yes</label>
                     </div>
                     <div className="d-flex ml-5">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same3"
+                        value="No"
+                        checked={selectedOption3 === "No"}
+                        onChange={(e) => setSelectedOption3(e.target.value)}
+                      />
                       <label className="ml-3 mt-2">No</label>
                     </div>
                   </div>
@@ -611,11 +831,23 @@ const SurrogacyJourney = () => {
                   </p>
                   <div className="d-flex">
                     <div className="d-flex item-center">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same4"
+                        value="Yes"
+                        checked={selectedOption4 === "Yes"}
+                        onChange={(e) => setSelectedOption4(e.target.value)}
+                      />
                       <label className="mt-2 ml-2">Yes</label>
                     </div>
                     <div className="d-flex ml-5">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same4"
+                        value="No"
+                        checked={selectedOption4 === "No"}
+                        onChange={(e) => setSelectedOption4(e.target.value)}
+                      />
                       <label className="ml-3 mt-2">No</label>
                     </div>
                   </div>
@@ -627,11 +859,23 @@ const SurrogacyJourney = () => {
                   </p>
                   <div className="d-flex">
                     <div className="d-flex item-center">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same5"
+                        value="Yes"
+                        checked={selectedOption5 === "Yes"}
+                        onChange={(e) => setSelectedOption5(e.target.value)}
+                      />
                       <label className="mt-2 ml-2">Yes</label>
                     </div>
                     <div className="d-flex ml-5">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same5"
+                        value="No"
+                        checked={selectedOption5 === "No"}
+                        onChange={(e) => setSelectedOption5(e.target.value)}
+                      />
                       <label className="ml-3 mt-2">No</label>
                     </div>
                   </div>
@@ -647,6 +891,7 @@ const SurrogacyJourney = () => {
           <Button
             className="btn btn-primary"
             onClick={pregnancies5}
+            disabled={isButtonDisabled3}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Let’s go!
@@ -749,11 +994,23 @@ const SurrogacyJourney = () => {
                   </p>
                   <div className="d-flex">
                     <div className="d-flex item-center">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same6"
+                        value="Yes"
+                        checked={selectedOption6 === "Yes"}
+                        onChange={(e) => setSelectedOption6(e.target.value)}
+                      />
                       <label className="mt-2 ml-2">Yes</label>
                     </div>
                     <div className="d-flex ml-5">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same6"
+                        value="No"
+                        checked={selectedOption6 === "No"}
+                        onChange={(e) => setSelectedOption6(e.target.value)}
+                      />
                       <label className="ml-3 mt-2">No</label>
                     </div>
                   </div>
@@ -766,11 +1023,23 @@ const SurrogacyJourney = () => {
                   </p>
                   <div className="d-flex">
                     <div className="d-flex item-center">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same7"
+                        value="Yes"
+                        checked={selectedOption7 === "Yes"}
+                        onChange={(e) => setSelectedOption7(e.target.value)}
+                      />
                       <label className="mt-2 ml-2">Yes</label>
                     </div>
                     <div className="d-flex ml-5">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same7"
+                        value="No"
+                        checked={selectedOption7 === "No"}
+                        onChange={(e) => setSelectedOption7(e.target.value)}
+                      />
                       <label className="ml-3 mt-2">No</label>
                     </div>
                   </div>
@@ -783,11 +1052,23 @@ const SurrogacyJourney = () => {
                   </p>
                   <div className="d-flex">
                     <div className="d-flex item-center">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same8"
+                        value="Yes"
+                        checked={selectedOption8 === "Yes"}
+                        onChange={(e) => setSelectedOption8(e.target.value)}
+                      />
                       <label className="mt-2 ml-2">Yes</label>
                     </div>
                     <div className="d-flex ml-5">
-                      <input type="radio" name="agree" />
+                      <input
+                        type="radio"
+                        name="same8"
+                        value="No"
+                        checked={selectedOption8 === "No"}
+                        onChange={(e) => setSelectedOption8(e.target.value)}
+                      />
                       <label className="ml-3 mt-2">No</label>
                     </div>
                   </div>
@@ -803,6 +1084,7 @@ const SurrogacyJourney = () => {
           <Button
             className="btn btn-primary"
             onClick={pregnancies6}
+            disabled={isButtonDisabled4}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Let’s go!
@@ -912,11 +1194,13 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
-
-                            // style={{marginLeft:'-20px'}}
+                            name="same9"
+                            value="SET (single embryo transfer)"
+                            checked={
+                              selectedOption9 === "SET (single embryo transfer)"
+                            }
+                            onChange={(e) => setSelectedOption9(e.target.value)}
                           />
                         </div>
 
@@ -935,9 +1219,13 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
+                            name="same9"
+                            value="DET (double embryo transfer)"
+                            checked={
+                              selectedOption9 === "DET (double embryo transfer)"
+                            }
+                            onChange={(e) => setSelectedOption9(e.target.value)}
 
                             //   style={{marginLeft:'-20px'}}
                           />
@@ -964,9 +1252,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same10"
+                        value="Yes"
+                        checked={selectedOption10 === "Yes"}
+                        onChange={(e) => setSelectedOption10(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -986,9 +1276,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same10"
+                        value="No"
+                        checked={selectedOption10 === "No"}
+                        onChange={(e) => setSelectedOption10(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1012,9 +1304,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same11"
+                        value="Singleton only"
+                        checked={selectedOption11 === "Singleton only"}
+                        onChange={(e) => setSelectedOption11(e.target.value)}
 
                         // style={{marginLeft:'-20px'}}
                       />
@@ -1035,9 +1329,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same11"
+                        value="Twins"
+                        checked={selectedOption11 === "Twins"}
+                        onChange={(e) => setSelectedOption11(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1057,9 +1353,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same11"
+                        value="Triplets"
+                        checked={selectedOption11 === "Triplets"}
+                        onChange={(e) => setSelectedOption11(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1079,9 +1377,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same11"
+                        value="Quads +"
+                        checked={selectedOption11 === "Quads +"}
+                        onChange={(e) => setSelectedOption11(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1107,6 +1407,7 @@ const SurrogacyJourney = () => {
           <Button
             className="btn btn-primary"
             onClick={pregnancies7}
+            disabled={isButtonDisabled5}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Let’s go!
@@ -1230,9 +1531,13 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
+                            name="same12"
+                            value="Yes"
+                            checked={selectedOption12 === "Yes"}
+                            onChange={(e) =>
+                              setSelectedOption12(e.target.value)
+                            }
 
                             // style={{marginLeft:'-20px'}}
                           />
@@ -1253,9 +1558,13 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
+                            name="same12"
+                            value="No"
+                            checked={selectedOption12 === "No"}
+                            onChange={(e) =>
+                              setSelectedOption12(e.target.value)
+                            }
 
                             //   style={{marginLeft:'-20px'}}
                           />
@@ -1282,9 +1591,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same13"
+                        value="Yes"
+                        checked={selectedOption13 === "Yes"}
+                        onChange={(e) => setSelectedOption13(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1304,9 +1615,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same13"
+                        value="No"
+                        checked={selectedOption14 === "No"}
+                        onChange={(e) => setSelectedOption13(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1330,9 +1643,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same14"
+                        value="Yes"
+                        checked={selectedOption14 === "Yes"}
+                        onChange={(e) => setSelectedOption14(e.target.value)}
 
                         // style={{marginLeft:'-20px'}}
                       />
@@ -1353,9 +1668,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same14"
+                        value="No"
+                        checked={selectedOption14 === "No"}
+                        onChange={(e) => setSelectedOption14(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1379,9 +1696,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same15"
+                        value="Yes"
+                        checked={selectedOption15 === "Yes"}
+                        onChange={(e) => setSelectedOption15(e.target.value)}
 
                         // style={{marginLeft:'-20px'}}
                       />
@@ -1402,9 +1721,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same15"
+                        value="No"
+                        checked={selectedOption15 === "No"}
+                        onChange={(e) => setSelectedOption15(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1428,9 +1749,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same16"
+                        value="Yes"
+                        checked={selectedOption16 === "Yes"}
+                        onChange={(e) => setSelectedOption16(e.target.value)}
 
                         // style={{marginLeft:'-20px'}}
                       />
@@ -1451,9 +1774,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same16"
+                        value="No"
+                        checked={selectedOption16 === "No"}
+                        onChange={(e) => setSelectedOption16(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1477,9 +1802,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="same17"
+                        value="Yes"
+                        checked={selectedOption17 === "Yes"}
+                        onChange={(e) => setSelectedOption17(e.target.value)}
 
                         // style={{marginLeft:'-20px'}}
                       />
@@ -1500,9 +1827,10 @@ const SurrogacyJourney = () => {
                       <input
                         type="radio"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        value="No"
+                        checked={selectedOption17 === "No"}
+                        onChange={(e) => setSelectedOption17(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1528,6 +1856,7 @@ const SurrogacyJourney = () => {
           <Button
             className="btn btn-primary"
             onClick={pregnancies8}
+            disabled={isButtonDisabled6}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Let’s go!
@@ -1617,7 +1946,9 @@ const SurrogacyJourney = () => {
                   <input
                     type="text"
                     className="form-control "
+                    value={value3}
                     style={{ padding: "18px", borderRadius: "10px" }}
+                    onChange={(e) => setValue3(e.target.value)}
                   />
                   <p style={{ padding: "5px", marginTop: "10px" }}>
                     {" "}
@@ -1652,9 +1983,13 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
+                            name="same18"
+                            value="Yes, of course"
+                            checked={selectedOption18 === "Yes, of course"}
+                            onChange={(e) =>
+                              setSelectedOption18(e.target.value)
+                            }
 
                             // style={{marginLeft:'-20px'}}
                           />
@@ -1675,9 +2010,15 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
+                            name="same18"
+                            value="No, I’d prefer not to"
+                            checked={
+                              selectedOption18 === "No, I’d prefer not to"
+                            }
+                            onChange={(e) =>
+                              setSelectedOption18(e.target.value)
+                            }
 
                             //   style={{marginLeft:'-20px'}}
                           />
@@ -1705,9 +2046,13 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
+                        name="check1"
                         className="form-control"
-                        value="Not employed"
+                        value="I'd prefer to keep it professional"
+                        checked={check1.includes(
+                          "I'd prefer to keep it professional"
+                        )}
+                        onChange={handleCheckboxChange}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1727,10 +2072,13 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
+                        name="check2"
                         className="form-control"
-                        value="Not employed"
-
+                        value="I'm open to whatever the intended parent's comfort level is"
+                        checked={check1.includes(
+                          "I'm open to whatever the intended parent's comfort level is"
+                        )}
+                        onChange={handleCheckboxChange}
                         //   style={{marginLeft:'-20px'}}
                       />
                     </div>
@@ -1750,9 +2098,13 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
+                        name="check3"
                         className="form-control"
-                        value="Not employed"
+                        value="I'd love to stay in touch and send updates of our families to each other like on birthdays and holidays"
+                        checked={check1.includes(
+                          "I'd love to stay in touch and send updates of our families to each other like on birthdays and holidays"
+                        )}
+                        onChange={handleCheckboxChange}
 
                         //   style={{marginLeft:'-20px'}}
                       />
@@ -1777,10 +2129,13 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
+                        name="check4"
                         className="form-control"
-                        value="Not employed"
-
+                        value="Couples that already have children"
+                        checked={check2.includes(
+                          "Couples that already have children"
+                        )}
+                        onChange={handleCheckboxChange2}
                         // style={{marginLeft:'-20px'}}
                       />
                     </div>
@@ -1800,9 +2155,13 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="check5"
+                        value="Straight (heterosexual) couples"
+                        checked={check2.includes(
+                          "Straight (heterosexual) couples"
+                        )}
+                        onChange={handleCheckboxChange2}
 
                         // style={{marginLeft:'-20px'}}
                       />
@@ -1823,9 +2182,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="check6"
+                        value="Gay (homosexual) couples"
+                        checked={check2.includes("Gay (homosexual) couples")}
+                        onChange={handleCheckboxChange2}
 
                         // style={{marginLeft:'-20px'}}
                       />
@@ -1846,9 +2207,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="check7"
+                        value="Single male"
+                        checked={check2.includes("Single male")}
+                        onChange={handleCheckboxChange2}
 
                         // style={{marginLeft:'-20px'}}
                       />
@@ -1869,9 +2232,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
+                        name="check8"
+                        value="Single female"
+                        checked={check2.includes("Single female")}
+                        onChange={handleCheckboxChange2}
 
                         // style={{marginLeft:'-20px'}}
                       />
@@ -1892,10 +2257,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
-
+                        name="check9"
+                        value="Single gay male"
+                        checked={check2.includes("Single gay male")}
+                        onChange={handleCheckboxChange2}
                         // style={{marginLeft:'-20px'}}
                       />
                     </div>
@@ -1915,10 +2281,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
-
+                        name="check10"
+                        value="Single gay female"
+                        checked={check2.includes("Single gay female")}
+                        onChange={handleCheckboxChange2}
                         // style={{marginLeft:'-20px'}}
                       />
                     </div>
@@ -1938,10 +2305,11 @@ const SurrogacyJourney = () => {
                       <input
                         type="checkbox"
                         id="Yes – active duty"
-                        name="fav_language"
                         className="form-control"
-                        value="Not employed"
-
+                        name="check11"
+                        value="Transgender IP"
+                        checked={check2.includes("Transgender IP")}
+                        onChange={handleCheckboxChange2}
                         // style={{marginLeft:'-20px'}}
                       />
                     </div>
@@ -1967,6 +2335,7 @@ const SurrogacyJourney = () => {
           <Button
             className="btn btn-primary"
             onClick={pregnancies9}
+            disabled={isButtonDisabled7}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Let’s go!
@@ -2059,6 +2428,8 @@ const SurrogacyJourney = () => {
                     type="text"
                     className="form-control "
                     style={{ padding: "18px", borderRadius: "10px" }}
+                    value={value4}
+                    onChange={(e) => setValue4(e.target.value)}
                   />
 
                   <div className="col-lg-12 col-sm-12 col-xs-12 d-flex justify-content-start">
@@ -2089,10 +2460,13 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
-
+                            name="same19"
+                            value="Yes"
+                            checked={selectedOption19 === "Yes"}
+                            onChange={(e) =>
+                              setSelectedOption19(e.target.value)
+                            }
                             // style={{marginLeft:'-20px'}}
                           />
                         </div>
@@ -2112,9 +2486,13 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
+                            name="same19"
+                            value="Yes"
+                            checked={selectedOption19 === "No"}
+                            onChange={(e) =>
+                              setSelectedOption19(e.target.value)
+                            }
 
                             //   style={{marginLeft:'-20px'}}
                           />
@@ -2138,10 +2516,13 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
-
+                            name="same20"
+                            value="Yes"
+                            checked={selectedOption20 === "yes"}
+                            onChange={(e) =>
+                              setSelectedOption20(e.target.value)
+                            }
                             // style={{marginLeft:'-20px'}}
                           />
                         </div>
@@ -2161,9 +2542,13 @@ const SurrogacyJourney = () => {
                           <input
                             type="radio"
                             id="Yes – active duty"
-                            name="fav_language"
                             className="form-control"
-                            value="Not employed"
+                            name="same20"
+                            value="No"
+                            checked={selectedOption20 === "No"}
+                            onChange={(e) =>
+                              setSelectedOption20(e.target.value)
+                            }
 
                             //   style={{marginLeft:'-20px'}}
                           />
@@ -2192,6 +2577,7 @@ const SurrogacyJourney = () => {
             className="btn btn-primary"
             onClick={pregnancies10}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+            disabled={isButtonDisabled8}
           >
             Let’s go!
           </Button>
@@ -2288,6 +2674,8 @@ const SurrogacyJourney = () => {
                     type="text"
                     className="form-control "
                     style={{ padding: "18px", borderRadius: "10px" }}
+                    value={value5}
+                    onChange={(e)=>setValue5(e.target.value)}
                   />
 
                   <div className="col-lg-12 col-sm-12 col-xs-12 d-flex justify-content-start">
@@ -2310,13 +2698,15 @@ const SurrogacyJourney = () => {
                         </label>
                       </div> */}
                       <p style={{ padding: "5px", marginTop: "10px" }}>
-                      Please upload a portrait style photo of your face for your profile cover photo 
+                        Please upload a portrait style photo of your face for
+                        your profile cover photo
                       </p>
-                      <input  
-                    type="file"
-                    className="form-control py-4"
-                    style={{ borderRadius: "10px" }}
-                  />
+                      <input
+                        type="file"
+                        className="form-control py-4"
+                        style={{ borderRadius: "10px" }}
+                         onChange={(e)=>Setfile(e.target.files[0])}
+                      />
                     </div>
                   </div>
                 </p>
@@ -2332,8 +2722,9 @@ const SurrogacyJourney = () => {
             className="btn btn-primary"
             // onClick={pregnancies10}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+            onClick={onSubmit}
           >
-            Finish
+            Submit
           </Button>
           <Button
             className="btn btn-primary"
