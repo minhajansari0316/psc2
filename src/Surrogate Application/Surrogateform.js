@@ -14,6 +14,8 @@ import Spinner from 'react-bootstrap/Spinner';
 import { useNavigate } from "react-router-dom";
 import Signature from '../compunet/Signature';
 import Aboutyou from '../compunet/Aboutyou';
+import SurrogacyJourney from './SurrogacyJourney'
+import Deliveries from './Deliveries';
 // import About from '../compunet/About';
 
 
@@ -13671,70 +13673,10 @@ const Surrogateform = () => {
                   </div>
                 </div>
               </div>
-              <div className="card" style={{ padding: '20px', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px' }}>
-                <div className="card-body">
-                  <div className='row'>
-                    <div className='col-lg-6'>
-                      <h1 style={{ fontSize: '20px' }}>Deliveries</h1>
-                    </div>
-                    <div className='col-lg-2 d-flex flex-row'>
-                      <img src="/mt-demo/109600/109604/mt-content/uploads/2020/07/list.png" alt="hospital"
-                        style={{ width: '25px' }}
-                      />
-                      <p style={{ marginLeft: '10px' }}>0/2</p>
-                    </div>
-                    <div className='col-lg-2 d-flex flex-row'>
-                      {/* <img src="/mt-demo/109600/109604/mt-content/uploads/2020/07/gears.png"  alt="hospital"
-        style={{width:'20px'}}
-        /> */}
-                      <p style={{ marginLeft: '10px', backgroundColor: '#f1f1f1', borderRadius: '5px' }}>in Progress</p>
-                    </div>
-
-                    <div className='col-lg-2 d-flex flex-row'>
-                      <img src="/mt-demo/109600/109604/mt-content/uploads/2020/07/clock.png" alt="hospital"
-                        style={{
-                          width: '25px', backgroundColor: '#f1f1f1',
-                          borderRadius: '21px',
-                        }}
-                      />
-                      {/* <p style={{marginLeft:'10px', backgroundColor:'#f1f1f1', borderRadius:'5px'}}>in Progress</p> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
+             <Deliveries/>
               
             <Aboutyou />
-              <div className="card" style={{ padding: '20px', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px' }}>
-                <div className="card-body">
-                  <div className='row'>
-                    <div className='col-lg-6'>
-                      <h1 style={{ fontSize: '20px' }}>Surrogacy Journey</h1>
-                    </div>
-                    <div className='col-lg-2 d-flex flex-row'>
-                      <img src="/mt-demo/109600/109604/mt-content/uploads/2020/07/list.png" alt="hospital"
-                        style={{ width: '25px' }}
-                      />
-                      <p style={{ marginLeft: '10px' }}>0/2</p>
-                    </div>
-                    <div className='col-lg-2 d-flex flex-row'>
-                      {/* <img src="/mt-demo/109600/109604/mt-content/uploads/2020/07/gears.png"  alt="hospital"
-        style={{width:'20px'}}
-        /> */}
-                      <p style={{ marginLeft: '10px', backgroundColor: '#f1f1f1', borderRadius: '5px' }}>in Progress</p>
-                    </div>
-
-                    <div className='col-lg-2 d-flex flex-row'>
-                      <img src="/mt-demo/109600/109604/mt-content/uploads/2020/07/clock.png" alt="hospital"
-                        style={{
-                          width: '25px', backgroundColor: '#f1f1f1',
-                          borderRadius: '21px',
-                        }}
-                      />
-                      {/* <p style={{marginLeft:'10px', backgroundColor:'#f1f1f1', borderRadius:'5px'}}>in Progress</p> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <SurrogacyJourney/>
               
               <Signature />
             </div>
