@@ -1744,7 +1744,7 @@ const Surrogateform = () => {
 
           <Button
             className="btn btn-primary"
-            onClick={handleClose5}
+            onClick={handleClose4}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}
           >
             Close
