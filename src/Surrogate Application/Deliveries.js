@@ -1,22 +1,18 @@
 import React from "react";
-// import BaseUrl from "../baseurl/BaseUrl";
+import BaseUrl from "../baseurl/BaseUrl";
 // import { PostApiWithOutToken } from "../Helper/helper";
+import { PostApi } from "../Helper/helper";
+
 import { useState } from "react";
 import "../Surrogate Application/register.css";
 // import Spinner from "react-bootstrap/Spinner";
-import { ToastContainer } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import {  useNavigate } from "react-router-dom";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 const Deliveries = () => {
-  //   const [loder, setloader] = useState(false);
-  // const [showA, setShowA] = useState(false);
-  // const toggleShowA = () => setShowA(!showA);
-  //   const [, setShowToast] = useState(false);
-
-  // console.log('email==============>',email)
-  //   const navigate = new useNavigate();
+  const [loader,setloader] = useState(false);
 
   const [show4, setShow4] = useState(false);
   const handleClose4 = () => setShow4(false);
@@ -28,6 +24,7 @@ const Deliveries = () => {
   const [value5, setValue5] = useState("");
   const [value6, setValue6] = useState("");
   const [value7, setValue7] = useState("");
+
   const [value8, setValue8] = useState("");
   const [value9, setValue9] = useState("");
   const [value10, setValue10] = useState("");
@@ -44,26 +41,82 @@ const Deliveries = () => {
   const [selectedOption6, setSelectedOption6] = useState("");
   const [selectedOption7, setSelectedOption7] = useState("");
 
+  const token = localStorage.getItem("token");
+
+  const spread1 = [value3, value9];
+  const spread2 = [value4, value10];
+  const spread3 = [value6, value12];
+  const spread4 = [value5, value11];
+  const spread5 = [selectedOption, selectedOption4];
+  const spread8 = [selectedOption2, selectedOption5];
+  const spread9 = [selectedOption3, selectedOption6];
+
+  const spread6 = [value7, value13];
+  const spread7 = [value8, value14];
+
+  const onSubmit = () => {
+    setloader(true);
+    // setShow2(false);
+    // console.log("packageId,", packageId, token1.id);
+    const formData = new FormData();
+    formData.append("total_dilveries", value1);
+    formData.append("many_c_sections", value2);
+    ///////Skip 3 one ///////////////
+    formData.append("baby_first_name[0]", spread1);
+    formData.append("baby_dob[0]", spread2);
+    formData.append("baby_weight_ounce[0]", spread3);
+    formData.append("baby_weight_pound[0]", spread4);
+    formData.append("type_of_delivery[0]", spread5);
+    formData.append("weeks_pregnant[0]", spread6);
+    formData.append("singleton_or_twin_pregnancy[0]", spread7);
+    formData.append(
+      "complications_during_this_pregnancy_or_delivery[0]",
+      spread8
+    );
+    formData.append("medications_during_this_pregnancy[0]", spread9);
+    formData.append("surrogacy_pregnancy[0]", selectedOption7);
+
+    PostApi(`${BaseUrl.baseUrl}surrogate/delivery`, formData, token)
+      .then((data) => {
+        console.log("data=====", data.data.message);
+        setloader(false);
+     
+        toast(data.data.message);
+        console.log(data.data.message);
+        setTimeout(() => {
+          handleClose12()
+        }, 2000);
+        // show13(false);
+
+        // statusll("approved")
+      })
+
+      .catch((err) => {
+        console.log("errr", err);
+        setloader(false);
+          toast(err.message);
+      });
+
+    // fetch(`${BaseUrl.baseUrl}user/subscriptions`, {
+    //   method: 'POST',
+    //   body: JSON.stringify(token),
+    // }).then(response => {
+    //   response.json().then(data => {
+    //     alert(`We are in business, ${data.email}`);
+    //   });
+    // });
+  };
+
   const isButtonDisabled = !value1 || !value2;
   const isButtonDisabled2 = !value3 || !value4 || !value5 || !value6;
   const isButtonDisabled3 = !selectedOption || !value7 || !value8;
-  const isButtonDisabled4 = !selectedOption2 || !selectedOption3
-  const isButtonDisabled5 = !value9 || !value10 || !value11 || !value12
-  const isButtonDisabled6 = !selectedOption4 || !value13 || !value14
-  const isButtonDisabled7 = !selectedOption5 || !selectedOption6
-  const isButtonDisabled8 = !selectedOption7
+  const isButtonDisabled4 = !selectedOption2 || !selectedOption3;
+  const isButtonDisabled5 = !value9 || !value10 || !value11 || !value12;
+  const isButtonDisabled6 = !selectedOption4 || !value13 || !value14;
+  const isButtonDisabled7 = !selectedOption5 || !selectedOption6;
+  // const isButtonDisabled8 = !selectedOption7;
 
-
-  
-
-
-
-  console.log(
-    value1,value2, value3,value4,value5,value6,selectedOption,value7,value8,selectedOption2,selectedOption3,value9,value10,value11,value12,selectedOption4,value13,value14,selectedOption5,
-    selectedOption6,
-    selectedOption7,
-    "--------->"
-  );
+ 
 
   //   const back3 = () => {
   //     setShow4(false);
@@ -264,7 +317,7 @@ const Deliveries = () => {
             onClick={pregnancies}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Let’s go!
+            Next
           </Button>
           <Button
             className="btn btn-primary"
@@ -379,23 +432,24 @@ const Deliveries = () => {
         </Modal.Body>
 
         <Modal.Footer style={{}}>
+          <Button variant="primary" onClick={back5}>
+            back
+          </Button>
           <Button
             className="btn btn-primary"
             onClick={pregnancies3}
             disabled={isButtonDisabled}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Let’s go!
+            Next
           </Button>
+
           <Button
             className="btn btn-primary"
             onClick={handleClose5}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Close
-          </Button>
-          <Button variant="primary" onClick={back5}>
-            back
           </Button>
         </Modal.Footer>
       </Modal>
@@ -527,13 +581,16 @@ const Deliveries = () => {
         </Modal.Body>
 
         <Modal.Footer style={{}}>
+          <Button variant="primary" onClick={back6}>
+            back
+          </Button>
           <Button
             className="btn btn-primary"
             onClick={pregnancies4}
             disabled={isButtonDisabled2}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Let’s go!
+            Next
           </Button>
           <Button
             className="btn btn-primary"
@@ -541,9 +598,6 @@ const Deliveries = () => {
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Close
-          </Button>
-          <Button variant="primary" onClick={back6}>
-            back
           </Button>
         </Modal.Footer>
       </Modal>
@@ -704,13 +758,16 @@ const Deliveries = () => {
         </Modal.Body>
 
         <Modal.Footer style={{}}>
+          <Button variant="primary" onClick={back7}>
+            back
+          </Button>
           <Button
             className="btn btn-primary"
             onClick={pregnancies5}
             disabled={isButtonDisabled3}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Let’s go!
+            Next
           </Button>
           <Button
             className="btn btn-primary"
@@ -718,9 +775,6 @@ const Deliveries = () => {
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Close
-          </Button>
-          <Button variant="primary" onClick={back7}>
-            back
           </Button>
         </Modal.Footer>
       </Modal>
@@ -910,13 +964,17 @@ const Deliveries = () => {
         </Modal.Body>
 
         <Modal.Footer style={{}}>
+          <Button variant="primary" onClick={back8}>
+            back
+          </Button>
+
           <Button
             className="btn btn-primary"
             onClick={pregnancies6}
             disabled={isButtonDisabled4}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Let’s go!
+            Next
           </Button>
           <Button
             className="btn btn-primary"
@@ -924,9 +982,6 @@ const Deliveries = () => {
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Close
-          </Button>
-          <Button variant="primary" onClick={back8}>
-            back
           </Button>
         </Modal.Footer>
       </Modal>
@@ -1080,13 +1135,16 @@ const Deliveries = () => {
         </Modal.Body>
 
         <Modal.Footer style={{}}>
+          <Button variant="primary" onClick={back9}>
+            back
+          </Button>
           <Button
             className="btn btn-primary"
             onClick={pregnancies7}
             disabled={isButtonDisabled5}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Let’s go!
+            Next
           </Button>
           <Button
             className="btn btn-primary"
@@ -1094,9 +1152,6 @@ const Deliveries = () => {
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Close
-          </Button>
-          <Button variant="primary" onClick={back9}>
-            back
           </Button>
         </Modal.Footer>
       </Modal>
@@ -1272,13 +1327,16 @@ const Deliveries = () => {
         </Modal.Body>
 
         <Modal.Footer style={{}}>
+          <Button variant="primary" onClick={back10}>
+            back
+          </Button>
           <Button
             className="btn btn-primary"
             onClick={pregnancies8}
             disabled={isButtonDisabled6}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Let’s go!
+            Next
           </Button>
           <Button
             className="btn btn-primary"
@@ -1286,9 +1344,6 @@ const Deliveries = () => {
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Close
-          </Button>
-          <Button variant="primary" onClick={back10}>
-            back
           </Button>
         </Modal.Footer>
       </Modal>
@@ -1479,13 +1534,17 @@ const Deliveries = () => {
         </Modal.Body>
 
         <Modal.Footer style={{}}>
+          <Button variant="primary" onClick={back11}>
+            back
+          </Button>
+
           <Button
             className="btn btn-primary"
             onClick={pregnancies9}
             disabled={isButtonDisabled7}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Let’s go!
+            Next
           </Button>
           <Button
             className="btn btn-primary"
@@ -1493,9 +1552,6 @@ const Deliveries = () => {
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Close
-          </Button>
-          <Button variant="primary" onClick={back11}>
-            back
           </Button>
         </Modal.Footer>
       </Modal>
@@ -1628,13 +1684,17 @@ const Deliveries = () => {
         </Modal.Body>
 
         <Modal.Footer style={{}}>
+          <Button variant="primary" onClick={back12}>
+            back
+          </Button>
           <Button
             className="btn btn-primary"
             // onClick={pregnancies9}
-            disabled={isButtonDisabled8}
+            // disabled={isButtonDisabled8}
+            onClick={onSubmit}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Finish
+            Submit
           </Button>
           <Button
             className="btn btn-primary"
@@ -1642,9 +1702,6 @@ const Deliveries = () => {
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
             Close
-          </Button>
-          <Button variant="primary" onClick={back12}>
-            back
           </Button>
         </Modal.Footer>
       </Modal>

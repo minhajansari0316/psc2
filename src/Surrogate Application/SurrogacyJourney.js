@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 const SurrogacyJourney = () => {
-    const [setloader] = useState(false);
+    const [loader,setloader] = useState(false);
   // const [showA, setShowA] = useState(false);
   // const toggleShowA = () => setShowA(!showA);
     const [, setShowToast] = useState(false);
