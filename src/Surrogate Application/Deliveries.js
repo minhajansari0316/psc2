@@ -12,7 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 const Deliveries = () => {
-  const [loader,setloader] = useState(false);
+  const [loder, setloader] = useState(false);
 
   const [show4, setShow4] = useState(false);
   const handleClose4 = () => setShow4(false);
@@ -1694,7 +1694,10 @@ const Deliveries = () => {
             onClick={onSubmit}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
           >
-            Submit
+              {loder !== false ?
+                  <Spinner animation="border" /> : 'Finish'
+
+                }
           </Button>
           <Button
             className="btn btn-primary"
