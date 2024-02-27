@@ -5,8 +5,9 @@ import { useState } from "react";
 import { PostApi } from "../Helper/helper";
 import BaseUrl from "../baseurl/BaseUrl";
 import { ToastContainer, toast } from "react-toastify";
+import { Spinner } from "react-bootstrap";
 const Parentform = () => {
- const [loader,setloader] =useState("")
+ const [loader,setloader] =useState(false)
  const [, setShowToast] = useState(false);
 
   const [Input1,setInput1]=useState("")
@@ -2054,7 +2055,8 @@ data-bg-position="left top"
                                 }}
                                 onClick={onSubmit}
                               >
-                                Submit
+                                {     loader ? <Spinner animation="border"  /> : "Submit"
+ }
                               </button>
                             </div>
                           </div>
