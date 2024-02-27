@@ -15,9 +15,7 @@ const Parentform = () => {
   const [Input4,setInput4]=useState("")
   const [Input5,setInput5]=useState("")
   const [Input6,setInput6]=useState("")
-  const [Input7,setInput7]=useState("")                    ////////// clanic////////
-
-
+  const [Input7,setInput7]=useState("")   
   const [select1,Setselect1]=useState("")
   const [select2,Setselect2]=useState("")
   const [select3,Setselect3]=useState("")
@@ -26,7 +24,10 @@ const Parentform = () => {
 
   console.log(Input6,select4);
 
+//   const clearinput=()=>{
 
+ 
+// }
   const onSubmit = () => {
     setloader(true);
     // setShow2(false);
@@ -57,6 +58,18 @@ const Parentform = () => {
 
         setShowToast(true);
         toast(data.data.message);
+        setInput1("")
+        setInput2("")
+        setInput3("")
+        setInput4("")
+        setInput5("")
+        setInput6("")
+        setInput7("")
+        Setselect1("")
+        Setselect2("")
+        Setselect3("")
+        Setselect4("")
+        Setselect5("")        
         console.log(data.data.message);
         // show13(false);
 
@@ -1952,7 +1965,7 @@ data-bg-position="left top"
                                 Email: *
                               </label>
                               <input
-                                type="text"
+                                type="email"
                                 value={Input5}
                               onChange={(e)=>setInput5(e.target.value)}
                                 className="form-control"
