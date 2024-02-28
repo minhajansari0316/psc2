@@ -108,10 +108,13 @@ const SurrogacyJourney = () => {
 
       .catch((err) => {
         console.log("errr", err);
+<<<<<<< HEAD
         setloder(false);
          setTimeout(() => {
+=======
+        setloader(false);
+>>>>>>> 81782da5d9bf399b85b90f42418ac20a55ead247
           toast(err.message);
-         }, 5000);
       });
 
     // fetch(`${BaseUrl.baseUrl}user/subscriptions`, {
@@ -322,7 +325,7 @@ const SurrogacyJourney = () => {
     <>
       <ToastContainer
         position="top-right"
-        autoClose={50}
+        autoClose={4000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
