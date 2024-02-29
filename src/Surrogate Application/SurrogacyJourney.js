@@ -108,14 +108,10 @@ const SurrogacyJourney = () => {
 
       .catch((err) => {
         console.log("errr", err);
-<<<<<<< HEAD
         setloder(false);
-         setTimeout(() => {
-=======
-        setloader(false);
->>>>>>> 81782da5d9bf399b85b90f42418ac20a55ead247
           toast(err.message);
       });
+
 
     // fetch(`${BaseUrl.baseUrl}user/subscriptions`, {
     //   method: 'POST',
@@ -1628,7 +1624,7 @@ const SurrogacyJourney = () => {
                         className="form-control"
                         name="same13"
                         value="No"
-                        checked={selectedOption14 === "No"}
+                        checked={selectedOption13 === "No"}
                         onChange={(e) => setSelectedOption13(e.target.value)}
 
                         //   style={{marginLeft:'-20px'}}
