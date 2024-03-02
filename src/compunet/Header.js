@@ -1,7 +1,42 @@
-import React from 'react'
+import {useState} from 'react'
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+  const [show, setshow]= useState(false)
+
+  const drop1  =()=>{
+    setshow(!show);
+
+
+
+
+
+  }
+  const [show1, setshow1]= useState(false)
+
+  const  drop2 =()=>{
+    setshow1(!show1);
+
+
+
+
+
+  }
+  const [show3, setshow3]= useState(false)
+
+  const  drop3 =()=>{
+    setshow3(!show3);
+
+
+
+
+
+  }
   return (
     <>
     <header
@@ -251,9 +286,257 @@ const Header = () => {
                   data-preset="default"
                   data-widget="menu"
                 >
-                  <a href="/" className="moto-widget-menu-toggle-btn">
-                    <i className="moto-widget-menu-toggle-btn-icon fa fa-bars" />
-                  </a>
+                  <Link to="" className="moto-widget-menu-toggle-btn" onClick={toggleMobileMenu} >
+                    <i className=" moto-widget-menu-toggle-btn-icon fa fa-bars" />
+                  </Link>
+                  <div className="moto-widget moto-widget-menu moto-preset-default moto-align-center moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto moto-widget-menu-mobile-open">
+        {/* <button className="mobile-menu-toggle" onClick={toggleMobileMenu}>
+          Toggle Menu
+        </button> */}
+        {isMobileMenuOpen &&  (
+         <ul className="moto-widget-menu-list moto-widget-menu-list_horizontal">
+         <li className="moto-widget-menu-item">
+           <Link to="/"
+             // href="about-us/index.html"
+             data-action="page"
+             className="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"
+           >
+           Home
+           </Link>
+         </li>
+         <li className="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+         <Link to="/become-a-surrogate"
+             href="#"
+             data-action="url"
+             className="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu moto-link"
+           >
+              Become a Surrogate
+             <span className="fa moto-widget-menu-link-arrow" onClick={drop1} />
+             </Link>
+             {show &&  (
+           <ul className="moto-widget-menu-sublist" >
+             {/* <li className="moto-widget-menu-item">
+               <Link to="/become-a-surrogate"
+                 // href="gallery/index.html"
+                 data-action="page"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                 Become a Surrogate
+               </Link>
+             </li> */}
+             <li className="moto-widget-menu-item">
+               <Link to="/requirements-to-become-a-surrogate"
+                 // href="departments/index.html"
+                 data-action="page"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                Requirements
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/steps-to-being-a-surrogate"
+                 // href="blog/index.html"
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                Steps to Surrogacy
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/compensation"
+                 // href="blog/index.html"
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                Compensation
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/faq"
+                 // href="blog/index.html"
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                Surrogate FAQ
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/surrogacy-by-state"
+                 // href="blog/index.html"
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+               Surrogacy Law By State
+               </Link>
+             </li>
+           </ul>
+             )}
+         </li>
+
+         <li className="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+         <Link to="/become-a-parent"
+             // href="#"
+             data-action="url"
+             className="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu moto-link"
+           >
+              Become a Parent
+             <span className="fa moto-widget-menu-link-arrow"  onClick={drop2}/>
+             </Link>
+             {show1 &&  (
+           <ul className="moto-widget-menu-sublist">
+             {/* <li className="moto-widget-menu-item">
+               <Link to="/become-a-surrogate"
+                 // href="gallery/index.html"
+                 data-action="page"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                 Become a Surrogate
+               </Link>
+             </li> */}
+             <li className="moto-widget-menu-item">
+               <Link to="/steps-to-parenthood"
+                 // href="departments/index.html"
+                 data-action="page"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                Steps to Parenthood
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/our-surrogates"
+                 // href="blog/index.html"
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                Our Surrogates
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/agency-fees"
+                
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                Surrogate Costs
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/become-parent-international-form"
+                 
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                International Parents
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/lgbt-surrogac"
+                 // href="blog/index.html"
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+               LGBTQ+ Parents
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/ip-faq"
+                 // href="blog/index.html"
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+               IP FAQ
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/surrogacy-by-state"
+                 // href="blog/index.html"
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+               Surrogacy Law By State
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/single-parents"
+                 // href="blog/index.html"
+                 data-action="blog.index"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+               Single Parents
+               </Link>
+             </li>
+           </ul>
+             )}
+         </li>
+         <li className="moto-widget-menu-item">
+           <Link to="/about"
+             // href="our-team/index.html"
+             data-action="page"
+             className="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"
+           >
+             About Us
+           </Link>
+         </li>
+         {/* <li className="moto-widget-menu-item">
+           <Link to="/apply"
+             // href="services/index.html"
+             data-action="page"
+             className="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"
+           >
+             Apply
+           </Link>
+         </li> */}
+         <li className="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+         <Link to="/apply"
+             // href="#"
+             data-action="url"
+             className="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu moto-link"
+           >
+              Apply
+             <span className="fa moto-widget-menu-link-arrow" onClick={drop3}/>
+             </Link>
+             {show3 &&  (
+           <ul className="moto-widget-menu-sublist">
+             {/* <li className="moto-widget-menu-item">
+               <Link to="/become-a-surrogate"
+                 // href="gallery/index.html"
+                 data-action="page"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                 Become a Surrogate
+               </Link>
+             </li> */}
+             <li className="moto-widget-menu-item">
+               <Link to="/become-parent-form"
+                 // href="departments/index.html"
+                 data-action="page"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                Intended Parent Application
+               </Link>
+             </li>
+             <li className="moto-widget-menu-item">
+               <Link to="/sign-up"
+                 // href="departments/index.html"
+                 data-action="page"
+                 className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+               >
+                Surrogate Application
+               </Link>
+             </li>
+            
+           </ul>
+)}
+         </li>
+
+
+
+         
+       
+       </ul>
+        )}
+      </div>
+                  
                   <ul className="moto-widget-menu-list moto-widget-menu-list_horizontal">
                     <li className="moto-widget-menu-item">
                       <Link to="/"
@@ -486,54 +769,7 @@ const Header = () => {
 
 
                     
-                    {/* <li className="moto-widget-menu-item">
-                      <a
-                        href="contacts/index.html"
-                        data-action="page"
-                        className="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"
-                      >
-                        CONTACTS
-                      </a>
-                    </li>
-                    <li className="moto-widget-menu-item moto-widget-menu-item-has-submenu">
-                      <a
-                        href="#"
-                        data-action="url"
-                        className="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu moto-link"
-                      >
-                        MORE
-                        <span className="fa moto-widget-menu-link-arrow" />
-                      </a>
-                      <ul className="moto-widget-menu-sublist">
-                        <li className="moto-widget-menu-item">
-                          <a
-                            href="gallery/index.html"
-                            data-action="page"
-                            className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
-                          >
-                            GALLERY
-                          </a>
-                        </li>
-                        <li className="moto-widget-menu-item">
-                          <a
-                            href="departments/index.html"
-                            data-action="page"
-                            className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
-                          >
-                            DEPARTMENTS
-                          </a>
-                        </li>
-                        <li className="moto-widget-menu-item">
-                          <a
-                            href="blog/index.html"
-                            data-action="blog.index"
-                            className="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
-                          >
-                            BLOG
-                          </a>
-                        </li>
-                      </ul>
-                    </li> */}
+                  
                   </ul>
                 </div>
               </div>

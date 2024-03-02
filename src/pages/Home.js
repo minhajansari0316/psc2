@@ -99,10 +99,10 @@ const Home = () => {
                                         WE HAVE A SET OF
                                       </p>
                                       <h1 className="moto-text_system_3">
-                                        SERVICES TO HELP
+                                      YOUR TRUSTED 
                                       </h1>
                                       <p className="moto-text_system_4">
-                                        PREGNANT WOMEN
+                                      SURROGACY AGENCY
                                       </p>
                                     </div>
                                   </div>
@@ -510,7 +510,7 @@ const Home = () => {
                           style={{ textAlign: "center" }}
                           className="moto-text_system_7"
                         >
-                          PREGNANCY IS TOUGH, WE’RE HERE TO HELP!
+                          SURROGACY IS TOUGH, WE’RE HERE TO HELP!
                         </h2>
                       </div>
                     </div>
@@ -1238,14 +1238,14 @@ const Home = () => {
               </div>
             </div>
             <div
-              className="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+              className="moto-widget moto-widget-row row-fixed"
               data-grid-type="sm"
               data-widget="row"
               data-visible-on="-"
-              data-spacing="aaaa"
+              // data-spacing="aaaa"
               style={{
                 backgroundImage:
-                  "url(mt-demo/109600/109604/mt-content/uploads/2020/07/mt-2068_gallery_img08.jpg)",
+                  "url(https://png.pngtree.com/background/20211215/original/pngtree-white-gray-simple-lines-abstract-gradient-background-picture-image_1452585.jpg)",
                 backgroundPosition: "top",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover"
@@ -1262,7 +1262,17 @@ const Home = () => {
                     data-container="container"
                     data-spacing="aaaa"
                     data-bg-position="left top"
-                  ></div>
+                  >
+                    <div className='col-lg-6'style={{marginTop:'200px',}}>
+                    <iframe width="700" style={{boxShadow: 'rgba(17, 12, 46, 0.15) 0px 48px 100px 0px'}}height="450" src="https://www.youtube.com/embed/mrbK1H8GVaI" title="Finding The Best Surrogate For You: A Match Made Easy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                      
+                      </iframe>
+
+                    </div>
+                   
+                   
+                  </div>
+                  
                   <div
                     className="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
                     style={{ backgroundColor: "rgba(248, 248, 248, 0.85)" }}
@@ -1271,6 +1281,7 @@ const Home = () => {
                     data-spacing="aaaa"
                     data-bg-position="left top"
                   >
+                  
                     <div
                       data-widget-id="wid_1595844925_j0gwnduc5"
                       className="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
