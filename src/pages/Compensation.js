@@ -976,7 +976,7 @@ data-preset=""
                                                         </p>
                                                         <p className="moto-text_system_12" style={{fontSize: '17px',wordSpacing: '2px',}}>
                                                         As you are helping create another family, you are also devoting time and energy, as well
-                                                         as engaging in medical and legal processes that all merit surrogate compensation. At International Surrogacy 
+                                                         as engaging in medical and legal processes that all merit surrogate compensation. At Possible Surrogacy 
                                                          Center, we provide gestational surrogate pay to reward you for the incredible journey you’re undertaking. Below 
                                                          is a surrogate compensation breakdown to give you an idea of how this works and how much you may receive.
                                                             <br /><br />

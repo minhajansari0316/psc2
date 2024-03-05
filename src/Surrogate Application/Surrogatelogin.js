@@ -96,7 +96,7 @@ const Surrogatelogin = () => {
             <div className="card card-1">
                 <div className="card-heading" />
                 <div className="card-body">
-                    <h2 className="title">Welcome to the International Surrogacy Center Portal</h2>
+                    <h2 className="title">Welcome to the Possible surrogacy center Portal</h2>
                     
                     <div className='col-lg-12'>
                         <div className='row'>

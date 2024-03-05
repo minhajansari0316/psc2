@@ -1328,7 +1328,7 @@ const Home = () => {
                                 </h2>
                                 <p className="moto-text_normal">&nbsp;</p>
                                 <p className="moto-text_normal" style={{wordSpacing:'2px',fontSize:'17px'}}>
-                                  At International Surrogacy Center (ISC), we work with some of the best clinics and attorneys in the nation, allowing us to provide personal, nurturing, one-on-one support for all our intended parents, surrogates and egg donors. Beyond that, we’re the surrogacy company that stands by your side every step of the way, from finding the perfect match for you to the birth of your new baby.
+                                  At Possible surrogacy center (PSC), we work with some of the best clinics and attorneys in the nation, allowing us to provide personal, nurturing, one-on-one support for all our intended parents, surrogates and egg donors. Beyond that, we’re the surrogacy company that stands by your side every step of the way, from finding the perfect match for you to the birth of your new baby.
 
                                   We put our hearts and souls into helping people bring the beautiful, healthy baby of their dreams into the world. We are in the surrogacy
                                   field because we believe wholeheartedly in helping people achieve the amazing goal of starting or growing their families. Intended parents

@@ -858,7 +858,7 @@ data-preset=""
                                                 <br />
                                                 <p style={{ fontSize: '17PX', marginTop: '10px', fontWeight: 100, wordSpacing: '2PX' }}>
 
-                                                    For many years, International Surrogacy Center has helped LGBTQIA+ people build families
+                                                    For many years, Possible surrogacy center has helped LGBTQIA+ people build families
                                                     through expert surrogacy services. As an LGBTQ+ surrogacy agency, our experience and knowledge
                                                     of the unique factors involved in surrogacy allow us to simplify the process for intended parents.
                                                     We can handle the coordination, planning, and legal considerations for your future family plans.
@@ -979,7 +979,7 @@ data-preset=""
                                                                 <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px', }}>
                                                                     Surrogacy for gay parents, we are here to help you escape the worldly challenges you face and embrace you
                                                                     with acceptance, understanding, and love. Becoming a parent is an overwhelming yet fulfilling process, let
-                                                                    International Surrogacy Center guide you smoothly! We are committed to finding you a Surrogate that you can build
+                                                                    Possible surrogacy center guide you smoothly! We are committed to finding you a Surrogate that you can build
                                                                     a relationship with and trust every step of the way. The match between future parents and their Surrogate is
                                                                     essential for an amazing, unforgettable LGBTQ surrogacy experience.
                                                                     <br /><br />
@@ -1382,7 +1382,7 @@ data-bg-position="left top"
                                             specialize in IVF, egg donation, sperm donation, gay surrogacy laws, and more resources
                                             to keep you well-informed every step of your family building journey.
 
-                                            International Surrogacy Center wants you as Parents to feel involved with all areas
+                                            Possible surrogacy center wants you as Parents to feel involved with all areas
                                             of the pregnancy. If you are unable to attend appointments or keep in contact with your
                                             Surrogate, we will make sure you are informed with key information and photo updates
                                             through emails. We know that this is a major event in your life and is of course dear
@@ -1404,7 +1404,7 @@ data-bg-position="left top"
                                             is a growing industry, laws can vary significantly from location to location. As an LGBTQIA+ couple, you deserve to have
                                             the most updated information about the laws for surrogacy in your area.
 
-                                            At International Surrogacy Center, we provide access to expert legal representation for intended
+                                            At Possible surrogacy center, we provide access to expert legal representation for intended
                                             parents and surrogates. The legal experts we work with have experience advocating for LGBTQIA+ individuals and couples.
                                             We can help you understand what to expect throughout the process.
                                             <br />    <br />
@@ -1419,7 +1419,7 @@ data-bg-position="left top"
                                                 <li style={{ marginTop: '20px' }}>Transparent information about what you can expect at each stage of the process</li>
                                                 <li style={{ marginTop: '10px' }}>Excellent support for surrogates and intended parents</li>
                                             </ul>
-                                            At International Surrogacy Center, we provide services that meet the needs of our intended parents and surrogates.
+                                            At Possible surrogacy center, we provide services that meet the needs of our intended parents and surrogates.
                                             Our surrogacy program makes matching with a qualified, like-minded surrogate that much easier.
 
                                             Get started on your journey to parenthood today and send us an inquiry for more information about your options for gay or lesbian surrogacy.

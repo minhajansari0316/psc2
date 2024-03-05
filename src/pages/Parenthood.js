@@ -977,7 +977,7 @@ style={{ backgroundPosition: "left top" }}
                                                                     <br />
                                                                 </p>
                                                                 <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px', }}>
-                                                                    After researching various agencies, you chose to work with International Surrogacy Center (ISC),
+                                                                    After researching various agencies, you chose to work with Possible surrogacy center (PSC),
                                                                     filled out the form and recently learned that ISC has chosen to work with you as well. Now what?
                                                                     This page details what happens after you’ve been accepted into our incredible surrogacy program.
                                                                     <br /><br />
@@ -1355,16 +1355,16 @@ data-draggable-disabled=""
                                             After you are matched with a surrogate, you must establish a client account through your
                                             attorney or an escrow account in the United States. We will suggest an escrow company that
                                             we work with frequently or you can speak with your attorney regarding the holding of your funds.
-                                            This escrow account/client account covers the International Surrogacy Center fee, surrogacy compensations
+                                            This escrow account/client account covers the Possible surrogacy center fee, surrogacy compensations
                                             and any other expenses.
 
                                             Establishing an escrow/client account in the U.S.
                                             is more convenient and less costly than paying expenses by transferring and
-                                            converting currency each time. A priority of the International Surrogacy Center is to simplify the process for
+                                            converting currency each time. A priority of the Possible surrogacy center is to simplify the process for
                                             both parties and make the experience as pleasant as possible.
 
                                             <br />  <br />
-                                            <b style={{ fontSize: '20px' }}>5. THE ROLE OF INTERNATIONAL SURROGACY CENTER</b>
+                                            <b style={{ fontSize: '20px' }}>5. THE ROLE OF Possible surrogacy center</b>
                                             <br />  <br />
 
                                             ISC notifies all the professional parties involved that your journey is ready to begin.

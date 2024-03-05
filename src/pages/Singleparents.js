@@ -978,7 +978,7 @@ style={{ backgroundPosition: "left top" }}
                                                                     These days, you don’t have to wait until you find a long-term partner to have the experience of parenthood.
                                                                     Many people decide that they want to become parents without having to get married or go through the personal
                                                                     experience of pregnancy. Surrogacy for single parents can be a great choice for single mothers and single
-                                                                    fathers who want the excitement and joy of parenthood. At International Surrogacy Center, we can walk you
+                                                                    fathers who want the excitement and joy of parenthood. At Possible surrogacy center, we can walk you
                                                                     through the process and help you determine if surrogacy for singles is right for you.
                                                                     <br /><br />
 
@@ -1341,13 +1341,13 @@ data-draggable-disabled=""
 
                                             Working with surrogates outside of the country can add more complication to the process. Surrogates who live
                                              in locations that stigmatize single parenthood may make it more difficult for single intended parents to
-                                              establish parental rights over the child. At International Surrogacy Center, we work with experienced legal
+                                              establish parental rights over the child. At Possible surrogacy center, we work with experienced legal
                                                experts who can help you become a single parent through the surrogacy process.
                                             <br />  <br />
-                                            <b style={{ fontSize: '20px' }}> INTERNATIONAL SURROGACY CENTER HELPS SINGLE PARENTS</b>
+                                            <b style={{ fontSize: '20px' }}> Possible surrogacy center HELPS SINGLE PARENTS</b>
                                             <br />  <br />
 
-                                            At International Surrogacy Center, we have years of experience helping single people become parents.
+                                            At Possible surrogacy center, we have years of experience helping single people become parents.
                                              Our surrogacy for single parents service allows you to achieve your dream with an agency that cares about your success
                                               and provides great support to you and your surrogate. 
                                             To learn more about our services or to start on the road to become a parent, contact us today!

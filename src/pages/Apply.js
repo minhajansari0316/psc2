@@ -1795,7 +1795,7 @@ data-bg-position="left top"
                                                         <br />
                                                         <p style={{ fontSize: '17PX', marginTop: '10px', fontWeight: 100, wordSpacing: '2PX' }}>
 
-                                                        The road to parenthood is sometimes rocky and difficult. At International Surrogacy Center (ISC), we don’t consider ourselves a 
+                                                        The road to parenthood is sometimes rocky and difficult. At Possible surrogacy center (PSC), we don’t consider ourselves a 
                                                         “surrogate mother agency,” as the mother is the one who welcomes the child home. Instead, a better term would be “surrogate agency” 
                                                         or “surrogate parent company.” Our international surrogacy programs are backed by years spent helping people become parents through 
                                                         the road less traveled. 

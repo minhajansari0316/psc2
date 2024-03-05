@@ -1422,7 +1422,7 @@ data-bg-position="left top"
                                                                 aria-multiline="true"
                                                             >
                                                                 <h1 className="moto-text_system_7">
-                                                                    BECOMING A PARENT SURROGACY
+                                                                    
                                                                 </h1>
                                                                 <p className="moto-text_system_12">
                                                                     <br />
@@ -1432,7 +1432,7 @@ data-bg-position="left top"
                                                                 </p>
                                                                 <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px' }}>
                                                                     If you’re looking for an extraordinary surrogacy agency in California that also provides services nationwide, you’ve
-                                                                    come to the right place. Becoming parents through surrogacy is an overwhelming decision and process, let International
+                                                                    come to the right place. Becoming parents through surrogacy is an overwhelming decision and process, let Possible
                                                                     Surrogacy Center minimize your worries. We are committed to finding a Surrogate that you can build a relationship
                                                                     with and trust every step of the way. The match between future parents and their Surrogate is essential for a joyous experience.
                                                                 </p>
@@ -1810,7 +1810,7 @@ data-bg-position="left top"
                                                         <br />
                                                         <b style={{ fontSize: '15px' }}>2. INTERVIEW WITH OUR AGENCY(S)</b>
                                                         <p style={{ fontSize: '17PX', marginTop: '10px' }}>
-                                                            Once we receive and have reviewed your complete application, International Surrogacy Center (ISC) schedules your interview with our agency.
+                                                            Once we receive and have reviewed your complete application, Possible surrogacy center (PSC) schedules your interview with our agency.
                                                             Meeting our surrogates before we present their profiles to the intended parents (IPs) is very important to us.
                                                             At this interview, we go over the entire surrogate pregnancy process as well as the compensation package and
                                                             answer any questions that you have.
@@ -1885,7 +1885,7 @@ data-bg-position="left top"
 
                                                             Within approximately the next 2 weeks after the embryo transfer, you will be scheduled for a pregnancy blood test at the fertility clinic. If the blood test result is positive, you will undergo another blood test within a week to make sure that the hormone levels are increasing. If the levels are increasing appropriately, the IVF clinic schedules your first ultrasound appointment to confirm that the baby has a heartbeat and to determine how many embryos were successfully transferred. Continuing to take your medication once confirmed pregnant is very important. After the heartbeat ultrasound is confirmed, you will receive the first base compensation on the first day of the following month.
 
-                                                            Within 10 – 12 weeks following the embryo transfer, the IVF doctor releases you to your personal OB/GYN for prenatal care. International Surrogacy Center is very involved during the entire journey and the surrogate keeps her case manager as well as the intended parent(s) (IPs) updated throughout the pregnancy by providing appointment dates and anything else that is considered important information.
+                                                            Within 10 – 12 weeks following the embryo transfer, the IVF doctor releases you to your personal OB/GYN for prenatal care. Possible surrogacy center is very involved during the entire journey and the surrogate keeps her case manager as well as the intended parent(s) (IPs) updated throughout the pregnancy by providing appointment dates and anything else that is considered important information.
 
                                                             The IPs may wish to be present during childbirth. If the surrogate requires a Cesarean section, the doctor usually allows only one support person to be present during the surgery. If a Cesarean is required, the surrogate tells us whom she prefers to be in the room with her. Normally having the intended mother or father in the room is not a problem, but in case of complications, the surrogate may want her own support person in the room with her. Most surrogates say the best parts of the surrogacy process are the delivery and being able to see the ecstatic parents hold their precious baby for the first time.
 

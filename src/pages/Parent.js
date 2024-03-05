@@ -1434,7 +1434,7 @@ const Parent = () => {
                                                                 </p>
                                                                 <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px' }}>
                                                                 If you’re looking for an extraordinary surrogacy agency in California that also provides services nationwide, you’ve 
-                                                                come to the right place. Becoming parents through surrogacy is an overwhelming decision and process, let International
+                                                                come to the right place. Becoming parents through surrogacy is an overwhelming decision and process, let Possible
                                                                  Surrogacy Center minimize your worries. We are committed to finding a Surrogate that you can build a relationship
                                                                  with and trust every step of the way. The match between future parents and their Surrogate is essential for a joyous experience.
                                                                 </p>

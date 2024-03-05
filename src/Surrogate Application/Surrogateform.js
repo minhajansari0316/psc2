@@ -5778,7 +5778,7 @@ const Surrogateform = () => {
           </Button>
           <Button
             className="btn btn-primary"
-            onClick={eback1}
+            onClick={handleCloseh1}
             style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}
           >
             Close

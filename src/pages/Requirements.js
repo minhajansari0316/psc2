@@ -858,7 +858,7 @@ data-preset=""
                                                 <p style={{ fontSize: '17PX', marginTop: '10px', fontWeight: 100, wordSpacing: '2PX' }}>
 
                                                 Carrying a child for another family is an incredible gift — and a big responsibility. We deeply understand this at
-                                                 International Surrogacy Center, where over half our staff have been surrogates themselves. It’s why we have established 
+                                                 Possible surrogacy center, where over half our staff have been surrogates themselves. It’s why we have established 
                                                  specific requirements to become a surrogate. Some of the qualifications to become a surrogate are easy to measure; others
                                                   are less straightforward. The criteria to be a surrogate includes, for example, the requirement to devote time, energy and 
                                                   exceptional levels of commitment to the experience.

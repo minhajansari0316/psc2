@@ -859,8 +859,8 @@ style={{ height: 0 }}
                                                 <p style={{ fontSize: '17PX', marginTop: '10px', fontWeight: 100, wordSpacing: '2PX' }}>
 
                                                     The United States is a desirable destination for international intended parents because surrogacy here is widely accepted,
-                                                    legal in most states and medically safe. And International
-                                                    Surrogacy Center (ISC) is the perfect U.S. agency to help you achieve your dream of starting or expanding your family.
+                                                    legal in most states and medically safe. And Possible
+                                                    Surrogacy Center (PSC) is the perfect U.S. agency to help you achieve your dream of starting or expanding your family.
                                                     <br />  <br />
 
                                                 </p>
@@ -1366,7 +1366,7 @@ guided so far
                                             We understand that going through surrogacy in a foreign country comes with major emotional and financial sacrifices. 
                                             However, we believe that working with our agency offers you the best path to your goal. We welcome straight, gay,
                                              married, single and anyone else who wishes to become a parent.
-                                            International Surrogacy Center is the best way to realize your dreams. Start your journey to parenthood today!
+                                            Possible surrogacy center is the best way to realize your dreams. Start your journey to parenthood today!
                                             <br />  <br />
                                            
                                             

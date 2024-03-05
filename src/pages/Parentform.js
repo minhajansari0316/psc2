@@ -976,7 +976,7 @@ data-preset=""
                         >
                           If you think you are ready to become a parent, please
                           complete our intended parent application form below to
-                          begin the journey to parenthood. An International
+                          begin the journey to parenthood. An Possible
                           Surrogacy Center team member will reach out shortly
                           with additional information for qualified candidates.
                           <br /> <br />
@@ -1099,8 +1099,8 @@ data-preset=""
                                   parent you would be? About how much love and
                                   support you have to give a child? About how
                                   much you really want to start or grow your
-                                  family? At International Surrogacy Center
-                                  (ISC), we help you understand the surrogacy
+                                  family? At Possible surrogacy center
+                                  (PSC), we help you understand the surrogacy
                                   process so you can make an informed decision.
                                   And when you decide to go ahead, we’re here to
                                   steer you through the exciting journey to

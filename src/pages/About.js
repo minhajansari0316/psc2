@@ -884,7 +884,7 @@ const About = () => {
                                                                         <img src="mt-content/uploads/2020/07/blogging.png"  alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h1 class="card-title">BLOG</h1>
+                                                                        <h3 class="card-title">BLOG</h3>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
     <a href="#" class="card-link">Card link</a>
@@ -901,7 +901,7 @@ const About = () => {
 
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h1 class="card-title">OUR TEAM</h1>
+                                                                        <h3 class="card-title">OUR TEAM</h3>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
     <a href="#" class="card-link">Card link</a>
@@ -920,7 +920,7 @@ const About = () => {
 
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h1 class="card-title">TESTIMONIALS</h1>
+                                                                        <h3 class="card-title">TESTIMONIALS</h3>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
     <a href="#" class="card-link">Card link</a>
@@ -1429,7 +1429,7 @@ const About = () => {
                                                                     <br />
                                                                 </p>
                                                                 <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px' }}>
-                                                                    The International Surrogacy Center (ISC) staff comprises individuals who are caring, sincere and passionate about surrogacy.
+                                                                    The Possible surrogacy center (PSC) staff comprises individuals who are caring, sincere and passionate about surrogacy.
                                                                     Most of our staff members have been surrogates themselves, and our personal experiences enable us to understand this beautiful
                                                                     process in an authentic way.  We have experienced firsthand the joy of seeing the intended parents we helped as they hold their baby in their arms for the first time!
                                                                     We have immense gratitude for the wonderful women who decide to be part of such an incredible journey. We are compassionate and understanding towards
