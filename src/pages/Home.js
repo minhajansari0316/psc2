@@ -1,9 +1,46 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 import Header from '../compunet/Header'
 import Footer from '../compunet/Footer'
 import { Link } from 'react-router-dom'
+import BaseUrl from "../baseurl/BaseUrl";
+// import { PostApiWithOutToken } from "../Helper/helper";
+import { getApiWithToken } from "../Helper/helper";
+
+
 
 const Home = () => {
+  useEffect(() => {
+    
+    window.scrollTo(0, 0);
+  
+    getData(); // Assuming getData is a function defined outside useEffect
+    // getDatas();
+    // statusll("pending")
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const [userData,] = useState(localStorage.getItem("token"));
+  const [datas, setdatas] = useState()
+  const getData = () => {
+    // setLoader(true)
+    getApiWithToken(`${BaseUrl.baseUrl}home`, "", userData)
+      .then(({ data }) => {
+        console.log("minhaj", data?.home);
+        setdatas(data?.home)
+
+        // setfirst_detail(data.home?.first_detail)
+        // setsecond_detail(data.home?.second_detail)
+        // setthird_detail(data.home?.third_detail)
+        // setfour_detail(data.home?.four_detail)
+        // setfifth_detail(data.home?.fifth_detail)
+         
+        
+        // setLoader(false)
+      })
+      .catch((err) => {
+        console.log("err---------", err);
+      });
+  };
   return (
     <>
       <body className="moto-background moto-website_live">
@@ -136,7 +173,7 @@ const Home = () => {
                                           >
                                             <div className="moto-widget-text-content moto-widget-text-editable">
                                               <p className="moto-text_211">
-                                              From initial consultations regarding your options as prospective parents to offering group support sessions and facilitating medical examinations, our support extends throughout the entire process!
+                                              {datas?.first_detail}
                                               </p>
                                             </div>
                                           </div>
@@ -555,7 +592,7 @@ const Home = () => {
                                   className="moto-text_system_12"
                                   style={{ textAlign: "center" }}
                                 >
-                                  During the challenging nine months of pregnancy, we'll stand beside you, supporting you to feel well and maintain balance in your life before the significant day of childbirth arrives!
+                                 {datas?.second_detail}
                                 </p>
                               </div>
                             </div>
@@ -1318,7 +1355,7 @@ const Home = () => {
                                 </h2>
                                 <p className="moto-text_normal">&nbsp;</p>
                                 <p className="moto-text_normal" style={{wordSpacing:'2px',fontSize:'17px'}}>
-                                At Possible Surrogacy Center (PSC), we collaborate with top-tier clinics and attorneys nationwide, enabling us to offer personalized, compassionate support to all intended parents, surrogates, and egg donors. We stand alongside you throughout the entire journey, from finding the ideal match to the birth of your precious baby. Our commitment is to assist individuals in realizing their dream of bringing a healthy, beautiful baby into the world. We are deeply passionate about supporting people in building or expanding their families, which is why more than half of our team members have firsthand experience with IVF. Our personal encounters with the process allow us to empathize with the immense joy intended parents experience upon meeting their newborns. Furthermore, we deeply understand the motivations of surrogate mothers and their decision to participate in the extraordinary surrogacy journey.
+                              {datas?.third_detail}
                                 </p>
                                 <p className="moto-text_normal">&nbsp;</p>
                                 {/* <p className="moto-text_normal">
@@ -1467,30 +1504,7 @@ const Home = () => {
   <div class="card-body"  style={{ padding: '20px',}}>
     <h1 class="card-title">A Transformative Journey for Surrogate Mothers</h1>
     <p class="card-text" style={{fontSize:'16px'}}>
-    <ul>
-        <li style={{paddingBottom:'10px'}}>
-     
-        As your surrogacy agency, we provide you with an unparalleled opportunity to embark on a once-in-a-lifetime journey as you generously help create a family for another individual or couple.
-    </li>
-    <li style={{paddingBottom:'10px'}}>
-    You join an incredible community of women who share similar values and experiences as you go through this heartfelt journey.
-    </li>
-    <li style={{paddingBottom:'10px'}}>
-    The compensation for enabling another couple to realize their dream also enables you to fulfill your own lifelong aspirations.
-</li>
-    <li style={{paddingBottom:'10px'}}>
-    Our compassionate and nurturing support system is with you every step of the way, preparing and guiding you through this profound journey from beginning to end.
-</li>
-    <li style={{paddingBottom:'10px'}}>
-    We exclusively collaborate with surrogacy clinics and IVF clinics that boast a proven track record and numerous positive reviews, ensuring your peace of mind throughout the process.
-</li>
-    <li>
-    Eighty percent of our team members have engaged in our surrogate mother programs, demonstrating our readiness to embark on this exceptional journey alongside you.
-</li>
-    
-     
-     
-    </ul>
+      {datas?.four_detail}
    
     </p>
     
@@ -1515,27 +1529,7 @@ const Home = () => {
   <div class="card-body"  style={{ padding: '20px',}}>
     <h1 class="card-title">A Remarkable Result for Prospective Parents</h1>
     <p class="card-text" style={{fontSize:'16px'}}>
-      <ul>
-        <li style={{paddingBottom:'10px'}}>
-     
-        We are deeply committed to assisting in the creation of families, and we are fully equipped to embark on this incredible journey with you.
-</li>
-    <li style={{paddingBottom:'10px'}}>
-    We locate a generous, reliable surrogate who closely aligns with your criteria to assist in realizing your dream of parenthood.
-    </li>
-    <li style={{paddingBottom:'10px'}}>
-    We empathize with your experience; half of our team members have undergone the journey you're about to begin.
-</li>
-    <li style={{paddingBottom:'10px'}}>
-    We carefully navigate you through each stage of your path to parenthood with thoughtful guidance.
-</li>
-    <li style={{paddingBottom:'10px'}}>
-    You have plenty to consider, which is why we don't charge any fees until your surrogate undergoes thorough medical screening and receives clearance.
-</li>
-    <li>
-    Our surrogacy center is renowned for exceptional customer service, staffed with proficient professionals, and boasts a proven track record of success.
-    </li>  
-    </ul>
+      {datas?.fifth_detail}
    
     </p>
     
