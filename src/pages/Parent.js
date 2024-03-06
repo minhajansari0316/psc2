@@ -463,7 +463,7 @@ const Parent = () => {
                                         SERVICES TO HELP
                                       </h1> */}
                                                                             <p className="moto-text_system_4">
-                                                                            FINDING A SURROGATE
+                                                                            LOCATING A SURROGATE
                                                                             </p>
 
                                                                         </div>
@@ -868,7 +868,7 @@ const Parent = () => {
                                                         className="moto-text_system_6"
                                                         style={{ textAlign: "center" }}
                                                     >
-                                                        REASONS TO CHOOSE US
+                                                        WHY SELECT US
                                                     </h2>
                                                 </div>
                                             </div>
@@ -882,7 +882,7 @@ const Parent = () => {
                                                                         <img src="mt-content/uploads/2020/07/baby-stroller.png" alt="hospital" />
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h1 class="card-title">PARENTHOOD</h1>
+                                                                        <h1 class="card-title">PARENTING</h1>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
     <a href="#" class="card-link">Card link</a>
@@ -1424,7 +1424,7 @@ const Parent = () => {
                                                                 aria-multiline="true"
                                                             >
                                                                 <h1 className="moto-text_system_7">
-                                                                BECOMING A PARENT SURROGACY
+                                                                BECOMING A PARENT THROUGH SURROGACY
                                                                 </h1>
                                                                 <p className="moto-text_system_12">
                                                                     <br />
@@ -1433,10 +1433,7 @@ const Parent = () => {
                                                                     <br />
                                                                 </p>
                                                                 <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px' }}>
-                                                                If you’re looking for an extraordinary surrogacy agency in California that also provides services nationwide, you’ve 
-                                                                come to the right place. Becoming parents through surrogacy is an overwhelming decision and process, let Possible
-                                                                 Surrogacy Center minimize your worries. We are committed to finding a Surrogate that you can build a relationship
-                                                                 with and trust every step of the way. The match between future parents and their Surrogate is essential for a joyous experience.
+                                                                If you're seeking an exceptional surrogacy agency based in California, offering services across the nation, you've found it. Embarking on the journey to parenthood through surrogacy can be daunting, but Possible Surrogacy Center is here to alleviate your concerns. We are dedicated to connecting you with a surrogate whom you can establish a meaningful relationship with and rely on throughout the entire process. The compatibility between prospective parents and their surrogate is paramount for a fulfilling experience.
                                                                 </p>
 
                                                             </div>
@@ -1799,58 +1796,41 @@ const Parent = () => {
                                                 <div class="card" style={{ padding: '20PX', boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px' }}>
                                                     <div class="card-body">
                                                         <h1>
-                                                        STEPS TO FINDING A SURROGATE
+                                                        STEPS TO LOCATING A SURROGATE
                                                         </h1>
                                                         <br/>
                                                         <b style={{fontSize:'15px'}}>  1. PREPARATION</b>
                                                         <br/>
                                                         <p style={{ fontSize: '17PX', marginTop:'10px' }}>
-                                                      
-Getting started on the surrogacy journey requires some groundwork to be covered first. It begins with filling out an application 
-and submitting it to the agency of your choice. Then, there will be a thorough interview process to gauge emotional and financial
- readiness. Some agencies also 
-ask intended parents to schedule a physical exam. Once everything is approved, it will be time to find a gestational surrogate.
+                                                        Embarking on the surrogacy journey necessitates initial groundwork. It commences with completing an application and submitting it to the chosen agency. Subsequently, there will be a comprehensive interview process to assess emotional and financial preparedness. Some agencies may also require intended parents to undergo a physical examination. Upon approval, the next step involves locating a gestational surrogate.
                                                         </p>
                                                         <br/>
                                                         <b style={{fontSize:'15px'}}>  2. Find a Surrogate</b>
                                                         <br/>
                                                         <p style={{ fontSize: '17PX', marginTop:'10px' }}>
-                                                        The agency then helps intended parents find a surrogate mom to carry their baby. This process typically involves looking through a
-                                                         list of profiles and meeting with potential matches. During these meetings, both parties will go over expectations, such as level 
-                                                         of contact, preferences during the experience and views on sensitive topics. Matching through this program often takes some time to
-                                                          ensure the best fit. After being matched, the surrogate undergoes additional evaluations to determine health and mental preparedness.
-                                                          If you are using a relative or surrogate outside of the agency, she is also expected to undergo medical screening, background checks and 
-                                                          other evaluations prior to matching. Most parents find the matching program to be the quickest and easiest path to finding a surrogate mother.
+                                                        The agency assists intended parents in finding a surrogate mother to carry their baby. This typically involves reviewing profiles and meeting with potential matches. During these meetings, both parties discuss expectations, including the level of contact, preferences during the experience, and views on sensitive topics. Matching through this program often requires some time to ensure the best fit. After a match is made, the surrogate undergoes additional evaluations to assess health and mental preparedness. If a relative or surrogate outside of the agency is being used, she is also expected to undergo medical screening, background checks, and other evaluations before matching. Many parents find the matching program to be the quickest and most straightforward way to find a surrogate mother.
                                                         </p>
                                                         <br/>
                                                         <b style={{fontSize:'15px'}}> 3. Legal Processes</b>
                                                         <br/>
                                                         <p style={{ fontSize: '17PX', marginTop:'10px' }}>
-                                                        After a match is made, both parties are represented by an attorney to guide them through the legal aspects of the process. 
-                                                        This legal representation may be retained privately or through the agency. Legal rights, compensation, possible risks and so on 
-                                                        will all be discussed 
-                                                        and agreed upon. When all is settled and the legal contract is drafted and signed by both sides, the fertilization process can begin.
+                                                        Once a match is established, both parties are represented by attorneys who guide them through the legal aspects of the process. This legal representation can be retained privately or through the agency. Discussions encompass legal rights, compensation, potential risks, and other pertinent matters. After reaching agreements and finalizing the legal contract, signed by both parties, the fertilization process can commence.
                                                         </p>
 
                                                         <br/>
                                                         <b style={{fontSize:'15px'}}> 4. Embryo Transfer</b>
                                                         <br/>
                                                         <p style={{ fontSize: '17PX', marginTop:'10px' }}>
-                                                        In gestational surrogacy, an egg is sourced from either the intended mother or a donor, and the sperm is from either the intended 
-                                                        father or a donor. These are used to create multiple embryos which are implanted via in vitro fertilization (IVF) 
-                                                        in the chosen surrogate. Before this can happen, the surrogate must prepare for cycling to make her body ready for the transfer. 
-                                                        This step could potentially take months. Once her body is ready, one or two embryos will be selected for implantation by the IVF laboratory staff.
-                                                         A pregnancy test will be performed approximately two weeks later to determine success, followed by an ultrasound after another two weeks. If there 
-                                                         is a heartbeat during this exam, compensation begins and the intended parents may involve themselves in the pregnancy as discussed previously.
+                                                        In gestational surrogacy, an egg is obtained from either the intended mother or a donor, while the sperm is from either the intended father or a donor. These are utilized to create multiple embryos, which are then implanted via in vitro fertilization (IVF) in the chosen surrogate. Before this procedure can take place, the surrogate must undergo preparation for cycling to ensure her body is ready for the transfer. This preparation phase could potentially span several months. Once her body is deemed ready, one or two embryos will be selected for implantation by the IVF laboratory staff. Approximately two weeks later, a pregnancy test will be conducted to determine success, followed by an ultrasound after an additional two weeks. If a heartbeat is detected during this examination, compensation commences, and the intended parents may become involved in the pregnancy, as previously discussed.
+
+
+
                                                         </p>
                                                         <br/>
                                                         <b style={{fontSize:'15px'}}> 5. Birth</b>
                                                         <br/>
                                                         <p style={{ fontSize: '17PX', marginTop:'10px' }}>
-                                                        Following the predetermined delivery plan, the surrogate gives birth with the parents present at the hospital. 
-                                                        Depending on the state and hospital policy, there may be stipulations on some matters that should be discussed ahead of time. 
-                                                        Choosing the right agency to work with
-                                                         helps to simplify these matters and make the process less stressful. Once discharged, the baby goes home with the intended parents.
+                                                        Adhering to the agreed-upon delivery plan, the surrogate gives birth with the parents present at the hospital. Depending on the state and hospital policies, certain stipulations may need to be discussed beforehand. Selecting the appropriate agency streamlines these aspects and reduces the overall stress of the process. Following discharge, the baby returns home with the intended parents.
                                                         </p>
                                                       
                                                     </div>

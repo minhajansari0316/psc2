@@ -96,13 +96,13 @@ const Home = () => {
                                   >
                                     <div className="moto-widget-text-content moto-widget-text-editable">
                                       <p className="moto-text_system_5">
-                                        WE HAVE A SET OF
+                                      We possess a selection
                                       </p>
                                       <h1 className="moto-text_system_3">
-                                      YOUR TRUSTED 
+                                      from your reputable 
                                       </h1>
                                       <p className="moto-text_system_4">
-                                      SURROGACY AGENCY
+                                      surrogacy agency
                                       </p>
                                     </div>
                                   </div>
@@ -136,11 +136,7 @@ const Home = () => {
                                           >
                                             <div className="moto-widget-text-content moto-widget-text-editable">
                                               <p className="moto-text_211">
-                                                Starting with a consultation on what
-                                                choices you'll have as a future
-                                                parent, and all the way to group
-                                                support classes and medical exams,
-                                                we're here to help!
+                                              From initial consultations regarding your options as prospective parents to offering group support sessions and facilitating medical examinations, our support extends throughout the entire process!
                                               </p>
                                             </div>
                                           </div>
@@ -510,7 +506,7 @@ const Home = () => {
                           style={{ textAlign: "center" }}
                           className="moto-text_system_7"
                         >
-                          SURROGACY IS TOUGH, WE’RE HERE TO HELP!
+                          Surrogacy is difficult, but we're here to assist!
                         </h2>
                       </div>
                     </div>
@@ -559,10 +555,7 @@ const Home = () => {
                                   className="moto-text_system_12"
                                   style={{ textAlign: "center" }}
                                 >
-                                  As you’ll be struggling to cope with your pregnancy
-                                  over the period of 9 months, we’ll be there by your
-                                  side, helping you to feel good and balance your life
-                                  before that big day of giving a birth to your child!
+                                  During the challenging nine months of pregnancy, we'll stand beside you, supporting you to feel well and maintain balance in your life before the significant day of childbirth arrives!
                                 </p>
                               </div>
                             </div>
@@ -684,7 +677,7 @@ const Home = () => {
                                     style={{ textAlign: "center" }}
                                     className="moto-text_system_8"
                                   >
-                                    Serving Surrogates
+                                    Assisting Surrogates
                                   </h3>
                                 </div>
                               </div>
@@ -728,7 +721,7 @@ const Home = () => {
                                             className="moto-text_normal"
                                             style={{ textAlign: "center" }}
                                           >
-                                            “Becoming a surrogate was one of the best decisions I have ever made. No other greater gift in life.”
+                                            "Becoming a surrogate has been one of the most rewarding decisions I've ever made. There's no greater gift than this in life."
                                           </p>
 
                                         </div>
@@ -839,7 +832,7 @@ const Home = () => {
                                     style={{ textAlign: "center" }}
                                     className="moto-text_system_8"
                                   >
-                                    Intended Parents
+                                    Prospective Parents
                                   </h3>
                                 </div>
                               </div>
@@ -883,8 +876,7 @@ const Home = () => {
                                             className="moto-text_normal"
                                             style={{ textAlign: "center" }}
                                           >
-                                            “Thanks to ISC, we have been blessed with twin girls! …
-                                            We will be coming back aiming for our baby boy!”
+                                           "Thanks to ISC, we've been fortunate to welcome twin girls into our family! We're looking forward to returning in hopes of adding a baby boy to our family!"
                                           </p>
                                         </div>
                                         <div className='col-lg-12 d-flex justify-content-center'>
@@ -994,7 +986,7 @@ const Home = () => {
                                     style={{ textAlign: "center" }}
                                     className="moto-text_system_8"
                                   >
-                                    Make Dreams Come True
+                                    Turning Dreams into Reality
                                   </h3>
                                 </div>
 
@@ -1039,8 +1031,7 @@ const Home = () => {
                                             className="moto-text_normal"
                                             style={{ textAlign: "center" }}
                                           >
-                                            During 20 years of helping new life being
-                                            born, we’ve gathered a seasoned team!
+                                           Over the course of two decades, we've assembled an experienced team dedicated to bringing new life into the world!
                                           </p>
                                         </div>
                                         <div className='col-lg-12 d-flex justify-content-center'>
@@ -1151,7 +1142,7 @@ const Home = () => {
                                     style={{ textAlign: "center" }}
                                     className="moto-text_system_8"
                                   >
-                                    Dreams Can Come True
+                                  Dreams Have the Potential to Be Realized
                                   </h3>
                                 </div>
                               </div>
@@ -1195,8 +1186,7 @@ const Home = () => {
                                             className="moto-text_normal"
                                             style={{ textAlign: "center" }}
                                           >
-                                            Future parents who come to us don’t ever
-                                            need to worry about the price being high.
+                                            Prospective parents who seek our services need not worry about high costs.
                                           </p>
                                         </div>
                                         <div className='col-lg-12 d-flex justify-content-center'>
@@ -1324,16 +1314,11 @@ const Home = () => {
                             >
                               <div className="moto-widget-text-content moto-widget-text-editable">
                                 <h2 className="moto-text_system_6">
-                                  SURROGACY AGENCY WITH A SENSE OF COMMUNITY
+                                Surrogacy Agency Fostering Community
                                 </h2>
                                 <p className="moto-text_normal">&nbsp;</p>
                                 <p className="moto-text_normal" style={{wordSpacing:'2px',fontSize:'17px'}}>
-                                  At Possible surrogacy center (PSC), we work with some of the best clinics and attorneys in the nation, allowing us to provide personal, nurturing, one-on-one support for all our intended parents, surrogates and egg donors. Beyond that, we’re the surrogacy company that stands by your side every step of the way, from finding the perfect match for you to the birth of your new baby.
-
-                                  We put our hearts and souls into helping people bring the beautiful, healthy baby of their dreams into the world. We are in the surrogacy
-                                  field because we believe wholeheartedly in helping people achieve the amazing goal of starting or growing their families. Intended parents
-                                  as well as surrogates who work with us find knowing that over half of our staff members have had personal experiences with IVF very comforting. Our personal experiences with the process means we have seen firsthand the joy intended parents feel when they meet their new babies for the first time. We
-                                  also have a deep understanding of what surrogate mothers go through and why they choose to be part of the incredible journey of surrogacy.
+                                At Possible Surrogacy Center (PSC), we collaborate with top-tier clinics and attorneys nationwide, enabling us to offer personalized, compassionate support to all intended parents, surrogates, and egg donors. We stand alongside you throughout the entire journey, from finding the ideal match to the birth of your precious baby. Our commitment is to assist individuals in realizing their dream of bringing a healthy, beautiful baby into the world. We are deeply passionate about supporting people in building or expanding their families, which is why more than half of our team members have firsthand experience with IVF. Our personal encounters with the process allow us to empathize with the immense joy intended parents experience upon meeting their newborns. Furthermore, we deeply understand the motivations of surrogate mothers and their decision to participate in the extraordinary surrogacy journey.
                                 </p>
                                 <p className="moto-text_normal">&nbsp;</p>
                                 {/* <p className="moto-text_normal">
@@ -1480,29 +1465,28 @@ const Home = () => {
                       }}
                       >
   <div class="card-body"  style={{ padding: '20px',}}>
-    <h1 class="card-title">A Life-Changing Experience for Surrogates</h1>
+    <h1 class="card-title">A Transformative Journey for Surrogate Mothers</h1>
     <p class="card-text" style={{fontSize:'16px'}}>
     <ul>
         <li style={{paddingBottom:'10px'}}>
      
-        As your surrogacy agency, we offer you the experience of a lifetime as you perform the selfless act of creating a family for another person or couple.
+        As your surrogacy agency, we provide you with an unparalleled opportunity to embark on a once-in-a-lifetime journey as you generously help create a family for another individual or couple.
     </li>
     <li style={{paddingBottom:'10px'}}>
-    You become part of an amazing community of like-minded women as you undergo this heartfelt process.
-
+    You join an incredible community of women who share similar values and experiences as you go through this heartfelt journey.
     </li>
     <li style={{paddingBottom:'10px'}}>
-    The compensation for allowing another couple to fulfill their dream allows you to fulfill your lifelong dream(s) too.
-    </li>
+    The compensation for enabling another couple to realize their dream also enables you to fulfill your own lifelong aspirations.
+</li>
     <li style={{paddingBottom:'10px'}}>
-    Our caring, nurturing support system prepares and guides you throughout this profound journey from start to finish.
-    </li>
+    Our compassionate and nurturing support system is with you every step of the way, preparing and guiding you through this profound journey from beginning to end.
+</li>
     <li style={{paddingBottom:'10px'}}>
-    We work only with surrogacy clinics/IVF clinics that have a proven track record and many positive reviews so you can rest easy.
-    </li>
+    We exclusively collaborate with surrogacy clinics and IVF clinics that boast a proven track record and numerous positive reviews, ensuring your peace of mind throughout the process.
+</li>
     <li>
-    80% of our staff members have participated in our surrogate mother programs, and we’re ready to take this exceptional journey with you.
-    </li>
+    Eighty percent of our team members have engaged in our surrogate mother programs, demonstrating our readiness to embark on this exceptional journey alongside you.
+</li>
     
      
      
@@ -1529,32 +1513,28 @@ const Home = () => {
                       }}
                       >
   <div class="card-body"  style={{ padding: '20px',}}>
-    <h1 class="card-title">An Extraordinary Outcome for Intended Parents</h1>
+    <h1 class="card-title">A Remarkable Result for Prospective Parents</h1>
     <p class="card-text" style={{fontSize:'16px'}}>
       <ul>
         <li style={{paddingBottom:'10px'}}>
      
-      We are passionate about helping create families and we are fully prepared to undertake this amazing adventure with you.
+        We are deeply committed to assisting in the creation of families, and we are fully equipped to embark on this incredible journey with you.
+</li>
+    <li style={{paddingBottom:'10px'}}>
+    We locate a generous, reliable surrogate who closely aligns with your criteria to assist in realizing your dream of parenthood.
     </li>
     <li style={{paddingBottom:'10px'}}>
-    We find a generous, responsible surrogate who closely matches your requirements to help bring your dreams of becoming a parent to life.
-
-    </li>
+    We empathize with your experience; half of our team members have undergone the journey you're about to begin.
+</li>
     <li style={{paddingBottom:'10px'}}>
-    We understand what you’re going through; half of our staff members have traveled the journey on which you’re about to embark.
-    </li>
+    We carefully navigate you through each stage of your path to parenthood with thoughtful guidance.
+</li>
     <li style={{paddingBottom:'10px'}}>
-    We guide you thoughtfully through every stage of your journey to parenthood.
-    </li>
-    <li style={{paddingBottom:'10px'}}>
-    You have enough to think about, so we charge no fees until your surrogate is medically screened and cleared.
-    </li>
+    You have plenty to consider, which is why we don't charge any fees until your surrogate undergoes thorough medical screening and receives clearance.
+</li>
     <li>
-    Our surrogacy center enjoys a reputation for excellent customer service, is staffed by skilled professionals and has a proven record of success.
-    </li>
-    
-     
-     
+    Our surrogacy center is renowned for exceptional customer service, staffed with proficient professionals, and boasts a proven track record of success.
+    </li>  
     </ul>
    
     </p>
@@ -2699,13 +2679,12 @@ const Home = () => {
                                 className="moto-widget-text-content moto-widget-text-editable"
                                 aria-multiline="true"
                               >
-                                <h2 className="moto-text_201">YOU ARE NOT ALONE</h2>
+                                <h2 className="moto-text_201">You are not on your own.</h2>
                                 <p className="moto-text_202">
                                   <br />
                                 </p>
                                 <p className="moto-text_202">
-                                  WE ARE HERE FOR YOU WITH FREE AND CONFIDENTIAL
-                                  SERVICES
+                                We're here to support you with complimentary and confidential services.
                                 </p>
                               </div>
                             </div>
