@@ -868,7 +868,7 @@ data-bg-position="left top"
                                                         className="moto-text_system_6"
                                                         style={{ textAlign: "center" }}
                                                     >
-                                                        REASONS TO CHOOSE US
+                                                        Reasons to Select Our Services
                                                     </h2>
                                                 </div>
                                             </div>
@@ -885,7 +885,7 @@ data-bg-position="left top"
                                                                         <img src="mt-content/uploads/2020/07/blogging.png" alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h3 class="card-title">SURROGATE APPLICATION</h3>
+                                                                        <h3 class="card-title">SURROGATE APPLICATION FORM</h3>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
 <a href="#" class="card-link">Card link</a>
@@ -903,7 +903,7 @@ data-bg-position="left top"
 
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h3 class="card-title">INTENDED PARENT APPLICATION</h3>
+                                                                        <h3 class="card-title">INTENDED PARENT APPLICATION FORM</h3>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
 <a href="#" class="card-link">Card link</a>
@@ -1405,7 +1405,7 @@ data-bg-position="left top"
                                                                 aria-multiline="true"
                                                             >
                                                                 <h1 className="moto-text_system_7">
-                                                                    FOR OUR SURROGATES
+                                                                FOR OUR SURROGATES
                                                                 </h1>
                                                                 <p className="moto-text_system_12">
                                                                     <br />
@@ -1414,18 +1414,18 @@ data-bg-position="left top"
                                                                     <br />
                                                                 </p>
                                                                 <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px' }}>
-                                                                    Because you are a mother yourself, you understand the joys that motherhood brings.
-                                                                    If the thought of helping another couple become parents fills your heart, being a surrogate
-                                                                    could be your opportunity to share the joy of parenthood with a person or couple who very much wants a child.
-                                                                    Carrying a child for another family is a profound, life-changing gift.
+                                                                Given your experience as a mother, you comprehend the immense joys of motherhood. If the idea of assisting another couple in becoming parents resonates with you, serving as a surrogate could offer you the chance to share the profound joy of parenthood with individuals or couples longing for a child. Carrying a child for another family is an extraordinary and life-changing gift.
+
+
+
+
+
                                                                     <br /><br />
 
-                                                                    Your decision to become a surrogate is a generous gift to intended parent(s), but it is also a serious responsibility.
-                                                                    Our surrogate organization offers you around-the-clock support with our team-oriented approach to guide you through each
-                                                                    step of this process. We encourage surrogate-to-surrogate relationships because we understand that this is essential for a
-                                                                    positive experience. We provide opportunities for our surrogates to connect with other surrogates through our planned monthly activities.
+                                                                    Deciding to become a surrogate is a generous gift to intended parents, yet it also carries significant responsibility. Our surrogate organization is committed to providing around-the-clock support with our team-oriented approach to assist you through every stage of this process. We emphasize surrogate-to-surrogate relationships as we recognize their importance for ensuring a positive experience. We facilitate opportunities for our surrogates to connect with others through our scheduled monthly activities.
+
                                                                     <br/><br/>
-                                                                    The compensation you receive for allowing another person or couple to fulfill a dream of parenthood might also allow you to realize your own lifelong dreams, too.
+                                                                    The compensation you receive for enabling another individual or couple to fulfill their dream of parenthood may also enable you to fulfill your own lifelong dreams.
                                                                 </p>
 
                                                             </div>
@@ -1788,24 +1788,18 @@ data-bg-position="left top"
                                                 <div class="card" style={{ padding: '20PX', boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px' }}>
                                                     <div class="card-body">
                                                         <h1 style={{fontSize:'35px'}}>
-                                                        FOR OUR INTENDED PARENTS
+                                                        For Prospective Parents
                                                         </h1>
                                                         <br />
 
                                                         <br />
                                                         <p style={{ fontSize: '17PX', marginTop: '10px', fontWeight: 100, wordSpacing: '2PX' }}>
+                                                        The journey to parenthood can be challenging and fraught with obstacles. At Possible Surrogacy Center (PSC), we refrain from referring to ourselves as a "surrogate mother agency," as the mother is the one who ultimately welcomes the child home. Instead, a more fitting term would be "surrogate agency" or "surrogate parent company." Our international surrogacy programs are founded on years of experience assisting individuals and couples in becoming parents through unconventional means. The couples participating in our program are not limited by race, religion, sexual orientation, marital status, or nationality.
 
-                                                        The road to parenthood is sometimes rocky and difficult. At Possible surrogacy center (PSC), we don’t consider ourselves a 
-                                                        “surrogate mother agency,” as the mother is the one who welcomes the child home. Instead, a better term would be “surrogate agency” 
-                                                        or “surrogate parent company.” Our international surrogacy programs are backed by years spent helping people become parents through 
-                                                        the road less traveled. 
-                                                        The couples we help in our program are not restricted by race, religion, sexual preference, marital status or nationality.
                                                             <br />  <br />
-                                                            Carefully considering your options for surrogacy and choosing an agency with skilled professionals, experience and a proven
-                                                             record of success are very important. ISC wants our intended parents to feel comfortable and confident that our agency will 
-                                                             go above and beyond to help guide and support you throughout your journey to parenthood.
+                                                            Thoughtfully assessing your surrogacy options and selecting an agency with experienced professionals and a demonstrated track record of success are crucial steps. ISC is dedicated to ensuring that our intended parents feel at ease and assured that our agency will provide comprehensive guidance and support throughout their journey to parenthood.
                                                              <br />  <br />
-                                                             We’re anxious to get to know you as intended parent(s), so we can find the surrogate who is a perfect match for you.
+                                                             We're eager to familiarize ourselves with you as intended parents, enabling us to identify the surrogate who is the ideal match for you.
                                                         </p>
 
 

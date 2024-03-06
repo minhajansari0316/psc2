@@ -463,7 +463,7 @@ const Surrogate = () => {
                                         SERVICES TO HELP
                                       </h1> */}
                                                                             <p className="moto-text_system_4">
-                                                                                BECOME A SURROGATE
+                                                                            Consider Becoming a Surrogate
                                                                             </p>
 
                                                                         </div>
@@ -868,7 +868,7 @@ const Surrogate = () => {
                                                         className="moto-text_system_6"
                                                         style={{ textAlign: "center" }}
                                                     >
-                                                        REASONS TO CHOOSE US
+                                                        Why Choose Us
                                                     </h2>
                                                 </div>
                                             </div>
@@ -882,7 +882,7 @@ const Surrogate = () => {
                                                                         <img src="mt-content/uploads/2020/07/compliant (1).png" alt="hospital" />
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h1 class="card-title">REQUIREMENTS</h1>
+                                                                        <h1 class="card-title">Criteria</h1>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
     <a href="#" class="card-link">Card link</a>
@@ -898,7 +898,7 @@ const Surrogate = () => {
                                                                         <img src="mt-content/uploads/2020/07/feet.png" alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h1 class="card-title">Surrogacy</h1>
+                                                                        <h1 class="card-title">Parenthood</h1>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
     <a href="#" class="card-link">Card link</a>
@@ -914,7 +914,7 @@ const Surrogate = () => {
                                                                         <img src="mt-content/uploads/2020/07/employee-benefit.png" alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h1 class="card-title">Compensation</h1>
+                                                                        <h1 class="card-title">Remuneration</h1>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
     <a href="#" class="card-link">Card link</a>
@@ -930,7 +930,7 @@ const Surrogate = () => {
                                                                         <img src="mt-content/uploads/2020/07/faq.png" alt="hospital"/>
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h1 class="card-title">FAQ</h1>
+                                                                        <h1 class="card-title">Queries</h1>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
     <a href="#" class="card-link">Card link</a>
@@ -1358,7 +1358,7 @@ const Surrogate = () => {
                                                                 aria-multiline="true"
                                                             >
                                                                 <h1 className="moto-text_system_7">
-                                                                    BEING A SURROGATE MOTHER
+                                                                Surrogacy Maternity
                                                                 </h1>
                                                                 <p className="moto-text_system_12">
                                                                     <br />
@@ -1367,12 +1367,8 @@ const Surrogate = () => {
                                                                     <br />
                                                                 </p>
                                                                 <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px' }}>
-                                                                    ISC is one of the best surrogacy agencies in California and the nation! We recognize and appreciate the self-sacrificing
-                                                                    and caring attitude that every surrogate must possess in order to help intended parents in the creation of families through
-                                                                    surrogacy. In fact, 80% of the ISC staff have been surrogates, too. We want to thank you for considering surrogacy and for
-                                                                    taking the time to read the information on this website. The one thing that ISC staff members pride themselves in is the fact
-                                                                    that we will be there for you every step of the way.
-                                                                    If you become a surrogate with us, when and if you need anything, we will help in any way we can and be there for support.
+                                                                PSC stands out as one of California's and the nation's premier surrogacy agencies! We deeply value and commend the selfless and nurturing spirit essential for surrogates to aid intended parents in building families through surrogacy. Remarkably, 80% of our ISC team members have also served as surrogates. We sincerely appreciate your consideration of surrogacy and for exploring the information provided on our website. What sets ISC apart is our unwavering commitment to being by your side throughout the entire journey. Should you choose to become a surrogate with us, rest assured, we'll offer support and assistance whenever needed.
+
                                                                 </p>
 
                                                             </div>
@@ -1735,29 +1731,19 @@ const Surrogate = () => {
                                                 <div class="card" style={{ padding: '20PX', boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px' }}>
                                                     <div class="card-body">
                                                         <h1>
-                                                            FIRST, SOME SURROGACY DEFINITIONS
+                                                        LET'S BEGIN WITH SOME SURROGACY DEFINITIONS
                                                         </h1>
                                                         <p style={{ fontSize: '17PX' }}>
-                                                            Gestational surrogacy involves an intended mother (or an egg donor), an intended father (or a sperm donor) and a surrogate.
-                                                            Through in vitro fertilization (IVF), eggs provided by the intended mother (or egg donor) are fertilized with the sperm of the
-                                                            intended father (or sperm donor).
-                                                            The resulting 3-5 day old embryos are then transferred to the surrogate who carries and gives birth to the child/children.
+                                                        Gestational surrogacy entails the involvement of an intended mother (or an egg donor), an intended father (or a sperm donor), and a surrogate. Using in vitro fertilization (IVF), eggs from the intended mother (or egg donor) are fertilized with sperm from the intended father (or sperm donor). Subsequently, the resulting embryos, aged 3-5 days, are transferred to the surrogate, who carries and delivers the child/children.
                                                         </p>
                                                         <p style={{ fontSize: '17PX' }}>
-                                                            Traditional surrogacy involves a surrogate mother who uses her own eggs and is either artificially inseminated
-                                                            with the semen of the intended father or sperm donor. She then carries and gives birth to the child. (A traditional
-                                                            surrogate may also act as the egg donor: after her own donated eggs are harvested and fertilized,
-                                                            the embryos are transferred back into the surrogate’s uterus. She then carries and gives birth to the child.)
+                                                        Traditional surrogacy entails a surrogate mother who utilizes her own eggs and undergoes artificial insemination with the semen of the intended father or a sperm donor. Subsequently, she carries and delivers the child. Alternatively, a traditional surrogate may also serve as the egg donor: her donated eggs are retrieved and fertilized, and the resulting embryos are transferred back into her uterus. She then carries and delivers the child.
                                                         </p>
                                                         <p style={{ fontSize: '17PX' }}>
-                                                            Surrogate mother is a woman who bears a child on behalf of another person
-                                                            or a couple, typically via artificial insemination or in vitro fertilization.
+                                                        A surrogate mother is a woman who carries a child on behalf of another individual or couple, usually through artificial insemination or in vitro fertilization.
                                                         </p>
                                                         <p style={{ fontSize: '17PX' }}>
-                                                            Gestational carrier is a woman who has a fertilized egg from another woman implanted in her womb, so as to bear a
-                                                            child on behalf of the other woman.
-
-                                                            At ISC, we use gestational surrogacy. If this is a process that interests you, you can start your pre-qualification screening by completing our online form.
+                                                        A gestational carrier is a woman who has a fertilized egg from another woman implanted in her uterus, with the intention of carrying a child on behalf of the other woman. At ISC, we primarily utilize gestational surrogacy. If you're interested in this process, you can initiate your pre-qualification screening by filling out our online form.
                                                         </p>
                                                     </div>
                                                 </div>

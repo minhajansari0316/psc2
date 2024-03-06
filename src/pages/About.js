@@ -868,7 +868,7 @@ const About = () => {
                                                         className="moto-text_system_6"
                                                         style={{ textAlign: "center" }}
                                                     >
-                                                        REASONS TO CHOOSE US
+                                                        Reasons to Select Us
                                                     </h2>
                                                 </div>
                                             </div>
@@ -920,7 +920,7 @@ const About = () => {
 
                                                                     </div>
                                                                     <div className="d-flex justify-content-center">
-                                                                        <h3 class="card-title">TESTIMONIALS</h3>
+                                                                        <h3 class="card-title"> TESTIMONIALS</h3>
                                                                     </div>
                                                                     {/* <p class="card-text">Some example text. Some example text.</p>
     <a href="#" class="card-link">Card link</a>
@@ -1420,7 +1420,7 @@ const About = () => {
                                                                 aria-multiline="true"
                                                             >
                                                                 <h1 className="moto-text_system_7">
-                                                                    TOGETHER, WE MAKE DREAMS COME TRUE
+                                                                UNITED, WE FULFIL DREAMS
                                                                 </h1>
                                                                 <p className="moto-text_system_12">
                                                                     <br />
@@ -1429,13 +1429,7 @@ const About = () => {
                                                                     <br />
                                                                 </p>
                                                                 <p className="moto-text_system_12" style={{ fontSize: '17px', wordSpacing: '2px' }}>
-                                                                    The Possible surrogacy center (PSC) staff comprises individuals who are caring, sincere and passionate about surrogacy.
-                                                                    Most of our staff members have been surrogates themselves, and our personal experiences enable us to understand this beautiful
-                                                                    process in an authentic way.  We have experienced firsthand the joy of seeing the intended parents we helped as they hold their baby in their arms for the first time!
-                                                                    We have immense gratitude for the wonderful women who decide to be part of such an incredible journey. We are compassionate and understanding towards
-                                                                    all intended parents who choose surrogacy as their means to having a baby. We help parents from all over the world,
-                                                                    but our surrogates live in the United States and are treated by the finest in vitro fertilization (IVF) doctors in the country.
-                                                                    ISC prides itself on being transparent and honest with our intended parents and surrogates from the very beginning.
+                                                                The team at the Possible Surrogacy Center (PSC) consists of caring, sincere, and passionate individuals dedicated to surrogacy. Many of our staff members have firsthand experience as surrogates, allowing us to deeply understand this beautiful process. Witnessing the joy of intended parents holding their baby for the first time brings us immense happiness. We are grateful for the remarkable women who choose to be part of this incredible journey. Our compassion extends to all intended parents who opt for surrogacy as their path to parenthood. While we assist parents from around the globe, our surrogates reside in the United States and receive care from the finest in vitro fertilization (IVF) doctors in the nation. ISC is committed to transparency and honesty with our intended parents and surrogates right from the start.
                                                                 </p>
 
                                                             </div>
@@ -1804,12 +1798,14 @@ const About = () => {
 
                                                         <br />
                                                         <p style={{ fontSize: '17PX', marginTop: '10px',    fontWeight: 100, wordSpacing:'2PX' }}>
-
-                                                            Our mission is to provide guidance, support, comfort and compassion during this amazing journey. Our goal is to help both intended parents and surrogates navigate successfully 
-                                                            through their journeys utilizing our experience, professionalism and elite network of respected industry professionals.
+                                                        Our mission is to offer guidance, support, comfort, and compassion throughout this remarkable journey. We aim to assist both intended parents and surrogates in navigating their journeys successfully by leveraging our experience, professionalism, and extensive network of respected industry professionals.
                                                             <br/>  <br/>  
-                                                            The staff at ISC is dedicated to making your journey one of the best experiences of your life. We know how much joy this experience brings not only 
-                                                            to the intended parent(s), but also to the surrogates and their families. We would love to take this miraculous journey with you!
+                                                            The team at PSC is committed to ensuring that your journey becomes one of the most fulfilling experiences of your life. We understand the immense joy that this journey brings not only to the intended parent(s) but also to the surrogates and their families. We are excited about the opportunity to embark on this extraordinary journey with you!
+
+
+
+
+
                                                         </p>
 
 
