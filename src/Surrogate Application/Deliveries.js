@@ -251,6 +251,8 @@ const Deliveries = () => {
           backgroundColor: "#ffffff87",
           borderRadius: "20px 20px 10px 10px",
         }}
+        backdrop="static"
+        keyboard={false}
       >
         {/* <Modal.Header closeButton> */}
         <Modal.Header
@@ -344,6 +346,8 @@ const Deliveries = () => {
           backgroundColor: "#ffffff87",
           borderRadius: "20px 20px 10px 10px",
         }}
+        backdrop="static"
+        keyboard={false}
       >
         {/* <Modal.Header closeButton> */}
         <Modal.Header
@@ -464,6 +468,8 @@ const Deliveries = () => {
           backgroundColor: "#ffffff87",
           borderRadius: "20px 20px 10px 10px",
         }}
+        backdrop="static"
+        keyboard={false}
       >
         {/* <Modal.Header closeButton> */}
         <Modal.Header
@@ -612,6 +618,8 @@ const Deliveries = () => {
           backgroundColor: "#ffffff87",
           borderRadius: "20px 20px 10px 10px",
         }}
+        backdrop="static"
+        keyboard={false}
       >
         {/* <Modal.Header closeButton> */}
         <Modal.Header
@@ -789,6 +797,8 @@ const Deliveries = () => {
           backgroundColor: "#ffffff87",
           borderRadius: "20px 20px 10px 10px",
         }}
+        backdrop="static"
+        keyboard={false}
       >
         {/* <Modal.Header closeButton> */}
         <Modal.Header
@@ -996,6 +1006,8 @@ const Deliveries = () => {
           backgroundColor: "#ffffff87",
           borderRadius: "20px 20px 10px 10px",
         }}
+        backdrop="static"
+        keyboard={false}
       >
         {/* <Modal.Header closeButton> */}
         <Modal.Header
@@ -1166,6 +1178,8 @@ const Deliveries = () => {
           backgroundColor: "#ffffff87",
           borderRadius: "20px 20px 10px 10px",
         }}
+        backdrop="static"
+        keyboard={false}
       >
         {/* <Modal.Header closeButton> */}
         <Modal.Header
@@ -1358,6 +1372,8 @@ const Deliveries = () => {
           backgroundColor: "#ffffff87",
           borderRadius: "20px 20px 10px 10px",
         }}
+        backdrop="static"
+        keyboard={false}
       >
         {/* <Modal.Header closeButton> */}
         <Modal.Header
@@ -1566,6 +1582,8 @@ const Deliveries = () => {
           backgroundColor: "#ffffff87",
           borderRadius: "20px 20px 10px 10px",
         }}
+        backdrop="static"
+        keyboard={false}
       >
         {/* <Modal.Header closeButton> */}
         <Modal.Header
@@ -1738,29 +1756,15 @@ const Deliveries = () => {
               {/* <img src="/mt-demo/109600/109604/mt-content/uploads/2020/07/gears.png"  alt="hospital"
         style={{width:'20px'}}
         /> */}
-              <p
-                style={{
-                  marginLeft: "10px",
-                  backgroundColor: "#f1f1f1",
-                  borderRadius: "5px",
-                }}
-              >
-                in Progress
-              </p>
+                <p style={{ backgroundColor: '#f1f1f1', borderRadius: '5px',
+                      marginTop: '4px',
+                      boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px'
+                    
+                    
+                    }}>in Progress</p>
             </div>
 
-            <div className="col-lg-2 d-flex flex-row">
-              <img
-                src="/mt-demo/109600/109604/mt-content/uploads/2020/07/clock.png"
-                alt="hospital"
-                style={{
-                  width: "25px",
-                  backgroundColor: "#f1f1f1",
-                  borderRadius: "21px",
-                }}
-              />
-              {/* <p style={{marginLeft:'10px', backgroundColor:'#f1f1f1', borderRadius:'5px'}}>in Progress</p> */}
-            </div>
+            
           </div>
         </div>
       </div>

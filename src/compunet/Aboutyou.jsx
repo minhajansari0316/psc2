@@ -188,10 +188,10 @@ function Aboutyou() {
         setabShow18(true);
         setabShow17(false);
     };
-    const treatmentab16 = () => {
-        // setabShow18(true);
-        setabShow18(false);
-    };
+    // const treatmentab16 = () => {
+    //     // setabShow18(true);
+    //     setabShow18(false);
+    // };
 
     const Ab = () => {
         setabShow2(true);
@@ -368,6 +368,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -461,6 +463,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -584,6 +588,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -707,6 +713,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -830,6 +838,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -954,6 +964,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -1079,6 +1091,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -1203,6 +1217,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -1327,6 +1343,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -1452,6 +1470,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -1577,6 +1597,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -1701,6 +1723,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -1825,6 +1849,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -2000,6 +2026,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -2123,6 +2151,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -2246,6 +2276,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -2369,6 +2401,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -2493,6 +2527,8 @@ function Aboutyou() {
 
 
                 }}
+                backdrop="static"
+                keyboard={false}
 
             >
                 {/* <Modal.Header closeButton> */}
@@ -2532,7 +2568,7 @@ function Aboutyou() {
 
                                 </div>
                                 <div className='col-lg-2'>
-                                    <p style={{ marginTop: '20px', fontSize: '15px', color: '#d8352f' }} onClick={treatmentab16}>Skip ≫</p>
+                                    {/* <p style={{ marginTop: '20px', fontSize: '15px', color: '#d8352f' }} onClick={treatmentab16}>Skip ≫</p> */}
                                 </div>
                                 <div className='col-lg-12'>
 
@@ -2562,6 +2598,7 @@ function Aboutyou() {
                 </Modal.Body>
 
                 <Modal.Footer style={{}}>
+
 
                     <Button
                         className="btn btn-primary"
@@ -2626,18 +2663,15 @@ function Aboutyou() {
                             {/* <img src="/mt-demo/109600/109604/mt-content/uploads/2020/07/gears.png"  alt="hospital"
           style={{width:'20px'}}
           /> */}
-                            <p style={{ marginLeft: '10px', backgroundColor: '#f1f1f1', borderRadius: '5px' }}>in Progress</p>
+                            <p style={{ backgroundColor: '#f1f1f1', borderRadius: '5px',
+                      marginTop: '4px',
+                      boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px'
+                    
+                    
+                    }}>in Progress</p>
                         </div>
 
-                        <div className='col-lg-2 d-flex flex-row'>
-                            <img src="/mt-demo/109600/109604/mt-content/uploads/2020/07/clock.png" alt="hospital"
-                                style={{
-                                    width: '25px', backgroundColor: '#f1f1f1',
-                                    borderRadius: '21px',
-                                }}
-                            />
-                            {/* <p style={{marginLeft:'10px', backgroundColor:'#f1f1f1', borderRadius:'5px'}}>in Progress</p> */}
-                        </div>
+                       
                     </div>
                 </div>
             </div>
